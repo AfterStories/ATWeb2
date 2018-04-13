@@ -1,0 +1,403 @@
+body{
+	font-family: "Microsoft Yahei";
+}
+
+.toolsDownloadBtn{
+	background-color:#ff5722;
+	color:#fff;
+	padding:0.5vw;
+	border-radius:0.5vw;
+	cursor:pointer;
+	font-size: 1vw;
+}
+.toolsImgBox{
+	width:4vw;
+	height:4vw;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.downloadApp{
+	width:33.3%;
+	height:100%;
+	border:1px solid #a7aeb7;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	color:#404355;
+	font-family:initial;
+}
+
+.downloadApp{}
+
+
+#downloadTools{
+	width:70%;
+	height:8vw;
+	margin:0 auto;
+	margin-bottom:6vw;}
+
+.textstyle{
+	color:#fff;}
+
+.appDetailBox{
+	width:80%;
+	height:8vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;}
+
+.DetailTitle{
+	font-size:1.2vw;}
+
+.Detail{
+	font-size:1vw;}
+
+.appdownIcon{
+	width:10vw;
+	height:3vw;
+	margin:1vw auto;}
+
+
+#Framework{
+	border-radius:0.5vw 0 0 0.5vw;
+	border-right:none;}
+
+#WinBox{border-right: none}
+
+#AppleBox{}
+
+#AndroidBox{border-left: none}
+
+.toolsImg{}
+
+.toolsBox{
+	color:#404355;
+	width:60%;}
+
+.toolsTitle{
+	font-size:1vw;}
+
+.toolsDetails{
+	font-size:0.5vw;}
+
+
+
+#FrameworkBtn{}
+
+#FlashPlayer{
+	border-radius:0 0.5vw 0.5vw 0;}
+
+#NoteTitle{}
+
+.appimg{
+	width:100%;
+	height:40%;}
+
+.appType{
+	width:100%;
+	height:100%;}
+
+
+
+
+
+
+#downloadTools{
+	width:70%;
+	height:8vw;
+	margin:0 auto;
+	margin-bottom:6vw;}
+
+.textstyle{
+	color:#fff;}
+
+.appDetailBox{
+	width:80%;
+	height:8vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;}
+
+.DetailTitle{
+	font-size:1.2vw;}
+
+.Detail{
+	font-size:1vw;}
+
+.appdownIcon{
+	width:10vw;
+	height:3vw;
+	margin:1vw auto;}
+
+
+
+#WinBox{
+	border-radius:0.5vw 0 0 0.5vw;}
+
+
+
+#AndroidBox{
+	border-radius:0 0.5vw 0.5vw 0;}
+
+.toolsImg{
+	height:100%;}
+
+#FlashPlayer{
+	border-radius:0 0.5vw 0.5vw 0;}
+
+
+#AndroidBox .appType{
+	border-radius:0 0.5vw 0 0;}
+
+.appType{
+	width:100%;
+	height:100%;}
+
+
+
+.clear{
+	clear:both;}
+
+.downloadApp{
+	width:33.3%;
+	height:100%;
+	border:1px solid #a7aeb7;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	color:#404355;
+	font-family:initial;}
+
+.downloadApp{}
+.clear{
+	clear:both;}
+.downloadApp{
+	width:33.3%;
+	height:100%;
+	border:1px solid #a7aeb7;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	color:#404355;
+	font-family:initial;}
+
+
+#downloadTools{
+	width:70%;
+	height:8vw;
+	margin:0 auto;
+	margin-bottom:6vw;}
+.textstyle{
+	color:#fff;}
+.appDetailBox{
+	width:80%;
+	height:8vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;}
+.DetailTitle{
+	font-size:1.2vw;}
+.Detail{
+	font-size:1vw;}.appdownIcon{
+	width:10vw;
+	height:3vw;
+	margin:1vw auto;}
+
+
+#WinBox{
+	border-radius:0.5vw 0 0 0.5vw;}#AppleBox{}
+#AndroidBox{
+	border-radius:0 0.5vw 0.5vw 0;}
+#FlashPlayer{
+	border-radius:0 0.5vw 0.5vw 0;}#AndroidBox .appType{
+	border-radius:0 0.5vw 0 0;}
+.appType{
+	width:100%;
+	height:100%;
+}
+
+.clear{
+	clear: both;
+}
+.downloadApp{
+	width:33.3%;
+	height:100%;
+	border:1px solid #a7aeb7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+	color:#404355;
+	font-family:initial;
+}
+
+#downloadAppBox{
+	width:70%;
+	height:30vw;
+	margin:6vw auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#downloadTools{
+	width:70%;
+	height:8vw;
+	margin:0 auto;
+	margin-bottom:6vw;
+}
+.textstyle{
+	color: #fff;
+}
+.appDetailBox{
+	width:80%;
+	height:8vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;}
+.DetailTitle{
+	font-size:1.2vw;}
+.Detail{
+	font-size:1vw;}
+.appdownIcon{
+	width:10vw;
+	height:3vw;
+	margin:1vw auto;}
+.tools{
+	height: 100%;
+	width: 50%;
+	float: left;
+	border: 1px solid #a7aeb7;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2vw;
+}
+
+.toolsBox{
+	color:#404355;}
+
+#FlashPlayer{
+	border-radius:0 0.5vw 0.5vw 0;
+}
+
+.appType{
+	width:100%;
+	height:100%
+;
+	
+}
+@media (max-width: 414px){	
+footer {
+    width: 100%;
+    height: 14vw;
+    background-color: #1e2022;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+	#downloadAppBox{
+	width:70%;
+	height:30vw;
+	margin:20vw auto 6vw;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+
+	#downloadTitle{
+    background-image: url(../img/downloadbanner.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    align-items: flex-end;}
+    #TitleBox{
+	font-family:sans-serif;
+	height:65%;
+	width:100%;
+	padding-left:6vw;
+}
+#downloadTextTitle{
+	font-size:3vw;
+	font-weight:600;}
+#downloadTextsmTitle{
+	font-size:1.2vw;
+	margin:0.5vw 0;}
+#downloadTextNote{
+	font-size:1vw;
+	margin-top:1vw;}
+#downloadTextNote p{
+	margin:0.5vw 0;}}
+
+@media (max-width: 1024px) and (min-width:414px){
+	#downloadTitle{
+    background-image: url(../img/downloadbanner.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    align-items: flex-end;
+}
+#TitleBox{
+	font-family:sans-serif;
+	height:75%;
+	width:100%;
+	padding-left:6vw;
+}
+#downloadTextTitle{
+	font-size:2vw;
+	font-weight:600;}
+#downloadTextsmTitle{
+	font-size:1.2vw;
+	margin:0.5vw 0;}
+#downloadTextNote{
+	font-size:1vw;
+	margin-top:1vw;}
+#downloadTextNote p{
+	margin:0.5vw 0;}}
+
+@media (min-width: 1024px){
+	#downloadTitle{
+    background-image: url(../img/downloadbanner.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    align-items: flex-end;
+}#TitleBox{
+	font-family:sans-serif;
+	height:65%;
+	width:100%;
+	padding-left:6vw;
+}#downloadTextTitle{
+	font-size:3vw;
+	font-weight:600;}
+#downloadTextsmTitle{
+	font-size:1.2vw;
+	margin:0.5vw 0;}
+#downloadTextNote{
+	font-size:1vw;
+	margin-top:1vw;
+}
+#downloadTextNote p{
+	margin:0.5vw 0;
+}
+}

@@ -1,0 +1,1987 @@
+<content>
+
+	<text id="ADtest1">
+		<zh> 全程在线教学有网络的地方就有我们</zh>
+		<en>全程在线教学有网络的地方就有我们</en>
+	</text>
+	<text id="homePage">
+		<zh>首页</zh>
+		<en>Homepage</en>
+	</text>
+	<text id="Classprocess">
+		<zh>上课流程</zh>
+		<en>How to start</en>
+	</text>
+	<text id="Teachers">
+		<zh>母语师资</zh>
+		<en>Our Teachers</en>
+	</text>		
+	<text id="Language">
+		<zh>选择语言：</zh>
+		<en>Language：</en>
+	</text>	
+	<text id="PromoCode">
+		<zh>邀请码</zh>
+		<en>PromoCode</en>
+	</text>
+	<text id="Promoer">
+		<zh>推广员</zh>
+		<en>Promoter</en>
+	</text>
+	<text id="BecamePromoer">
+		<zh>aretalk推广专员</zh>
+		<en>AreTalk‘s  Promotional Ambassadors</en>
+	</text>
+	<text id="Requirements">
+		<zh>任职要求：</zh>
+		<en>Requirements:</en>
+	</text>	
+	<text id="BecameChineseTeacher">
+		<zh>岗位：中文教师</zh>
+		<en>ESL Tutor home-based</en>
+	</text>
+	<text id="zhaopinTittle">
+		<zh>AreTalk在线直播中文教育平台，提供7×24小时全天候中文语言学习环境， 打造听、说、读、写、学、用的全方位教学系统，实现PC、iOS、Android端三端同步在线直播中文教学。Aretalk作为学习中文的途径，旨在全球范围内普及中文，传播博大精深的中国传统文化。随着我们学生人数的不断增加，我们现在又要招聘中文老师啦！因为我们提供的是在线中文课程，因此您的工作地点不受限制，只要保证有畅通的网速，以及符合以下条件的中文爱好者，请及时与我们联系吧！联系方式：hr@aretalk.com</zh>
+		<en>We are now looking for several ESL tutors, to teach English to Chinese English learners. We offer a competitive salary, career development opportunities, possible opportunities of teaching in China, and the support from a team of professional staff.</en>
+	</text>
+
+	<text id="TeacherReauire1">
+		<zh>大学本科及以上学历,专业不限。</zh>
+		<en>BA degree or above (Education, linguistics or English degree given top priority).</en>
+	</text>
+	<text id="TeacherReauire2">
+		<zh>年龄21到35岁，性别不限。</zh>
+		<en>Teaching experience is preferred</en>
+	</text>	
+	<text id="TeacherReauire3">
+		<zh>已获得《国际汉语教师执业能力证书》或《国际汉语教学能力证书》者，获得英国教师资格证书者优先。</zh>
+		<en>English is your first language Standard and clear accent.</en>
+	</text>	
+	<text id="TeacherReauire4">
+		<zh>英语口语流利，对外汉语专业或具备汉语教学工作经验者优先</zh>
+		<en>Desktop computer/laptop access</en>
+	</text>	
+	<text id="TeacherReauire5">
+		<zh>中国国籍，热爱对外汉语教育事业。</zh>
+		<en>Fast internet connection, Headset and HD webcam</en>
+	</text>	
+
+	<text id="TeacherReauire6">
+		<zh>品行优良，有长期签证，无犯罪纪录。</zh>
+		<en>A quiet, bright, and clean teaching environment/room.</en>
+	</text>
+	<text id="ReauireEmail">
+		<zh>如你满足以上条件，请填写下表与我们取得联系</zh>
+		<en>If you are interested in this position, Please fill in the following form and get in touch with us
+		</en>
+	</text>
+	<text id="ReauireEmail2">
+		<zh>如你满足以上条件，请把您的简历发送至hr@aretalk.com</zh>
+		<en>If you are interested in this position, please send your CV to: hr@aretalk.com
+		</en>
+	</text>			
+	<text id="Download">
+		<zh>下载客户端</zh>
+		<en>Download</en>
+	</text>
+	<text id="Help">
+		<zh>帮助中心</zh>
+		<en>Help</en>
+	</text>
+	<text id="Course">
+		<zh>课程介绍</zh>
+		<en>Our Course</en>
+	</text>		
+	<text id="I'm Teacher">
+		<zh>我是教师</zh>
+		<en>I'm Teacher</en>
+	</text>
+	<text id="Login">
+		<zh>我是学生</zh>
+		<en>I'm Student</en>
+	</text>
+	<text id="register">
+		<zh>加入我们</zh>
+		<en>Join us</en>
+	</text>
+	<text id="globaloperators">
+		<zh>成为aretalk全球运营商</zh>
+		<en>become aretalk global operators</en>
+	</text>
+	<text id="loperators">
+		<zh>全球运营商</zh>
+		<en>global operators</en>
+	</text>		
+	<text id="registerNow">
+		<zh>立即注册</zh>
+		<en>Register Now</en>
+		<jp>今すぐ登録</jp>
+	</text>
+	<text id="Experience">
+		<zh>立即体验</zh>
+		<en>Experience Now</en>
+	</text>
+	<text id="DownloadNow">
+		<zh>立即下载</zh>
+		<en>Download Now</en>
+	</text>		
+	<text id="dText">
+		<zh>全球领先的汉语学习应用</zh>
+		<en>The best Chinese-learning app </en>
+	</text>
+	<text id="dText2">
+		<zh>适合所有中文学习者</zh>
+		<en>for students of all levels!</en>
+	</text>	
+
+	<text id="advantageText">
+		<zh>AreTalk为广大的中文学习者提供了方便、快捷、经济的学习方式，旨在全球范围内普及中文，传播博大精深的中国传统文化</zh>
+		<en>AreTalk is committed to providing an easy, effective and affordable way of learning Chinese. Our modern approach brings language-learning into the 21st Century.</en>
+	</text>	
+
+	<text id="advantageText2">
+		<zh>我们提供7×24小时全天候中文语言学习环境， 打造听、说、读、写、学、用的全方位教学系统，实现PC、iOS、Android端三端同步在线直播中文教学。</zh>
+		<en>Our state-of-the-art app, suitable for all devices, gives our students the opportunity to interact with native Chinese-speaking teachers, offering an immersive learning environment</en>
+	</text>	
+
+	<text id="advantageLi1">
+		<zh>无时差真人在线视频授课</zh>
+		<en>live video/real lesson</en>
+	</text>	
+	<text id="advantageLi2">
+		<zh>满足不同中文学习者需求</zh>
+		<en>Progressive learning at a range of difficulty levels</en>
+	</text>	
+	<text id="advantageLi3">
+		<zh>支持音视频在线互动答疑</zh>
+		<en>Interactive collaboration tools</en>
+	</text>	
+	<text id="advantageLi4">
+		<zh>轮播中英双语电台</zh>
+		<en>Audio stories</en>
+	</text>
+	<text id="advantageLi5">
+		<zh> 2到6人小班课并提供一对一私教选择</zh>
+		<en>2 to 6 students per class and option of 1 to 1 tuition</en>
+	</text>
+	<text id="features1">
+		<zh>实时互动式在线课堂</zh>
+		<en>A range of educational</en>
+	</text>
+	<text id="features2">
+		<zh>专注于提升中文教学质量</zh>
+		<en>features</en>
+	</text>	
+
+	<text id="blockName1">
+		<zh>无时差真人在线视频授课</zh>
+		<en>Live class</en>
+	</text>
+	<text id="blockName2">
+		<zh>满足不同中文学习者需求</zh>
+		<en>Annotatics</en>
+	</text>
+	<text id="blockName3">
+		<zh>即时中文沟通</zh>
+		<en>Instant Chat</en>
+	</text>	
+	<text id="blockName4">
+		<zh>全天候轮播中英双语电台</zh>
+		<en>Radio Stories</en>
+	</text>	
+
+	<text id="blockName4">
+		<zh>全天候轮播中英双语电台</zh>
+		<en>Radio Stories</en>
+	</text>	
+
+	<text id="blockdsc1">
+		<zh>打破地域和时间的局限，随时通过电脑、手机或pad进行测试、选课 、上课以及练习</zh>
+		<en>Learn to speak Chinese with live video/real lesson, direct from China</en>
+	</text>
+	<text id="blockdsc2">
+		<zh>选用国内外优质教材，精心搭建课程体系，用户可轻松选择优秀教师和分级课程进行学习</zh>
+		<en>Collaborate with students and teachers using online tools</en>
+	</text>	
+	<text id="blockdsc3">
+		<zh>与汉语母语者进行语音、视频交流，支持最多4人同步在线面对面授课互动答疑</zh>
+		<en>Text based chat features to talk directly with the teacher</en>
+	</text>	
+	<text id="blockdsc4">
+		<zh>提供7×24小时双语广播节目，内容包含历史文化故事、汉语教学、美食地理、音乐欣赏等</zh>
+		<en>Extend your learning outside of the school walls with radio stories</en>
+	</text>
+	<text id="divsongka">
+		<zh>注册即送两节课时卡可用于购买aretalk所有直播小班课</zh>
+		<en>Upon registration you will get two classcard free of charge </en>
+	</text>
+
+	<text id="username">
+		<zh>账户</zh>
+		<en>Username</en>
+	</text>
+	<text id="password">
+		<zh>密码</zh>
+		<en>Password</en>
+	</text>
+	<text id="nickname">
+		<zh>昵称</zh>
+		<en>Nickname</en>
+	</text>
+	<text id="sex">
+		<zh>性别</zh>
+		<en>Sex</en>
+	</text>
+	<text id="nationality">
+		<zh>国籍</zh>
+		<en>Nationality</en>
+	</text>
+	<text id="select">
+		<zh>请选择</zh>
+		<en>Select</en>
+	</text>
+	<text id="Birthday">
+		<zh>生日</zh>
+		<en>Birthday</en>
+	</text>
+	<text id="Phone">
+		<zh>手机号</zh>
+		<en>PhoneNO</en>
+	</text>	
+	<text id="Birthday">
+		<zh>生日</zh>
+		<en>Birthday</en>
+	</text>	
+	<text id="AreaNO">
+		<zh>区号</zh>
+		<en>Area</en>
+	</text>	
+	<text id="VerificationCode">
+		<zh>验证码</zh>
+		<en>VerifyCode</en>
+	</text>	
+	<text id="SendVerificationCode">
+		<zh>发送验证码</zh>
+		<en>SendCode</en>
+	</text>
+	<text id="Agree">
+		<zh>同意并遵守</zh>
+		<en>Agree and abide by</en>
+	</text>	
+	<text id="Terms">
+		<zh>《服务条款》</zh>
+		<en>《Terms of service》</en>
+	</text>
+	<text id="TeacherFromTittle1">
+		<zh>个人信息</zh>
+		<en>Personal Information</en>
+	</text>	
+	<text id="TeacherFromTittle2">
+		<zh>档案</zh>
+		<en>Archives</en>
+	</text>	
+	<text id="TeacherFromTittle3">
+		<zh>教师服务条款</zh>
+		<en>Teacher term of service </en>
+	</text>	
+	<text id="TeacherFromTittle4">
+		<zh>完成</zh>
+		<en>Completed</en>
+	</text>	
+	<text id="baseInfoTitle">
+		<zh>基本信息</zh>
+		<en>Basic Information</en>
+	</text>	
+	<text id="realname">
+		<zh>真实姓名</zh>
+		<en>Real Name</en>
+	</text>	
+	<text id="E-mail">
+		<zh>电子邮箱</zh>
+		<en>E-mail</en>
+	</text>	
+	<text id="CredentialInfo">
+		<zh>证件信息</zh>
+		<en>Certificate Information</en>
+	</text>	
+	<text id="CredentialNO">
+		<zh>证件号码</zh>
+		<en>Certificate Number</en>
+	</text>	
+	<text id="Comefrom">
+		<zh>来自</zh>
+		<en>Hometown</en>
+	</text>	
+	<text id="Provinces">
+		<zh>省市</zh>
+		<en>Province</en>
+	</text>	
+	<text id="Detailedadd">
+		<zh>详细地址</zh>
+		<en>Full Address</en>
+	</text>	
+	<text id="Liveadd">
+		<zh>居住地</zh>
+		<en>Present Addresss</en>
+	</text>	
+	<text id="Contact">
+		<zh>联系方式</zh>
+		<en>Contact Details</en>
+	</text>	
+	<text id="IDNO">
+		<zh>号码/ID</zh>
+		<en>Identity Card Number</en>
+	</text>	
+	<text id="TeacherHeadIMG">
+		<zh>教师头像照片</zh>
+		<en>Teacher's profile</en>
+	</text>	
+	<text id="HeadIMGNeed">
+		<zh>照片要求：</zh>
+		<en>Profile Standard</en>
+	</text>	
+	<text id="HeadIMGNeed2">
+		<zh>修改头像需经过审核</zh>
+		<en>Chang the profile needs to be reviewed.</en>
+	</text>	
+	<text id="HeadIMGNeed3">
+		<zh>图片格式只支持：JPG、PNG</zh>
+		<en>Image format: JPG, PNG</en>
+	</text>	
+	<text id="HeadIMGNeed4">
+		<zh>文件大小不超过2M</zh>
+		<en>File size shouldn't exceed 2M</en>
+	</text>	
+	<text id="HeadIMGDemo1">
+		<zh>第一印象是非常重要的</zh>
+		<en>The first impression is very important</en>
+	</text>	
+	<text id="HeadIMGDemo2">
+		<zh>请参考正确示范事例</zh>
+		<en>Please consulte the sample</en>
+	</text>	
+	<text id="HeadIMGDemo3">
+		<zh>我的基本照片要求：</zh>
+		<en>Basic standard to pictures</en>
+	</text>	
+	<text id="HeadIMGDemo4">
+		<zh>上传近期本人正面清晰照片，不要上传合影照片</zh>
+		<en>Please upload a clear recent photo showing your full from the front. Do not upload group photo.</en>
+	</text>	
+	<text id="HeadIMGDemo5">
+		<zh>头像不允许涉及政治敏感与色情</zh>
+		<en>Profile should not involve politics, sensitive issues and sex.</en>
+	</text>	
+	<text id="HeadIMGDemo6">
+		<zh>请不要使用类似以下情况的照片</zh>
+		<en>Please do not use pictures with follwing issue.</en>
+	</text>	
+	<text id="UploadBtn">
+		<zh>上传</zh>
+		<en>Upload</en>
+	</text>	
+	<text id="cancelBtn">
+		<zh>取消</zh>
+		<en>Cancel</en>
+	</text>	
+	<text id="MyLang1">
+		<zh>我的语言</zh>
+		<en>My language</en>
+	</text>	
+	<text id="MyLang2">
+		<zh>请认真填写语言水平，以免影响审核结果</zh>
+		<en>Please enter language level carefully, lest it should have influence on audition result.</en>
+	</text>	
+	<text id="MyLang3">
+		<zh>你的母语</zh>
+		<en>Your mother language</en>
+	</text>
+	<text id="MyLang4">
+		<zh>掌握语言</zh>
+		<en>Mastery language</en>
+	</text>
+	<text id="MyLang5">
+		<zh>等级</zh>
+		<en>Grade</en>
+	</text>
+	<text id="MyLang6">
+		<zh>初级</zh>
+		<en>Primary</en>
+	</text>
+	<text id="MyLang7">
+		<zh>中级</zh>
+		<en>Intermediate</en>
+	</text>
+	<text id="MyLang8">
+		<zh>高级</zh>
+		<en>Advanced</en>
+	</text>
+	<text id="MyBankInfo1">
+		<zh>我的银行卡</zh>
+		<en>My bank card</en>
+	</text>
+	<text id="MyBankInfo2">
+		<zh>请认真填写银行卡号，确保及时收到汇款</zh>
+		<en>Please enter your bank card number careully, to insure that you can receive the remittance on time.</en>
+	</text>
+	<text id="MyBankInfo3">
+		<zh>选择银行</zh>
+		<en>Please choose a bank</en>
+	</text>
+	<text id="MyBankInfo4">
+		<zh>预留电话</zh>
+		<en>Bound phone No.</en>
+	</text>
+	<text id="MyBankInfo5">
+		<zh>银行卡号</zh>
+		<en>Bank card No.</en>
+	</text>
+	<text id="NEXT">
+		<zh>提交并继续</zh>
+		<en>Submit and go on</en>
+	</text>
+
+
+	<text id="registerAD1">
+		<zh>为什么要在 AreTalk上教学？</zh>
+		<en>Why to teach on AreTalk?</en>
+	</text>
+	<text id="registerAD2">
+		<zh>这是最权威的中文教学平台</zh>
+		<en>It's the most authoritative Chinese teaching platform.</en>
+	</text>
+	<text id="registerAD3">
+		<zh>注册教师可自主进行授课定价，通过在线教学赚取可观收入</zh>
+		<en>Registered teacher can fix prices for his or her courses, to get decent income by teaching online.</en>
+	</text>
+	<text id="registerAD4">
+		<zh>充分展示注册教师教学基本功，同时提升您的网络教学声誉</zh>
+		<en>Show the basic skills of registered teacher, and improve your reputation of online teaching.</en>
+	</text>	
+	<text id="registerAD5">
+		<zh>拥有众多在线中文学习者</zh>
+		<en>We have considerable on learners.</en>
+	</text>	
+	<text id="registerAD6">
+		<zh>Aretalk全程处理财务支付相关事情，同时负责处理学生在使用课件中遇到的各类问题</zh>
+		<en>Aretalk is in charge of dealing with financial issue, and various problems students could meet.</en>
+	</text>	
+	<text id="registerAD7">
+		<zh>注册教师可灵活安排教学时间，学生选择在你的预定课时中学习相应课程</zh>
+		<en>Registered teacher can arrange schedule flexible, students can choose a proper course from your appointed time.</en>
+	</text>
+	<text id="registerAD8">
+		<zh>帮助您管理跟踪所有学生的学习记录</zh>
+		<en>Help you to trace and to manage student's learning record.</en>
+	</text>	
+	<text id="registerAD9">
+		<zh>无需全职教学，可在家安排教学</zh>
+		<en>No need to be a full time teacher, courses can be arranged at home.</en>
+	</text>	
+	<text id="registerAD10">
+		<zh>Aretalk确保您课后收取到相应的报酬</zh>
+		<en>Aretalk can guarantee that you will obtain the corresponding reward.</en>
+	</text>	
+
+	<text id="applyjoin">
+		<zh>立即申请入驻</zh>
+		<en>Join us immediately</en>
+	</text>
+	<text id="whichkind1">
+		<zh>想成为什么类型的教师</zh>
+		<en>What kind of teacher do you want to be?</en>
+	</text>
+	<text id="whichkind2">
+		<zh>我们有两种类型的教师,你属于哪一种?</zh>
+		<en>We have two types, which on are you?</en>
+	</text>
+	<text id="Theachkind">
+		<zh>教师的类型</zh>
+		<en>Teacher type</en>
+	</text>
+	<text id="ProT">
+		<zh>专业教师</zh>
+		<en>Professional teacher</en>
+	</text>
+	<text id="amateurT">
+		<zh>辅导教师</zh>
+		<en>Tutor</en>
+	</text>
+	
+	<text id="introduce1">
+		<zh>教育背景</zh>
+		<en>Educatin background</en>
+	</text>
+	
+	<text id="introduce2">
+		<zh>接受专业对外汉语教学培训有丰富的教学经验</zh>
+		<en>Have been trained for teaching Chinesse as a second language, and is experienced at teaching.</en>
+	</text>
+	
+	<text id="introduce3">
+		<zh>汉语母语者或者业余时间愿意教授汉语课程</zh>
+		<en>Native speaker and want to teach Chinese at spare time.</en>
+	</text>
+	
+	<text id="introduce4">
+		<zh>教学资质</zh>
+		<en>Teaching qualification</en>
+	</text>
+	
+	<text id="introduce5">
+		<zh>获得CTCSOL国际汉语教师资格证书等对外汉语授课资格认证</zh>
+		<en>Have a qualification certificate for teaching Chinese as a second language, such as CTCSOL</en>
+	</text>
+	
+	<text id="introduce6">
+		<zh>无</zh>
+		<en>no</en>
+	</text>
+	
+	<text id="introduce7">
+		<zh>教学材料</zh>
+		<en>Teaching material</en>
+	</text>
+	
+	<text id="introduce8">
+		<zh>上传授课PPT课件</zh>
+		<en>Upload PPT</en>
+	</text>
+	
+	<text id="introduce10">
+		<zh>教学方法</zh>
+		<en>Teaching method</en>
+	</text>
+	<text id="introduce11">
+		<zh>小班制课程与1对1课程</zh>
+		<en>Mini class and one-to-one</en>
+	</text>
+	<text id="introduce12">
+		<zh>上传自己制作的视频或者音频课件</zh>
+		<en>Upload your original video or audio teaching material.</en>
+	</text>
+	<text id="introduce13">
+		<zh>视频介绍</zh>
+		<en>Video introduction</en>
+	</text>
+	<text id="introduce14">
+		<zh>需要上传1-2分钟自我介绍视频以及自我介绍音频</zh>
+		<en>You need to upload a video and an audio to introduce yourself in 1~2min.</en>
+	</text>
+	<text id="introduce15">
+		<zh>需要上传1-2分钟自我介绍音频</zh>
+		<en>You need to upload an audio to introduce yourself in 1~2min.</en>
+	</text>
+	<text id="introduce16">
+		<zh>收入预期</zh>
+		<en>Income expectation</en>
+	</text>
+
+	<text id="introduce17">
+		<zh>授课教师自主设定授课价格</zh>
+		<en>Registered teacher can fix prices for his or her courses.</en>
+	</text>
+	<text id="introduce18">
+		<zh>获得相应报酬</zh>
+		<en>Obtain the corresponding reward.</en>
+	</text>
+	<text id="introduce19">
+		<zh>成为Aretalk的教师</zh>
+		<en>To be a teacher on Aretalk.</en>
+	</text>
+	<text id="introduce20">
+		<zh>申请成为专业教师</zh>
+		<en>Apply to be a professional teacher.</en>
+	</text>
+	<text id="introduce21">
+		<zh>申请成为辅导教师</zh>
+		<en>Apply to be a tutor.</en>
+	</text>			
+																						
+	<text id="FinishTitle">
+		<zh>您的申请表格已成功提交！</zh>
+		<en>Form submitted</en>
+	</text>	
+	<text id="FinishMain1">
+		<zh>请您查看电子邮箱内收到的验证邮件进行帐号激活。</zh>
+		<en>Please check your verification e-mail and activate your account.</en>
+	</text>	
+	<text id="FinishMain2">
+		<zh>申请表格将在3-5个工作日完成审核。如有问题，请发送邮件至hr@aretalk.com与我们联系。</zh>
+		<en>The audition will be completed in 3-5 working days. If there is any problem, please contact us by sending e-mail to hr@aretalk.com</en>
+	</text>	
+
+	<text id="VideoDatum1">
+		<zh>视频、音频介绍</zh>
+		<en>Video or audiio introduction</en>
+	</text>	
+	<text id="VideoDatum2">
+		<zh>在这里上传你的视频</zh>
+		<en>Upload your video here</en>
+	</text>	
+	<text id="VideoDatum3">
+		<zh>语言清晰流利</zh>
+		<en>Speaking clear and fluently</en>
+	</text>
+	<text id="VideoDatum4">
+		<zh>时间1-2分钟</zh>
+		<en>1~2min</en>
+	</text>	
+	<text id="VideoDatum5">
+		<zh>确保正确的拍摄方向</zh>
+		<en>Make sure of the shooting direction</en>
+	</text>	
+	<text id="VideoDatum6">
+		<zh>保持光照以确保视频清晰</zh>
+		<en>Enough light to make sure the video is clear</en>
+	</text>	
+	<text id="VideoDatum7">
+		<zh>不能包含个人和其他广告信息</zh>
+		<en>Should not include personal and other advertisements.</en>
+	</text>	
+	<text id="choose">
+		<zh>选择文件</zh>
+		<en>Choose a file</en>
+	</text>	
+	<text id="VideoDatum8">
+		<zh>在这里上传你的音频</zh>
+		<en>Upload your audio here</en>
+	</text>	
+	<text id="VideoDatum11">
+		<zh>确保环境安静音质清晰</zh>
+		<en>Keep a quiet environment to make sure the audio is clear</en>
+	</text>	
+	<text id="VideoDatum12">
+		<zh>不能包含个人和其他广告信息</zh>
+		<en>Should not include personal and other advertisements.</en>
+	</text>	
+	<text id="VideoDatum13">
+		<zh>教学专长</zh>
+		<en>Teaching speciality</en>
+	</text>
+	<text id="VideoDatum14">
+		<zh>选择你的教学经验等级</zh>
+		<en>Choose you teaching experience grade</en>
+	</text>	
+	<text id="VideoDatum15">
+		<zh>我的教师签名</zh>
+		<en>Ny signature</en>
+	</text>	
+	<text id="VideoDatum15-1">
+		<zh>编写一段自我介绍，如下示例所示</zh>
+		<en>Edit a self introduction. As shown below</en>
+	</text>
+		
+	<text id="VideoDatum16">
+		<zh>示例1</zh>
+		<en>Sample1</en>
+	</text>		
+	<text id="VideoDatum17">
+		<zh>大学本科学历,中学老师。1995年参加工作,默默奉献,不浮华。人生座右铭:激发学生兴趣永远是教师的目标。</zh>
+		<en>大学本科学历,中学老师。1995年参加工作,默默奉献,不浮华。人生座右铭:激发学生兴趣永远是教师的目标。</en>
+	</text>	
+	<text id="VideoDatum18">
+		<zh>示例2</zh>
+		<en>Sample2</en>
+	</text>	
+	<text id="VideoDatum19">
+		<zh>大学本科学历,中学老师。1995年参加工作,默默奉献,不浮华。人生座右铭:激发学生兴趣永远是教师的目标。</zh>
+		<en>大学本科学历,中学老师。1995年参加工作,默默奉献,不浮华。人生座右铭:激发学生兴趣永远是教师的目标。</en>
+	</text>	
+	<text id="VideoDatum20">
+		<zh>我的证书</zh>
+		<en>My certificate</en>
+	</text>	
+	<text id="VideoDatum21">
+		<zh>身份证明</zh>
+		<en>Identification certificate</en>
+	</text>	
+	<text id="VideoDatum22">
+		<zh>毕业证书</zh>
+		<en>Graduation certificate</en>
+	</text>	
+		
+	<text id="VideoDatum23">
+		<zh>教师资格证</zh>
+		<en>Teacher qualification certificate</en>
+	</text>
+	
+	<text id="VideoDatum24">
+		<zh>其他证书</zh>
+		<en>Other certificates</en>
+	</text>		
+	<text id="HomePageTitle">
+			<zh>Aretalk 在线直播中文教育平台</zh>
+			<en>Online Live Chinese Education Platform</en>
+			<jp>中国のライブオンライン教育プラットフォーム</jp>
+	</text>
+	<text id="advantage">
+		<zh>Aretalk的优势</zh>
+		<en>Advantages</en>
+	</text>
+
+
+	<text id="DMT1">
+	<zh>提供24*7全天候中文语言学习环境</zh>
+	<en>Provide 24 * 7 all day Chinese language learning environment</en>
+</text>
+<text id="DMT2">
+	<zh>无时差视频授课</zh>
+	<en>No time difference video lesson</en>
+</text>
+<text id="DMT3">
+	<zh>即时中文沟通</zh>
+	<en>Instant Chinese communication</en>
+</text>
+<text id="DMT4">
+	<zh>在线课堂作业</zh>
+	<en>Online class homework</en>
+</text>
+<text id="DMT5">
+	<zh>支持视频/音频在线互动答疑</zh>
+	<en>Support video / audio online interaction</en>
+</text>
+<text id="join">
+	<zh>立即</zh>
+	<en>JOIN</en>
+</text>
+<text id="today">
+	<zh>加入</zh>
+	<en>TODAY</en>
+</text>
+<text id="downdic">
+	<zh>Aretalk可在PC、iOS、Android端上使用，请通过下面链接下载</zh>
+	<en>Aretalk works on all devices including PC, iOS and Android. Install today!</en>
+</text>
+				
+	<text id="FuncTittle">
+			<zh>我们的教学</zh>
+			<en>A range of educational</en>
+	</text>
+	<text id="features">
+			<zh>特色</zh>
+			<en>features.</en>
+	</text>
+	<text id="FMad">
+			<zh>全天候轮播中英双语电台</zh>
+			<en>All-day long Chinese and English bilingual radio.</en>
+	</text>
+	<text id="FMad2">
+			<zh>提供7×24小时双语广播，内容包含汉语教学历史文化故事、美食、地理文化、音乐欣赏等</zh>
+			<en>Provide with 7*24 bilingual radio, including Chinese teaching, history and culture stories, food, geography and music appreciation, etc.</en>
+	</text>	
+	<text id="TimeDiff">
+			<zh>Aretalk为你打造专属互动式在线中文学习课堂，多场景教学方式涵盖直播、录播等教学资源，快速进入学习状态让中文学习更轻松</zh>
+			<en>Create your own after-school language club and start to teach Chinese today - from just £30 per session!</en>
+	</text>
+	<text id="TimeDiff2">
+			<zh>Aretalk联接英国学校与中国老师，学生不论课堂内外都能学习中文</zh>
+			<en>Teaching children Chinese in and out of school，Aretalk connect school children in the uk with teachers in China.</en>
+	</text>
+	<text id="TimeDiff3">
+			<zh>选用国内外优质教材精心搭建课程体系，通过aretalk的语言能力测试便可轻松选择适合您的课程。</zh>
+			<en>We use the best international teaching materials, and carefully designed our class system. Through AreTalk’s language ability assessment we can easily select the best class for you.</en>
+	</text>
+	<text id="TimeDiff4">
+			<zh>我几个月前给我儿子报名了AreTalk的拼音课程，我觉得目前他很喜欢这里的课程。希望他能坚持下去！——Cindy</zh>
+			<en>I signed up the Chinese phonics course for my son couple of months ago, and really happy with my decision! He seems enjoy it too! So far so good!——from Cindy.</en>
+	</text>	
+	<text id="TimeDiff5">
+			<zh>AreTalk的老师都很专业，上课的时候也都在鼓励学生发言，积极说中文，这点我觉得对于语言学习很重要。—— Paul</zh>
+			<en>The teachers are very helpful and friendly, my teacher encourages us to speak, which is very important for language learning, I enjoy studying with AreTalk！——from Paul </en>
+	</text>	
+	<text id="TimeDiff6">
+			<zh>我非常喜欢这种简单的学习方式，在线学习，不需要总去学校了，感觉很适合上班族。—— Linda</zh>
+			<en>This is such an easy way learning Chinese for anyone has children, I don't have to go to school to study, just made a big difference. —— Linda</en>
+	</text>				
+	<text id="Live">
+			<zh>即时中文沟通</zh>
+			<en>Real-time Chinese communication.</en>
+	</text>
+	<text id="Live2">
+			<zh>与汉语母语者进行语音、视频交流。</zh>
+			<en>Communicating with Chinese native speaker by audio and video.</en>
+	</text>
+	<text id="TeachPPT">
+			<zh>多种类教学课件</zh>
+			<en>A broad variety of course wares.</en>
+	</text>
+	<text id="TeachPPT2">
+			<zh>支持多种互动式教学课件，包括动画特效PPT、视频、音频、Word和PDF等，同时允许多个课件组合式教学，满足更多的教学场景。</zh>
+			<en>Supporting many kinds if interactive teaching material1, including ppt, video, audio, word, PDF, etc. Allowing teaching with multiple course wares to meet different teaching types. </en>
+	</text>
+	<text id="variety">
+			<zh>满足不同学习需求</zh>
+			<en>Meeting different requirements of Chinese learners</en>
+	</text>
+	<text id="variety2">
+			<zh>选用国内外优质教材，精心搭建课程体系，中文学习者通过电脑或者手机完成注册登录，便可轻松选择优秀教师、中文课程进行学习。</zh>
+			<en>With high quality teaching materials and well-designed curriculum system, Chinese learners could select suitable courses taught by professional teachers right after registering on computer or mobile phone.  </en>
+	</text>
+	<text id="interact">
+			<zh>课堂互动场景</zh>
+			<en>Classroom interaction</en>
+	</text>
+	<text id="interact2">
+			<zh>拥有讨论、禁言等课堂控制功能，支持实时查看课堂学习进度，便于教师营造竞争性的课堂氛围</zh>
+			<en>Having class control function, such as discussion and banned to speak, supporting checking course progress, contributing to creating a competitive class atmosphere.</en>
+	</text>
+	<text id="smAdTittle1">
+			<zh>让学习更轻松</zh>
+			<en>Making learing easier</en>
+	</text>
+	<text id="smAdsummary1">
+			<zh>涵盖直播、录播等教学资源，快速进入学习状态</zh>
+			<en>Having live and recorded video classes, students could focuse on study as soon as possible</en>
+	</text>
+	<text id="smAdTittle2">
+			<zh>多场景教学</zh>
+			<en>Multi-terminal teaching</en>
+	</text>
+	<text id="smAdsummary2">
+			<zh>电脑、iPad、iPhone、Android等多终端设备登录</zh>
+			<en>You can log in from PC, ipad, iphone and Android, etc.</en>
+	</text>
+	<text id="smAdTittle3">
+			<zh>能力迅速提升</zh>
+			<en>Improving language ability fast</en>
+	</text>
+	<text id="smAdsummary3">
+			<zh>课堂互动场景，教师在线答疑迅速提升中文水平</zh>
+			<en>Students could improve Chinese language ability with class interaction and teachers' online guidance</en>
+	</text>
+	<text id="smAdTittle4">
+			<zh>让学习更轻松</zh>
+			<en>Making learing easier</en>
+	</text>
+	<text id="smAdsummary4">
+			<zh>电脑、iPad、iPhone、Android等多终端设备登录</zh>
+			<en>You can log in from PC, ipad, iphone and Android, etc.</en>
+	</text>
+	<text id="BigAdTittle">
+			<zh>Aretalk为你打造专属的互动式在线中文学习课堂</zh>
+			<en>Aretalk creats an interactive online Chinese class for you.</en>
+	</text>
+	<text id="StuLoginText">
+		<zh>中文教育在线直播平台</zh>
+		<en>Online Live Chinese Education Platform</en>
+	</text>
+	<text id="TheacherLoginText">
+		<zh>教师信息管理系统</zh>
+		<en>Teacher information management system</en>
+	</text>		
+	<text id="StuRegisterBtn">
+		<zh>注册成为AreTalk学生</zh>
+		<en>Register to be a student</en>
+	</text>
+	<text id="TeaRegisterBtn">
+		<zh>注册成为AreTalk教师</zh>
+		<en>Register to be an Aretalk teacher</en>
+	</text>	
+	<text id="SignBtn">
+		<zh>登录</zh>
+		<en>Login</en>
+	</text>
+
+	<text id="BannerTittle">
+		<zh>AreTalk客户端</zh>
+		<en>AreTalk client</en>
+	</text>	
+	<text id="noticeTittle">
+		<zh>注意事项：</zh>
+		<en>Note</en>
+	</text>	
+	<text id="noticeText1">
+		<zh>Windows7以上操作系统/iPhone IOS 9.0以上/Android 系统版本4.0以上</zh>
+		<en>We recommend Windows 7 or higher/ iphone IOS 9.0 or higher/ Android 4.0 or higher</en>
+	</text>	
+	<text id="noticeText2">
+		<zh>1.课程进行中禁止拔插耳机、耳麦等接收设备，避免因拔插设备造成重启课程软件或浏览器等情况的发生；</zh>
+		<en>1. Do not plug in and out receiving devices such as earphone and headset during the class, to avoid consequences of reatarting app or browser.</en>
+	</text>	
+	<text id="noticeText3">
+		<zh>2.课程进行中尽量避免多人同时共用网络观看电影或下载娱乐视频等;</zh>
+		<en>2. Tend to avoid many people downloading and watching videos on Internet simultaneously.</en>
+	</text>	
+	<text id="noticeText4">
+		<zh>3.如需更换相关课程，请联系助教教师进行网络辅助测试。</zh>
+		<en>3. If you want to change your course, please contact teacher assistant to do the testing. </en>
+	</text>							
+
+	<text id="AppDownload">
+		<zh>客户端下载</zh>
+		<en>Download the client</en>
+	</text>
+	<text id="FileSize">
+		<zh>文件大小</zh>
+		<en>File size</en>
+	</text>
+	<text id="befit">
+		<zh>适用系统</zh>
+		<en>Suitable system</en>
+	</text>
+	<text id="version">
+		<zh>版本信息</zh>
+		<en>Version information</en>
+	</text>
+	<text id="updateTime">
+		<zh>更新时间</zh>
+		<en>Update time</en>
+	</text>
+	<text id="environment">
+		<zh>运行环境</zh>
+		<en>Runtime environment</en>
+	</text>
+	<text id="DownloadWindows">
+		<zh>下载Windows客户端</zh>
+		<en>Download the client of Windows</en>
+	</text>
+	<text id="DownloadWay">
+		<zh>下载方法：</zh>
+		<en>Download method</en>
+	</text>
+	<text id="BetterV">
+		<zh>或更高版本</zh>
+		<en>or higher</en>
+	</text>
+	<text id="OtherTools">
+		<zh>其他工具下载</zh>
+		<en>other download tools</en>
+	</text>
+	<text id="FrameworkText">
+		<zh>支持Windows 7及以上版本操作系统。（此软件需要Microsoft .net framework v4.0 插件支持）</zh>
+		<en>Supporting Windows 7 or higher. (Need the support of Microsoft .net framework v4.0)</en>
+	</text>		
+	<text id="FrameworkDownload">
+		<zh>下载Microsoft.NET Framework4.5</zh>
+		<en>Download Microsoft.NET Framework4.5</en>
+	</text>
+	<text id="FlashPlayerText">
+		<zh>可以更好的支持Flash版本教室</zh>
+		<en>To enter the web classroom</en>
+	</text>
+	<text id="FlashPlayerDownload">
+		<zh>下载FlashPlayer 22</zh>
+		<en>Download FlashPlayer 22</en>
+	</text>	
+
+	<text id="HelpCenter">
+		<zh>帮助中心</zh>
+		<en>Help</en>
+	</text>
+	<text id="Login-Register">
+		<zh>注册和登录</zh>
+		<en>Register and login</en>
+	</text>	
+	<text id="LessonAbout">
+		<zh>课程学习</zh>
+		<en>Courses</en>
+	</text>	
+	<text id="deposit">
+		<zh>充值</zh>
+		<en>Top-up</en>
+	</text>
+
+	<text id="HowtoRegister">
+		<zh>怎样注册成为Aretalk平台的学生？</zh>
+		<en>How to register to be a student on AreTalk</en>
+	</text>
+	<text id="RegisterHelp1">
+		<zh>打开Aretalk，新用户点击“注册”;</zh>
+		<en>Open AreTalk, new users please click on 'register'</en>
+	</text>
+	<text id="RegisterHelp2">
+		<zh>（2）填写相关信息后，点击“注册”即可。</zh>
+		<en>(2)Click on 'register' after filling in the information form </en>
+	</text>
+	<text id="Howtovalidate">
+		<zh>一直收不到短信验证码怎么办？</zh>
+		<en>What to do if I can't receive verification code</en>
+	</text>
+	<text id="validateHelp">
+		<zh>请拨打客服电话0411-39056651。</zh>
+		<en>Please dial the customer service number0411-39056651</en>
+	</text>
+	<text id="HowtoLogin">
+		<zh>已注册过账户，如何登录网站？</zh>
+		<en>How to login on the web when I have already registered an account </en>
+	</text>
+	<text id="RegisterHelp">
+		<zh>打开Aretalk，填写注册时的账户和密码，点击“登录”即可;</zh>
+		<en>Open AreTalk, enter the account and the code, click on 'login'</en>
+	</text>
+	<text id="HowtoBuy">
+		<zh>如何购买课程？</zh>
+		<en>How to buy a course?</en>
+	</text>
+	<text id="BuyHelp1">
+		<zh>（1）登录Aretalk后，点击“小班课”，浏览课程页面，选择所要购买的课程，点击“购买课程”;</zh>
+		<en>(1) After logging in, click on 'mini class', visit courses page, choose the course you like and click on purchase.</en>
+	</text>	
+	<text id="BuyHelp2">
+		<zh>（2）在弹出框中，选择要购买的课节，点击“购买”。</zh>
+		<en>(2) Choose the lessons you want in the frame, click on 'purchase'</en>
+	</text>	
+	<text id="HowtoSpaek">
+		<zh> 为什么上课时无法语音说话呢？</zh>
+		<en>Why I can't speak in class?</en>
+	</text>	
+	<text id="SpeakHelp1">
+		<zh>视频直播授课中，需得到老师的允许才能发言。如果不能正常发言，请确认以下几件事：</zh>
+		<en>You need teacher's permission to speak during the class. If you can't speak, please check the following issue</en>
+	</text>	
+	<text id="SpeakHelp2">
+		<zh>（1）检查外置麦克风是否连接完好，内置麦克风是否使用正常（例如：使用其他语音聊天软件时，对方能听见声音）。</zh>
+		<en>(1) Check the connection of the  external microphone and the status of the internal microphone. (Ex: The other person can hear you when you are chatting on other apps)</en>
+	</text>	
+	<text id="SpeakHelp3">
+		<zh>（2）“麦克风”设备及音量是打开的。（可点击电脑桌面右下角声音图标->右键->录音设备->麦克风已启用）。</zh>
+		<en>(2) microphone and it's voice are on </en>
+	</text>	
+	<text id="HowtoVideo">
+		<zh>已经下载flash player安装成功，还是不能观看视频怎么办？</zh>
+		<en>What to do if I still can not watch video after installing flash player successfully?</en>
+	</text>	
+	<text id="VideoHelp1">
+		<zh>浏览器会禁用flash的使用，需要设置允许网站运行flash。</zh>
+		<en>Browser could ban flash player, you need to set and allow it to run.</en>
+	</text>	
+	<text id="VideoHelp2">
+		<zh>以谷歌浏览器为例，设置操作如下：</zh>
+		<en>Taking Chrome as an example, set up like the following:</en>
+	</text>
+
+	<text id="VideoHelp3">
+		<zh>（1）浏览器右上方点击 图标，显示下拉框，找到设置；</zh>
+		<en>(1) Click on  on the top of the browser, find setting in the drop-down menu.</en>
+	</text>	
+	<text id="VideoHelp4">
+		<zh>（2）点击底部的“高级”； </zh>
+		<en>(2) Click on 'advance' on the bottom.</en>
+	</text>	
+	<text id="VideoHelp5">
+		<zh>（3）在“高级”中找到“内容设置”；</zh>
+		<en>(3) Find 'content setting' in 'advance'</en>
+	</text>	
+	<text id="VideoHelp6">
+		<zh>（4）在“内容设置”中，点击“flash”;</zh>
+		<en>(4) Click on 'flash' in 'content setting'</en>
+	</text>	
+	<text id="VideoHelp7">
+		<zh>（5）允许网站运行flash</zh>
+		<en>Allow the web to run flash.</en>
+	</text>	
+	<text id="HowtoDeposit">
+		<zh>如何充值？</zh>
+		<en>How to top-up?</en>
+	</text>
+	<text id="DepositHelp1">
+		<zh>（1）登录Aretalk APP后，选择“我的”，点击aretalk商店</zh>
+		<en>(1) choose “me” and click on 'aretalk store' after login at aretalk app.</en>
+	</text>	
+	<text id="DepositHelp2">
+		<zh>（2）选择所需购买的课时卡数量以及支付方式，最后点击“确认支付”进行支付。</zh>
+		<en>(2) choose number of classcords which you need, and payment method, click on 'pay now'.</en>
+	</text>	
+	<text id="DepositHelp3">
+		<zh>（3）也可选择“AT充值”，按课程价值购买AT币并支付相应金额。</zh>
+		<en>(3) You can also choose 'AT top-up', purchase AT coins based on course price and pay for AT coins</en>
+	</text>				
+
+	<text id="About">
+		<zh>相关信息</zh>
+		<en>About</en>
+	</text>
+	<text id="About Us">
+		<zh>关于我们</zh>
+		<en>About Us</en>
+	</text>
+	<text id="AboutAreTalk">
+		<zh>关于AreTalk</zh>
+		<en>About AreTalk</en>
+	</text>	
+	<text id="Contact Us">
+		<zh>联系我们</zh>
+		<en>Contact Us</en>
+	</text>
+	<text id="Cooperative">
+		<zh>合作</zh>
+		<en>Cooperative</en>
+	</text>	
+	<text id="Cooperative Partner">
+		<zh>合作机构</zh>
+		<en>Cooperative Partner</en>
+	</text>
+	<text id="Business Cooperation">
+		<zh>商业合作</zh>
+		<en>Business Cooperation</en>
+	</text>
+	<text id="Cooperation partner">
+		<zh>合作伙伴</zh>
+		<en>Cooperation partner</en>
+	</text>
+	<text id="we partner">
+		<zh>我们与伙伴</zh>
+		<en>We and partners</en>
+	</text>	
+	<text id="customization">
+		<zh>定制课程</zh>
+		<en>Customised Classes</en>
+	</text>
+	<text id="Enterprise customization">
+		<zh>企业定制课程</zh>
+		<en>Enterprise Customised Classes</en>
+	</text>	
+	<text id="Salesman login">
+		<zh>推广员登录</zh>
+		<en>Promoter login</en>
+	</text>
+	<text id="Become teacher">
+		<zh>成为AreTalk教师</zh>
+		<en>Become AreTalk teacher</en>
+	</text>		
+	<text id="Development opportunity">
+		<zh>发展机会</zh>
+		<en>Development opportunity</en>
+	</text>
+	<text id="Other">
+		<zh>其他</zh>
+		<en>Other</en>
+	</text>
+	<text id="Help">
+		<zh>帮助信息</zh>
+		<en>Help</en>
+	</text>
+		
+	<text id="Terms privacy">
+		<zh>隐私/协议</zh>
+		<en>Terms privacy</en>
+	</text>
+	<text id="Help Center">
+		<zh>帮助中心</zh>
+		<en>Help Center</en>
+	</text>
+	<text id="manuals">
+		<zh>帮助指南</zh>
+		<en>Help manuals</en>
+	</text>
+	<text id="Refunds">
+		<zh>退款保障</zh>
+		<en>Refunds</en>
+	</text>
+	<text id="Feedback">
+		<zh>意见反馈</zh>
+		<en>Feedback</en>
+	</text>		
+	<text id="Learning">
+		<zh>学习</zh>
+		<en>Learning </en>
+	</text>
+	<text id="Our Course">
+		<zh>课程介绍</zh>
+		<en>Our Course</en>
+	</text>
+	<text id="Mandarin">
+		<zh>普通话</zh>
+		<en>Mandarin </en>
+	</text>
+
+	<text id="just got">
+		<zh>变得越来越</zh>
+		<en>just got </en>
+	</text>
+
+	<text id="better">
+		<zh>简单</zh>
+		<en>better</en>
+	</text>
+	<text id="courseInfoTitle">
+		<zh>课程及其价格</zh>
+		<en>
+			Curriculum and price
+		</en>
+	</text>
+	<text id="courseInfo1">
+		<zh>AreTalk目前主要有四种课程，包括《快乐学拼音》、《轻松学中文》、《BCT中文教程》及《中文课本》， 覆盖了从基础的拼音课程、GCSE中文、HSK中文，以及商务汉语等，为各个不同基础的汉语学习者制定了相应的课程计划，同时，我们也会对学生进行汉语测试，根据水平相对应的语言能力级别选择适合您的课程</zh>
+		<en>AreTalk currently offers four types of courses suitable for all learners, including: “Chinese Phonics”, “Easy to Learn Chinese”, BCT Chinese and “Chinese textbook”.</en>
+	</text>
+	<text id="courseInfo2">
+		<zh>关于课程形式，我们实施小班授课形式，每个班级保证不超过六个人，这样的小班课堂形式给每个学生充分的机会进行交流和互动，促进了学生对汉语学习的积极性和主动性。</zh>
+		<en>We have designed a class plan corresponding to the needs of every type of Chinese learner. Our syllabus ranges from foundation pinyin classes to GCSE Chinese, HSK Chinese and business Chinese. We will also conduct an assessment of the Chinese level of each of our students and select a class to match your existing language ability.</en>
+	</text>
+	<text id="courseInfo3">
+		<zh>AreTalk价格表如下：</zh>
+		<en>Our classes are deliberately small, on average between two and six students per class. This ensures that our students receive the optimum amount of attention and assistance from our teachers and best utilises their time in class. In this way, each student will have ample opportunity to interact with native speakers, making them more actively engaged with our dynamic learning style.</en>
+	</text>
+	<text id="courseInfo4">
+		<zh>每节课（60分钟）：课时卡起售为12课时，最低至5英镑/每课时。按自然年数365天计算，所购买课时卡可用于购买2-6人小班课和预约一对一课程</zh>
+		<en>Fees: Our classes typically run for 60 minutes. Additionally, using our “study card” preloaded with 48 hours of class time, the lowest class rate is £5 per class. The “study card” can be used to purchase group classes (2-6 students) or one-to-one tuition.</en>
+	</text>		
+	<text id="FirstDsc">
+		<zh>普通话在新加坡，台湾，香港，澳门（澳门）以及中国大陆广泛使用。世界上有10亿以上的人口说普通话，其中8.45亿为汉语母语人士。这就意味着学习普通话，你可以打开与13％的世界人口沟通的大门，AreTalk可以帮助你做到这一点！</zh>
+		<en>Mandarin is spoken widely throughout Singapore, Taiwan, Hong Kong, Macau (Macao) as well as Mainland China. There are also more than 1 BILLION Mandarin speakers in the world as well as 845 MILLION native speakers. This means that by learning Mandarin, you can un​lock the potential to talk to 13% of the worlds population, and Aretalk is here to help you do it!</en>
+	</text>	
+
+	<text id="how">
+		<zh>如何</zh>
+		<en>How</en>
+	</text>
+	<text id="shiyong">
+		<zh>使用</zh>
+		<en>it</en>
+	</text>
+	<text id="AreTalk">
+		<zh>AreTalk</zh>
+		<en>work</en>
+	</text>
+
+	<text id="women">
+		<zh>我们</zh>
+		<en>How</en>
+	</text>
+	<text id="ruhe">
+		<zh>如何</zh>
+		<en>we</en>
+	</text>
+	<text id="jiaoshou">
+		<zh>教授</zh>
+		<en>teach</en>
+	</text>		
+
+
+	<text id="Logintitle">
+		<zh>1:登录</zh>
+		<en>1:Login</en>
+	</text>
+	<text id="LoginDsc">
+		<zh>用户通过填写一个简单的表格来注册自己的账号</zh>
+		<en>Students register their very own Aretalk account by filling out a simple form</en>
+	</text>
+	<text id="Recordedtitle">
+		<zh>2:录播课</zh>
+		<en>2:Recorded Lesson</en>
+	</text>
+	<text id="Livetitle">
+		<zh>3:直播课</zh>
+		<en>3:Live Lesson</en>
+	</text>
+	<text id="RecordedDsc">
+		<zh>登录后可在课程内页录播课一栏里选择购买观看录制好的课程</zh>
+		<en>Students select a pre-recorded lesson of their choice</en>
+	</text>	
+	<text id="LiveDsc">
+		<zh>另外也可以选择即时直播的课程感受接近真实课堂的体验</zh>
+		<en>OR students can select a live lesson with a qualified teacher direct from China</en>
+	</text>	
+	<text id="RecordedAbout">
+		<zh>录播课</zh>
+		<en>Recorded Lessons</en>
+	</text>
+	<text id="LiveAbout">
+		<zh>直播课</zh>
+		<en>Live Lessons</en>
+	</text>
+	<text id="RadioAbout">
+		<zh>电台</zh>
+		<en>Radio Stories</en>
+	</text>
+	<text id="chatAbout">
+		<zh>与老师的交流</zh>
+		<en>Instant chat with teachers</en>
+	</text>	
+
+
+	<text id="Recordedtext">
+		<zh>我们明白由于人们生活节奏的加快，缺少时间加入课堂学习，或者仅仅只想在参加直播课前增加信心，那么，我们AreTalk准备了上百节录播课，来满足此类人士的需求。</zh>
+		<en>We understand that some people have tight schedules, or that you'd rather just build up your confidence before going head first into a live lesson. With Aretalk, we have hundreds of pre recorded lessons so that 	you can learn where you want, whenever you want!</en>
+	</text>
+	<text id="Livetext">
+		<zh>AreTalk通过直接来自中国的直播课程让你学到真正的实用汉语。每班最多6名学生，也可选择1对1的学习方式，这种方式达到了接近了真实课堂的感觉。</zh>
+		<en>Aretalk brings the classroom to you with Live Lessons direct from China. With a maximum of 6 students per class and the option of 1 to 1 tuition, this is the closest you'll get to being in a real classroom.</en>
+	</text>
+	<text id="Radiotext">
+		<zh>我们AreTalk电台作为一种学习汉语的辅助方式，无论你在哪里，在做什么，都可以打开我们的电台，了解关于中国的最新资讯。</zh>
+		<en>Extend your learning outside of the school walls with our radio stories! Whether it's before you go to bed, or whilst you're eating breakfast. Our radio stories help you learn whatever the time.</en>
+	</text>
+
+	<text id="chattext">
+		<zh>在课堂上有不清楚的地方，都可以随时给我们老师留言，她们都会及时回复。</zh>
+		<en>Finished a lesson but you're unsure about something? Just drop your teacher a question! Just like a teacher in your own school, they're always happy to help.</en>
+	</text>	
+	<text id="Cooperation Text">
+		<zh>Aretalk教育科技有限公司于2015年2月在英国伦敦注册成立，致力于全球在线中文教育、中文教材研发和出版、互联网软件开发和运营、中国传统文化推广。 
+公司坐落在英国伦敦皇家格林威治区的凤凰之家，南临泰晤士河，与金丝雀码头和伦敦新金融城隔岸相望，为一栋三层意大利风格的英国国家文物二级保护建筑，共2500平方米，设有全英最大的中文书店和全景艺术展厅。同时，抱着让全世界都说汉语的愿望，我们Aretalk也与伦敦凤凰之家，联手合作成立了“中国文化体验中心”项目，为在英国的中文爱好者提供了一个展示中华传统文化的机会，和增进对中国及中文了解的机会。		</zh>
+		<en>AreTalk Education Tech Ltd is an education company headquartered in London with offices in Dalian, China. Its main offering is an online Mandarin Chinese teaching platform. The company was founded in 2015, and is dedicated to providing an easy, effective and affordable way of learning Chinese. 
+The company is located at the House of Phoenix's head offices: a three-storey, 2,500m2 Italian-Style National Heritage Grade II listed building located on the south bank of the River Thames in the Royal Borough of Greenwich. The building houses the largest Chinese bookstore and art gallery in the UK. Additionally, we have partnered with the House of Phoenix in London to set up the "China Cultural Experience Centre”. The Centre's goal is to provide an opportunity for those interested in Chinese culture to have an authentic China experience, and in doing so enhance their understanding of China and the Chinese language.</en>
+	</text>	
+
+	<text id="Cooperation Text2">
+		<zh>伦敦商会成员企业、伦敦发展促进署成员企业</zh>
+		<en>A member of the chamber of Commerce of the London</en>
+	</text>	
+	<text id="Cooperation Text3">
+		<zh>凤凰传媒国际（伦敦）有限公司战略合作伙伴</zh>
+		<en>A member of London and Partners Limited </en>
+	</text>	
+	<text id="Cooperation Text4">
+		<zh>英国公立、私立学校中文课程提供企业</zh>
+		<en>Strategic partner of Phoenix Publishing and Media Group (PPMG) </en>
+	</text>	
+	<text id="Cooperation Text5">
+		<zh>Youtube 中文教育频道内容提供企业</zh>
+		<en>Youtube Chinese lesson provider</en>
+	</text>	
+	<text id="Cooperation Text6">
+		<zh>欧洲中国文化教育促进基金会战略合作伙伴</zh>
+		<en>offer online courses catering to a wide range of pupils including primary and secondary school students</en>
+	</text>	
+			
+	<text id="BusinessTest">
+		<zh>AreTalk旨在传播弘扬中华文化，秉承着让全世界人都说汉语的愿望，我们希望在多个国家签署独家代理运营权，如果您对我们从事的业务感兴趣并符合以下条件的话，请及时与我们联系吧！</zh>
+		<en>AreTalk's goal is to help the world to learn Chinese. We aim to do this by promoting the Chinese language and culture globally. We are looking to sign exclusive agency rights in many countries. If you are interested in partnering with us and meet the following criteria, please contact us!</en>
+	</text>	
+	<text id="BusinessMust">
+		<zh>基本合作要求：</zh>
+		<en>ESSENTIAL REQUIREMENTS</en>
+	</text>	
+	<text id="BusinessMust1">
+		<zh>有强烈的意愿与 Aretalk 保持长期合作，共同成长。</zh>
+		<en>A strong desire to maintain long-term cooperation with AreTalk and grow the business together.</en>
+	</text>	
+	<text id="BusinessMust2">
+		<zh>有较强的的市场开拓和市场管理能力。</zh>
+		<en>Proven business development and marketing capabilities</en>
+	</text>	
+	<text id="BusinessMust3">
+		<zh>能自主承担业务流动资金，具备一定的抗风险能力。</zh>
+		<en> Able to take risks</en>
+	</text>
+	<text id="BusinessMust4">
+		<zh>认同并接受Aretalk理念</zh>
+		<en>Agree and accept our Terms and Conditions </en>
+	</text>	
+	<text id="BusinessMust5">
+		<zh>在当地有较好的信誉和资源。</zh>
+		<en> A positive reputation and your own network of local contacts.</en>
+	</text>	
+	<text id="BusinessPriority">
+		<zh>优先合作条件：</zh>
+		<en>PRIORITY WILL BE GIVEN TO THOSE WHO CAN DEMONSTRATE THE FOLLOWING：</en>
+	</text>	
+	<text id="BusinessPriority1">
+		<zh>有成熟的市场销售、服务团队。</zh>
+		<en>An experienced and proven marketing and sales team.</en>
+	</text>	
+	<text id="BusinessPriority2">
+		<zh>有较强的市场开拓和市场管理能力，有行业客户资源优势和较强的客户服务能力。</zh>
+		<en>Strong network within the industry</en>
+	</text>
+	<text id="BusinessPriority3">
+		<zh>如你满足以上条件，请联系我们hr@aretalk.com</zh>
+		<en>if you feel you meet the above requirements, please contact us on: hr@aretalk.com</en>
+	</text>
+
+
+	<text id="jiaoshenme">
+		<zh>我们教授什么</zh>
+		<en>WHAT WE TEACH</en>
+	</text>
+	<text id="Chinese Phonics">
+		<zh>快乐学拼音</zh>
+		<en>Chinese Phonics
+
+</en>
+	</text>
+		<text id="Phonics1">
+		<zh>适合零基础入门学习者</zh>
+		<en>Suitable for beginners</en>
+	</text>
+		<text id="Phonics2">
+		<zh>共16课时</zh>
+		<en>Consists of 16 classes</en>
+	</text>
+		<text id="Phonics3">
+		<zh>包含45个拼音</zh>
+		<en>Includes 45 pinyin (phonics) words</en>
+	</text>
+		<text id="Phonics4">
+		<zh>200余个汉字</zh>
+		<en>Includes 200 Chinese characters</en>
+	</text>
+		<text id="Phonics5">
+		<zh>以图片、汉字、音节相结合的方式，帮助学生快速地整体认读音节和汉字拼读</zh>
+		<en>Combines photographs with text to help students quickly recognise and read Chinese</en>
+	</text>
+		<text id="StoryBooks">
+		<zh>儿童绘本阅读</zh>
+		<en>Illustrated Story Books</en>
+	</text>
+		<text id="Story1">
+		<zh>适合零基础入门学习者</zh>
+		<en>Suitable for beginners</en>
+	</text>
+		<text id="Story2">
+		<zh>鼓励学生开口说中文</zh>
+		<en>Encourages spoken Chinese</en>
+	</text>
+		<text id="Story3">
+		<zh>基于生动有趣的故事情节</zh>
+		<en>Uses lively and fun story books</en>
+	</text>
+		<text id="Story4">
+		<zh>阅读形式多种多样</zh>
+		<en>Wide range of books</en>
+	</text>
+		<text id="Story5">
+		<zh>内容包含动物、数字、颜色、方位、形状、生活常识等</zh>
+		<en>Wide range of books</en>
+	</text>
+		<text id="GCSE">
+		<zh>GCSE考试课程</zh>
+		<en>GCSE Chinese</en>
+	</text>
+		<text id="GCSE1">
+		<zh>专为中学生定制</zh>
+		<en>For students</en>
+	</text>
+		<text id="GCSE2">
+		<zh>以体育与休闲运动，旅游交通，商业、工作与就业，传媒与文化等内容，提升学生中文口语和写作能力</zh>
+		<en>Spoken and written topics include: sports and leisure, tourism, transportation, commerce, work and employment, media and culture</en>
+	</text>
+		<text id="GCSE3">
+		<zh>以家居附近与外出，客户服务与交易往来，未来计划、教育与工作等内容，提升学生的听力与阅读能力</zh>
+		<en>Listening and reading topics include: the local area, customer service and deals, future plans, education and work</en>
+	</text>
+		<text id="BCT">
+		<zh>BCT商务汉语</zh>
+		<en>BCT Chinese</en>
+	</text>
+		<text id="BCT1">
+		<zh>要面向工作繁忙的商务汉语学习者</zh>
+		<en>Aimed at business learners with busy schedules</en>
+	</text>
+		<text id="BCT2">
+		<zh>主要面向工作繁忙的商务汉语学习者</zh>
+		<en>Published by the People's Education Press</en>
+	</text>
+		<text id="BCT3">
+		<zh>共5册，100课时</zh>
+		<en>5 volumes and 100 hours class time</en>
+	</text>
+		<text id="BCT4">
+		<zh>课程学习完毕，可掌握5700余个词汇量，提高中文学习者的商务汉语听说交际能力</zh>
+		<en>On completion students will understand more than 5700 Chinese words and improved their communication skills in business Chinese</en>
+	</text>
+		<text id="Easy">
+		<zh>轻松学中文</zh>
+		<en>Easy to Learn Chinese</en>
+	</text>
+		<text id="Easy1">
+		<zh>由北京语言大学出版社出版</zh>
+		<en>Published by the Beijing Language and Culture University Press</en>
+	</text>
+		<text id="Easy2">
+		<zh>共八册，120课时</zh>
+		<en>Consists of 8 volumes and 120 hours class time</en>
+	</text>
+		<text id="Easy3">
+		<zh>适合初学者</zh>
+		<en>suitable for beginner level </en>
+	</text>
+		<text id="Easy4">
+		<zh>整套课程通过语言、话题和文化的自然结合，到词汇、汉语知识学习及 语言交流技能的培养</zh>
+		<en>Combines language, topics and Chinese culture while integrating vocabulary, Chinese knowledge learning and language communication skills</en>
+	</text>
+		<text id="Easy5">
+		<zh>注重对学生听、说、读、写四项交际技能的培养</zh>
+		<en>Teaching process is based on listening, speaking, reading and writing</en>
+	</text>
+	<text id="Chineses">
+		<zh>中文</zh>
+		<en>Zhongwen</en>
+	</text>
+	<text id="TextBook">
+		<zh>中文课本</zh>
+		<en>Chinese Text Book</en>
+	</text>
+	<text id="TextBook1">
+		<zh>适合中级中文学习者</zh>
+		<en>Suitable for intermediate learners</en>
+	</text>	
+	<text id="TextBook2">
+		<zh>由北京大学出版社出版</zh>
+		<en>Published by the Beijing University Press</en>
+	</text>
+	
+	<text id="TextBook3">
+		<zh>共5册，107课时</zh>
+		<en>5 volumes and 107 hours class time</en>
+	</text>
+		<text id="TextBook4">
+		<zh>整套课程通过活泼的诗歌、短文、图画辅助，让学生轻松地书写汉字并朗读所学的课文</zh>
+		<en>Incorporates poetry, short essays and pictures to help reading and writing</en>
+	</text>
+		<text id="TextBook5">
+		<zh>课程学习完毕，可掌握5700余个词汇量，大幅度提升学生的中文听说读写能力</zh>
+		<en>Upon completion students will have learned over 5700 Chinese characters and greatly improved their listening, speaking, reading and writing</en>
+	</text>
+	<text id="ChinesePhonicsDsc">
+		<zh>适合零基础入门学习者，是在多年教学实践的基础上，结合幼儿心理和智力特点，巧妙地设计带有启发性的精美插图，使拼音字母更加直观、形象，便于记忆。教材以声母、韵母、整体认读音节、拼音知识的讲解为基本内容，搭配实物图片、词语短句，来指导学生进行正确的发音与书写。同时将朗朗上口、儿歌式的拼读规则穿插其中，大大增强了学习的趣味性。课程共16课时，共学习45个拼音，200余个汉字，以图片、汉字、音节相结合的方式，帮助学生快速地整体认读音节和汉字拼读。</zh>
+		<en>Suitable for students (children) with no previous experience learning Chinese. The course consists of 16 classes, and includes a total of 45 pinyin words and 200 Chinese characters. The course uses a combination of photographs, Chinese characters, and pinyin words to help students quickly recognise and read Chinese (both pinyin and characters). </en>
+	</text>
+	<text id="StoryBooksDsc">
+		<zh>适合4-10岁中文初学者，基于生动有趣的故事情节，重点培养学生开口说中文的能力。绘本是许多孩子接触的第一本书，而这本书中不仅有文字，还有最吸引孩子眼球的图画，同时图文结合的关系能激发孩子的阅读兴趣。绘本的阅读形式是多种多样的，其中有自主阅读，也有亲子阅读，还有集体阅读。我们的绘本内容包含动物、数字、颜色、方位、形状、生活常识等。通过生动的方式让孩子在游戏中快乐学习汉语。</zh>
+		<en>Suitable for beginner-level children aged 4-10. The classes use lively and funstory books, and focus on encouraging spoken Chinese. We have a wide range of illustrated Chinese story books, which cover topics such as animals, numbers, colours, directions, shapes, daily life, and others. </en>
+	</text>
+	<text id="GCSEDsc">
+		<zh>以考试政策为基准，制定科学的教程体系，以体育与休闲运动，旅游交通，商业、工作与就业，传媒与文化等内容，提升学生中文口语和写作能力。以家居附近与外出，客户服务与交易往来，未来计划、教育与工作等内容，提升学生的听力与阅读能力。</zh>
+		<en>GCSE Chinese Language Examination Courses use the examination policy as a benchmark to formulate a scientific tutorial system to enhance students' Chinese speaking and writing skills. The following topics are used for the spoken and written components: –sports and leisure activities, tourism, transportation, commerce, work and employment, media and culture. Listening and reading capabilities focus on the following topics: the local area, customer service and doing deals, future plans, education and work.</en>
+	</text>
+
+	<text id="EasyDsc">
+		<zh>由北京语言大学出版社出版，共八册，120课时，适合初级中文学习者，整套课程通过语言、话题和文化的自然结合，到词汇、汉语知识学习及 语言交流技能的培养，旨在为汉语学习者奠定扎实基础。在教学过程中，注重对学生听、说、读、写四项交际技能的培养。 </zh>
+		<en>“Easy to Learn Chinese” is published by the Beijing Language and Culture University Press.     It has eight volumes, a total of 120 hours’ class time and is suitable for beginner level students. The course seamlessly combines language, topics and Chinese culture, while integrating vocabulary, Chinese knowledge learning and language communication skills. The ultimate aim is to lay a solid linguistic foundation for our students. Our teaching process places great importance on cultivating the four key communicative skills: listening, speaking, reading and writing.</en>
+	</text>
+
+	<text id="BCTDsc">
+		<zh>由人民教育出版社出版，共5册，100课时。主要面向工作生活节奏快、完整时间少、零散时间多、难以进入正式课堂学习，但有强烈工作和职业需求的商务汉语学习者，以及所有希望学习汉语、了解中国的国际朋友。课程学习完毕，可掌握5700余个词汇量，提高中文学习者的商务汉语听说交际能力，并在提高听说交际能力的同时，逐步提高读写能力。
+		</zh>
+		<en>“BCT Chinese” published by the People's Education Press, has 5 volumes, and 100 hours’ class time. It is principally aimed at business Chinese learners with busy schedules and limited time to spare on classroom study. The course is designed for business professionals who either have a professional requirement for Chinese, or hope to have a better understanding of the Chinese culture. Upon completion of the course, students will be able to understand more than 5,700 Chinese words, and will have improved their communicative skills in business Chinese. Through the process of improving their listening and speaking skills, students will also gradually increase their reading and writing abilities. 
+		</en>
+	</text>
+
+	<text id="zhongwenDsc">
+		<zh>我们也开设暨南大学的《中文》教材，这套教材是中华人民共和国国务院侨务办公室委托暨南大学华文学院为海外华侨、华人子弟学习中文而编写的。在内容上由浅入深、循序渐进，并采用彩色图文编排，是一套较为全面、完整、系统的语言学习教材。本教材的教学目的是使学生通过十二册教材的学习与训练，能具备汉语普通话的听、说、读、写的基本能力，同时了解中华文化的基本常识，为今后进一步学习中国语言文化打下良好的基础。</zh>
+		<en>Jin'Nan Chinese-designed for overseas students who plan to attend an after-school course, introduces 2,500 Chinese characters, covers a wide range of topics and provides an overview of Chinese culture including Chinese geography, and history.  This course introduces the basic knowledge of Chinese, including the characters, Pinyin system, sentence patterns and short conversations. With simple words of the contents, students will learn Chinese language and culture easily.
+		</en>
+	</text>
+	<text id="customizedClassesDsc">
+		<zh>我们为企业客户提供定制中文学习方案。我们与每位企业客户密切沟通，了解企业所从事的行业及特点，为其学习需求设计专门的解决方案。由于我们的每节中文课程都是为贵公司量身定做的，因此课程内容都与贵公司及所处行业密切相关。我们会根据您的业务特征为您定制课程，并将贵公司所从事的业务及介绍编排进我们的网络课堂，让更多人对您的公司增进了解。我们每节课也会派对该行业熟悉的教师来上，同时也会讲这些定制课程上传到我们的app，不仅可供员工随时学习，而且注册我们app的用户也都可以点击观看。同时，我们还会有合作媒体投放，会让跟多海外用户通过我们的平台关注到您的企业。
+		</zh>
+		<en>We offer customised classes for corporate clients who are interested in Mandarin Chinese training. We work with each corporate client very closely to understand specific needs. Because we design each Chinese training lessons around you, the curriculum is always relevant to your particular enterprise or industry. We will also tailor our lessons around what skills are most needed for you, whether it be speaking, listening, reading, or writing. Whether your business is in China or you're working with Chinese employees or other Chinese companies, our Chinese training lessons can help you further your goals.			
+		We will also add your companies’ businesses to our other online classes for our business classes, as a way of promoting your company.   You can also visit our newly established “China Cultural Experience Centre” at our office in Greenwich. We offer free Chinese classes, Chinese calligraphy, paper cutting and various other types of traditional Chinese cultural exchange sessions, we also offer a number of tailor-made events to introduce your business and industries.
+		</en>
+	</text>	
+	
+	<text id="TextBookDsc">
+		<zh>由北京大学出版社出版，共5册，107课时，适合中级中文学习者。考虑到海外学生的特点，整套课程通过活泼的诗歌、短文、图画辅助，让学生轻松地书写汉字并朗读所学的课文。课程学习完毕，可掌握5700余个词汇量，大幅度提升学生的中文听说读写能力，可以逐渐地学习并适应各类文化科目的内容。
+		</zh>
+		<en>
+			“Chinese Textbook"is published by the Beijing University Press. Itcomprises 5 volumes, 107 hours’ class time and is suitable for intermediate learners.Taking into account the needs of our overseas students, the course incorporates poetry, short essays, and pictures to help students read and write Chinese characters with confidence. Upon completion of the course, students will have learned over 5,700 Chinese characters, and greatly improved theirlistening, speaking, reading and writing. They can gradually learn and adapt to the contents of various cultural subjects.
+		</en>
+	</text>	
+	<text id="PromoerDsc1">
+		<zh>我们现正招募aretalk推广专员，以协助我们推广线上中文课程，以吸引有学习中文兴趣的人士成为aretalk学员，在aretalk平台学习中文和中国文化。
+		</zh>
+		<en>We are now looking for several Promotional Ambassadors to help promote our online courses to those interested in studying Chinese.</en>
+	</text>	
+	<text id="PromoerDsc2">
+		<zh>发送你想使用的用户名和密码到hr@aretalk.com,aretalk会将专属邀请码发送回您的邮箱,</zh>
+		<en>- A passion for Chinese culture
+		</en>
+	</text>
+	<text id="PromoerDsc3">
+		<zh>请把邀请码扩散给周围潜在中文学习者用于新用户注册时填写,</zh>
+		<en>- Knowledge of the Chinese language is a definite advantage</en>
+	</text>	
+	<text id="PromoerDsc4">
+		<zh>通过填写邀请码注册的用户aretalk将额外赠送两节课时卡,</zh>
+		<en>- Excellent communication skills</en>
+	</text>	
+	<text id="PromoerDsc5">
+		<zh>同时aretalk会自动按一定比例将所有填写您专属邀请码的用户充值返利给您,</zh>
+		<en>-Familiarity with social media promotion, e.g. Facebook, Twitter, LinkedIn, and YouTube
+
+		</en>
+	</text>	
+	<text id="PromoerDsc6">
+		<zh>在www.aretalk.com登录推广员后台即可随时查看您的收入增长.</zh>
+		<en>- Online marketing experience is an advantage</en>
+	</text>	
+	<text id="PromoerDsc7">
+		<zh>
+			如果你也想跟我们有着同样的梦想-‘让世界都说普通话”；想要跟我们一起弘扬我们五千年文化底蕴；想让世界更了解我们的中国，那么请联系我们吧！无论您是正在学习汉语的初学者，汉语流利的中国通，还是汉语为母语的，我们都欢迎您的加入！我们一起努力让世界都说普通话！都懂中国文化！
+</zh>
+		<en>We offer a generous commission-based salary, and the freedom to work remotely.
+			Interested applicants please write to: hr@aretalk.com, for more information.
+			Successful applicants will need to provide us with a username and password to use when accessing the “Promoter login” section of our website. We will register you on our system and email you a unique promotional code to input when prospective students sign up to our app. The amount of students recruited and type of course purchased will be recorded in your individual Promoter account, which we will then use to calculate your commission.
+		</en>
+	</text>		
+
+
+<text id="BannerTitle1">
+	<zh>让任何一门语言</zh>
+	<en>Becoming fluent in Chinese</en>
+</text>
+<text id="BannerTitle2">
+	<zh>变得流利</zh>
+	<en> </en>
+</text>	
+<text id="BannerInfo">
+	<zh>与母语教师1对1在线上课，与世界各地的人们建立连接</zh>
+	<en>We now offer one to one tuition suitable for all level lerners
+</en>
+</text>	
+<text id="ADTittle">
+	<zh>Aretalk一直致力于为学员匹配最合适的教师</zh>
+	<en>AreTalk provides top standard teachers for our students</en>
+</text>
+<text id="ADBtn">
+	<zh>立即体验专业的教师授课</zh>
+	<en>Experience Now</en>
+</text>
+<text id="top5">
+	<zh>只用顶尖的5%</zh>
+	<en>Only enroll top 5% outstanding</en>
+</text>
+<text id="top5Dsc">
+	<zh>国内专业团队直接培训认证教师</zh>
+	<en>Aretalk has 100 highly selective teachers</en>
+</text>
+<text id="top5Detail">
+	<zh>aretalk拥有100名经过严格考核优选教师团队。只录取TOP5%的优秀人才，发音标准，经验丰富。</zh>
+	<en>Our teachers are highly selected, screened, trained and qualified to the highest standard.</en>
+</text>
+<text id="ADDscTitle1">
+	<zh>教师团队的精益求精</zh>
+	<en>Always improve the teaching skills of teachers</en>
+</text>
+<text id="ADDscTitle2">
+	<zh>优胜劣汰，不断提升教师的教学能力</zh>
+	<en>Our teacher team constantly strives for perfection</en>
+</text>
+<text id="ADDscTitle3">
+	<zh>正式聘用后，每两周一次的在职培训，定期的教学研讨会和不定期的教学质量跟踪反馈系统,都将时刻帮助教师进步，每一名aretalk的教师都会接受至少100个小时的专业培训。</zh>
+	<en>We provide comprehensive teaching program, all our teachers have to complete 100 hours training before teaching, training courses includes History of Chinese language development, Teaching approaches, Chinese phoenix and grammar.</en>
+</text>
+<text id="ADDscTitle4">
+	<zh>学员参与教师评价</zh>
+	<en>Students participate in the evaluation of Teachers</en>
+</text>
+<text id="ADDscTitle5">
+	<zh>公开，公正的教师评价体系</zh>
+	<en>Our teacher evaluation system opens to the students</en>
+</text>
+<text id="ADDscTitle6">
+	<zh>每次上课结束后，学员都可以对教师的表现进行评价。经历数千次的评分，教师的教育水平，教学特色都都会公平公开地展现给每一位学员，帮助他们找到所最合适自己的教师。</zh>
+	<en>Teacher evaluation is a vital element in improving student learning outcomes. We ask our students to take part in our teachers evaluation process, in order to ensure our high teaching standard is met by all our teachers. </en>
+</text>
+
+<text id="TeacherName1">
+	<zh>刘晶晶</zh>
+	<en>Liu jingjing</en>
+</text>
+<text id="TeacherName2">
+	<zh>单嗣氏</zh>
+	<en>Shan Sishi</en>
+</text>
+<text id="TeacherName3">
+	<zh>邓梦佳</zh>
+	<en>Deng mengjia</en>
+</text>
+<text id="TeacherName4">
+	<zh>卫丁伊</zh>
+	<en>Wei dingyi</en>
+</text>
+<text id="TeacherName5">
+	<zh>汪琴</zh>
+	<en>Wang Qin</en>
+</text>
+<text id="TeacherName6">
+	<zh>许天宇</zh>
+	<en>Xu Tianyu</en>
+</text>
+
+
+<text id="TN11">
+	<zh>伦敦大学UCL学院</zh>
+	<en>Graduated from UCL</en>
+</text>
+<text id="TN12">
+	<zh>英语教育硕士</zh>
+	<en>Masters degree in English education major</en>
+</text>
+<text id="TN13">
+	<zh>3年儿童绘本教学经验</zh>
+	<en>3 years teaching experience in children's picture book</en>
+</text>
+<text id="TN14">
+	<zh>主教课程：快乐学拼音、儿童绘本阅读</zh>
+	<en>She mainly teaches “Illustrated Story Books” and “Chinese Phonics</en>
+</text>
+
+
+
+<text id="TN22">
+	<zh>学前教育硕士</zh>
+	<en>Masters degree in Pre-school Education</en>
+</text>
+<text id="TN23">
+	<zh>专注于幼儿学前教育及实践能力培养</zh>
+	<en> Shan focuses on pre-school education and the children’s practical ability training.</en>
+</text>
+
+
+<text id="TN32">
+	<zh>英语教育专业</zh>
+	<en> Masters degree in English education major</en>
+</text>
+<text id="TN33">
+	<zh>致力于以轻松愉快的方式帮助儿童习得语言和并传递中华文化</zh>
+	<en>Deng efforts to help children acquire language and communicate Chinese culture in a relaxed and enjoyable way.
+</en>
+</text>
+<text id="TN34">
+	<zh>主教课程：绘本课程 诗词经典</zh>
+	<en>She mainly teaches “Illustrated Story Books” and “Classical poetry”.</en>
+</text>
+
+
+<text id="TN42">
+	<zh>建筑学硕士</zh>
+	<en>Masters degree in architecture</en>
+</text>
+<text id="TN43">
+	<zh>擅长针对不同母语结合年龄和语言基础进行语言教学</zh>
+	<en>Wei focuses on teaching language for different mother tongue in combination with age and language base
+</en>
+</text>
+<text id="TN44">
+	<zh>主教课程：轻松学中文，中文</zh>
+	<en>She mainly teaches “Easy to learn Chinese ” and  “zhongwen”.</en>
+</text>
+
+
+
+<text id="TN51">
+	<zh>伦敦亚非学院</zh>
+	<en>Graduated from SOAS</en>
+</text>
+<text id="TN52">
+	<zh>应用语言教育学硕士</zh>
+	<en>University of London with a Masters degree in Applied Linguistic Education.</en>
+</text>
+<text id="TN53">
+	<zh>8年对外汉语教学经验</zh>
+	<en>Wang Qin has eight years teaching Chinese as a second language,</en>
+</text>
+<text id="TN54">
+	<zh>主教课程：GCSE</zh>
+	<en>and her focus at Aretalk is the GCSE syllabus.</en>
+</text>
+
+<text id="TN61">
+	<zh>伦敦玛丽皇后大学</zh>
+	<en>Graduated fromQueen Mary University</en>
+</text>
+<text id="TN62">
+	<zh>英语与金融双硕士</zh>
+	<en>Masters degree in English and Finance</en>
+</text>
+<text id="TN63">
+	<zh>4年对外汉语启蒙授课经验</zh>
+	<en>Xu has four years’experience teaching Chinese as a foreign language</en>
+</text>
+<text id="TN64">
+	<zh>主教课程：轻松学中文、中文课本</zh>
+	<en>The main courses she teaches are: “Easy to learn Chinese” and “Chinese Textbook”.</en>
+</text>
+
+
+
+
+
+
+<text id="HowTittle1">
+	<zh>学习中文，从未如此简单轻松</zh>
+	<en>Learning Chinese has become simple! </en>
+</text>
+
+<text id="HowTittle2">
+	<zh>进一步了解AreTalk学员的学习方式</zh>
+	<en>We understand the importance of studying Chinese and best ways learning it! </en>
+</text>
+<text id="HowPCBtn">
+	<zh>PC端上课流程</zh>
+	<en>PC users</en>
+</text>
+<text id="HowAppBtn">
+	<zh>APP上课流程</zh>
+	<en>App users</en>
+</text>
+<text id="step1Tittle1">
+	<zh>注册成为我们的用户，即送两节课时卡</zh>
+	<en>Register with AreTalk and become our member，and you will get two classcard free of charge</en>
+</text>
+
+
+<text id="step1Tittle2">
+	<zh>已经超过1000名学员在AreTalk感受，中文提升的非凡效果！</zh>
+	<en>over 1000 people are studying Chinese with us, download AreTalk today and study Chinese</en>
+</text>
+<text id="step1IMGdsc1">
+	<zh>注册会员</zh>
+	<en> register </en>
+</text>
+<text id="step1IMGdsc2">
+	<zh>会员登录</zh>
+	<en>login</en>
+</text>
+
+<text id="step2Tittle1">
+	<zh>根据测试结果推荐适合您的课程</zh>
+	<en>Complete the language assessment we will advise the course most suited to your language level and needs.</en>
+</text>
+
+<text id="step2Tittle2">
+	<zh>您可以自主约课，我们的学习顾问团队也会根据您的学习需求为您量身定制学习计划，推荐老师并督促您不断进步。</zh>
+	<en>We offer you tailor-made classes based on your requests, our course consultants will help you choose the most suitable course and help you study!</en>
+</text>
+
+<text id="step2IMGdsc1">
+	<zh>语言能力测试</zh>
+	<en>Language assessment</en>
+</text>
+<text id="step2IMGdsc2">
+	<zh>推荐适合的课程</zh>
+	<en>Recommend appropriate courses</en>
+</text>
+<text id="step3Tittle1">
+	<zh>下载PC端开始上课</zh>
+	<en>Download our pc client and study Chinese with us!</en>
+</text>
+<text id="step3Tittle2">
+	<zh>仅需两分钟，拥有强大的交互学习平台，实时翻译，在线互动，中文学习妙趣横生！</zh>
+	<en>It will only take about  two minutes to set up your account, login and you can interact with our teachers and we also offer translation for you if needed!</en>
+</text>
+<text id="step3IMGdsc1">
+	<zh>登录PC端</zh>
+	<en>Login for PC users</en>
+</text>
+<text id="step3IMGdsc2">
+	<zh>使用课时卡购买课程上课</zh>
+	<en> use classcard to buy our course</en>
+</text>
+<text id="TestBtn">
+	<zh>点击测试</zh>
+	<en>start your assessment</en>
+</text>
+<text id="HowdownPC">
+	<zh>点击下载PC端</zh>
+	<en>download pc client</en>
+</text>
+
+<text id="Appstep1Tittle1">
+	<zh>下载APP</zh>
+	<en>download our app</en>
+</text>
+<text id="Appstep1IMGdsc1">
+	<zh>ios下载</zh>
+	<en>iOS download</en>
+</text>
+<text id="Appstep1IMGdsc2">
+	<zh>Android下载</zh>
+	<en>Android download</en>
+</text>
+<text id="Appstep2IMGdsc1">
+	<zh>注册成为会员（即送两节课时卡），并登录</zh>
+	<en>register with us become our member（you will get two classcard free of charge），and login</en>
+</text>
+<text id="Appstep2IMGdsc1">
+	<zh>注册账号</zh>
+	<en>register</en>
+</text>
+<text id="Appstep2IMGdsc2">
+	<zh>登录APP</zh>
+	<en>login our app</en>
+</text>
+<text id="AppstepTittle">
+	<zh>等到上课时间进入教室上课</zh>
+	<en>once complete the language assessment, you can use your classcard to buy our courses and enter the classrooms when classes begin.</en>
+</text>
+<text id="Appstep3IMGdsc1">
+	<zh>语言测试</zh>
+	<en>language assessment</en>
+</text>
+<text id="Appstep3IMGdsc2">
+	<zh>进入课程购买上课</zh>
+	<en>enter “course” to buy course</en>
+</text>
+<text id="or">
+	<zh>或者：</zh>
+	<en>OR:</en>
+</text>
+<text id="AppstepOrTittle1">
+	<zh>一对一预约自己空闲的时间并购买，到时间进入教室上课</zh>
+	<en>if you choose one to one tuition, you can enter the classroom according to your appointment </en>
+</text>
+<text id="AppstepOrIMGdsc1">
+	<zh>一对一预约上课</zh>
+	<en>setup one to one appointment</en>
+</text>
+<text id="AppstepOrIMGdsc2">
+	<zh>预约成功等待上课</zh>
+	<en>booking success and enter classroom on time</en>
+</text>
+
+<text id="Appstep4Tittle1">
+	<zh>赠卡用完可自行在aretalk商店里购买课时卡或at币</zh>
+	<en>you can purchase more class cards or AT coins at Aretalk store anytime you wish</en>
+</text>
+
+<text id="Appstep4IMGdsc1">
+	<zh>购买课时卡</zh>
+	<en>purchase classcard</en>
+</text>
+<text id="Appstep4IMGdsc2">
+	<zh>购买AT币</zh>
+	<en>purchase AT coins</en>
+</text>
+<text id="Appstep5Tittle1">
+	<zh>另外可以使用电台、社交功能</zh>
+	<en>communicate and share with other fellow students about your experience studying Chinese</en>
+</text>
+<text id="Appstep5IMGdsc1">
+	<zh>AreTalk电台</zh>
+	<en>Aretalk radio</en>
+</text>
+<text id="Appstep5IMGdsc2">
+	<zh>AreTalk社交</zh>
+	<en> Aretalk SNS</en>
+</text>
+
+<text id="SchoolsCustomised">
+	<zh>AreTalk重磅推出全新教学模式-双师课堂</zh>
+	<en>Online Customised Chinese Programme for Schools</en>
+</text>
+<text id="SchoolsCustomisedDsc1">
+	<zh>双师课堂是一种全新的教学模式，从一个老师教学升级为两个老师负责学生的学习：一位是主讲老师，以直播的形式授课；一位是辅导老师，负责课堂管理和课后针对性学习辅导。两个老师分工明确，调动学生对汉语的学习热情，鼓励学生积极的运用汉语进行对话。
+对于双师课堂这种教学模式，采用的显示屏至关重要，我们AreTalk的双师课堂采用120吋（2.66米×1.5米）光学抗光幕作为超大显示屏，还原真实色彩，给我们的学生良好舒适的视觉体验。</zh>
+	<en>Recent educational thinking across the fields of multicultural education has highlighted the relevance of teaching Mandarin Chinese in modern English primary and secondary schools. Progressive schools have already begun to introduce Mandarin into their curricular and extra-curricular timetables: a movement initiated particularly by primary schools, who are soon to be required to teach at least one Modern Foreign Language at Key Stage 2.
+	</en>
+</text>
+<text id="SchoolsCustomisedDsc2">
+	<zh>双师课堂是一种全新的教学模式，从一个老师教学升级为两个老师负责学生的学习：一位是主讲老师，以直播的形式授课；一位是辅导老师，负责课堂管理和课后针对性学习辅导。两个老师分工明确，调动学生对汉语的学习热情，鼓励学生积极的运用汉语进行对话。
+对于双师课堂这种教学模式，采用的显示屏至关重要，我们AreTalk的双师课堂采用120吋（2.66米×1.5米）光学抗光幕作为超大显示屏，还原真实色彩，给我们的学生良好舒适的视觉体验。</zh>
+	<en>In order to help more schools start their Chinese classes, AreTalk now provides online customised Chinese programme for mainly primary and secondary schools in the UK, this programme is ideal for schools wishing to improve their students’ speaking skills. Classes will primarily focus on speaking activities such as role plays, dialogues and interviews to provide maximum opportunity to practice speaking Chinese in a variety of different contexts. Its syllabus also builds vocabulary, grammar and pronunciation.</en>
+</text>
+<text id="SchoolsCustomisedDsc3">
+	<zh>双师如何配合:主讲老师与主讲老师研讨课程，集体备课。上课时，在教室里，辅导老师陪伴学生，督促管理，及时答疑解惑。课后，辅导老师语音批改作业，个性化点评，发送个性化练习和报告，跟家长保持高频沟通。</zh>
+	<en>Our teaching style is fun, multi-sensory and highly interactive; we encourage students to speak at our classes because we believe that is  the best ways to allow children to excel at language.</en>
+</text>
+<text id="SchoolsCustomisedDsc4">
+	<zh>双师课堂优势：双师课堂设计的初衷便是结合线上线下教学的优点。一个授课老师同时给多个平行班级上课，充分放大名师的价值；每个班辅导老师的全部精力都用于班级管理和教学服务，上课纪律和听课效率、课后测评及针对性的作业布置、家长反馈与沟通等。尤其是辅导老师一对一和学生沟通的环节，大大弥补了班课学习中老师和学生沟通不足的问题，而这也是同一个老师班课退课率高于其一对一退课率的重要因素。</zh>
+	<en>We are more than happy to discuss schools' individual requirements, but as a suggestion we provide a scheme of work involving lots of speaking, listening, singing and games, as well as reading and writing the Chinese script. Children will learn and use vocabulary including numbers, colours, animals, self and family, parts of the body, as well as general skills for building conversation and mastering sentence structure.
+The programme can be delivered by weekly lessons as part of your school's curriculum; or a lunchtime, before-school, or after-school club on a day to suit your current schedule. 
+Our teachers have extensive Mandarin Chinese language teaching experience and is able to provide a recent standard of teaching!
+</en>
+</text>
+<text id="SchoolsCustomisedDsc5">
+	<zh>我们目前正在招聘有意向合作的教育机构或学校，如您感兴趣，请填写下表与我们取得联系吧！</zh>
+	<en>If you are interested, please contact us on: hr@aretalk.com, Please fill in the following form and get in touch with us. </en>
+</text>
+
+
+</content>
+	
+

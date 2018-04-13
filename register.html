@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">    
+    <title>AreTalk - Register</title>
+    <link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/layui-register.css">
+    <link rel="stylesheet" href="lib/footer/footer.css">
+    <link rel="stylesheet" href="lib/header/header.css">
+    <link rel="stylesheet" href="css/register.css">    
+</head>
+<body>
+
+<header id="header" class="headerFloat">
+
+</header>
+
+
+	<div id="registerMain">
+		<div id="registerBox">
+			<div id="registerLeftImgBox" class="registerContent">
+				<img src="img/registerLeftImg.png" id="registerLeftImg">
+			</div>
+			<div id="registerForm" class="layui-form layui-form-pane">
+				<div id="registerTitle-Big">Create Free Account</div>
+				<div id="registerTitle-sm">成功注册 获取免费课程</div>
+				<div class="layui-inline" >
+  				<input type="text" id="username" name="userName" autocomplete="off" class="layui-input " lay-verify="required|username|pass" placeholder="username">
+  				</div>
+  				<div class="layui-inline" >
+  				<input type="text" name="password" autocomplete="off" class="layui-input " lay-verify="required" placeholder="password">
+  				</div>
+                  
+                 
+                  <div class="layui-inline" >
+                    <div class="layui-inline AreaNOFrom">
+                      <select name="countryId" id="PhoneNmuAre" >
+                            <option  value="0">AreaCode</option>
+                      </select>
+                    </div>
+                    <div class="layui-inline AreaNOFrom" >
+                      <input type="text" name="phoneNo" id="PhoneNumber" autocomplete="off" class="layui-input" lay-verify="required|number" placeholder="PhoneNumber">
+                    </div>
+                  </div>              
+	
+  				<div class="layui-inline">
+  				  	<input type="text" name="verifyCode" autocomplete="off" id="IDcode" class="layui-input"  placeholder="verifyCode" lay-verify="required|number">
+  				  	<button id="sendCode" lay-submit class="" lay-filter="getCode" type="button" langtag="SendVerificationCode">发送验证码</button>
+  				</div>
+
+                <div class="layui-inline">
+                    <input class="layui-input" name="extendCode" placeholder="PromoCode" id="AdCode" >
+                </div>
+               
+				<div id="StayLogin">
+				<input id="chk_protocol" type="checkbox" name="protocol" lay-skin="primary" lay-filter="protocol"  checked><span langtag="Agree">同意并遵守</span><a href="protocol.html" id="protocol" langtag="Terms">《服务条款》</a>
+				</div>  
+			 	<div id="SignBtn" lay-submit lay-filter="register" langtag="StudentregisterBTN">注册</div>
+			 	<div id="haveAccount"><span id="Already">Already have a Code School account?</span><a href="#" id="SignIn">Sign In</a></div>
+			</div>		
+		</div>
+
+		<div id="info">© 2018 All Rights Reserved by Aretalk</div>
+	</div>
+
+</body>
+
+<script src="lib/jquery.js"></script>
+<script src="lib/lang/langchange.js"></script>
+<script src="lib/layui-v2.2.5/layui/layui.js"></script>
+<script src="lib/md5.js"></script>
+<script src="js/register.js"></script>
+</html>
