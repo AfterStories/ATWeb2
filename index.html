@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>AreTalk</title>
-    <!-- Google Tag Manager -->
-<!--     <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-55HN4K4');
-</script> -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-55HN4K4');
+    </script>
     <!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <link rel="stylesheet" href="lib/3Dbanner/css/imageflow.css">
     <link rel="stylesheet" href="lib/Reversal.css">
     <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
@@ -21,9 +25,7 @@
     <link rel="stylesheet" href="lib/header/header.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <body>
 
 <header id="header" class="headerTop">
@@ -31,30 +33,92 @@
 </header>
 
 <div id="FirstIMG">
-
-    <div id="firstTextBox">
-        <div class="firstText" id="firstTextZH">在线学习&nbsp;&nbsp;智慧汉语</div>
-        <div class="firstText" id="firstTextEN">Boost your Chinese proficiency</div>
-        <div class="firstText" id="aboutUsBtn">了解我们</div>
+<div class="swiper-container-Banner">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" id="swiperBgimg1">
+            <div id="firstTextBox" >
+                <div class="firstText" id="firstTextZH">随时学 随地学 随意学</div>
+                <div class="firstText" id="firstTextEN">Anytime Anywhere Anyway</div>
+                <div class="firstText aboutUsBtn regBtn" langtag="swiperBtn">注册开启免费课程</div>
+            </div>
+        </div>
+        <div class="swiper-slide" id="swiperBgimg2">
+            <div id="firstTextBox" >
+                <div class="firstText" id="firstTextZH">最好的在线中文学校</div>
+                <div class="firstText" id="firstTextEN">Best online Mandarin School</div>
+                <div class="firstText aboutUsBtn regBtn" langtag="swiperBtn">注册开启免费课程</div>
+            </div>            
+        </div>
+        <div class="swiper-slide" id="swiperBgimg3">
+            <div id="firstTextBox" >
+                <div class="firstText" id="firstTextZH">最专业的中文教师团队</div>
+                <div class="firstText" id="firstTextEN">Native Chinese teachers, Professional team</div>
+                <div class="firstText aboutUsBtn regBtn" langtag="swiperBtn">注册开启免费课程</div>
+            </div>            
+        </div>
     </div>
+<!--    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>-->
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+</div>
+
 
 </div>
 <div id="RegisterBox">
-    <div id="TestEntry">测一测你的汉语水平</div>
-    <div id="loginBox">
-    <div id="ReTitle">注册即送两节课时卡</div>
+    <!-- <div id="TestEntry">测一测你的汉语水平</div> -->
+    <div id="loginBox" class="layui-form">
+    <div id="ReTitle" langtag="registerTitle">—注册即送两节课时卡—</div>
     <input id="username" name="username" class="loginInput"  type="text" placeholder="账户/username" lay-verify="required|username|pass">
     <input id="Password" type="password" class="loginInput" name=" password" placeholder="密码/password" lay-verify="required">
-    <div id="LoginBtn" lay-submit lay-filter="login">Sign In</div> 
+    <div id="LoginBtn" lay-submit lay-filter="login" langtag="SignBtn">Sign In</div> 
     <div id="RegistertextBox">
-        <div id="registerText">Don't have a Code School account?</div>
-        <a href="register.html" id="registerBtn">Create free account</a>
+        <div id="registerText"><a href="forget.html" langtag="Forgetpassword">Forget password ?</a></div>
+        <a href="register.html" id="registerBtn" langtag="CreateNewAccount">Create new account</a>
     </div>
     </div>       
 </div>
+
+<div id="classType">
+    <div id="classTypeTitle">
+            ARETALK 课堂
+    </div>
+    <div id="classTypePicBox">
+        <div class="classTypePic">
+            <div class="classTypeImgBox" id="classTypeNo1">
+                <div class="classTypeImgBoxText" langtag="1v1">一对一</div>
+            </div>
+            <div class="classTypeImgText">
+                <span class="textSpan" langtag="classType1">1对1在线中文课程</span>
+                <span class="textSpan" langtag="classType2">量身定制个人专属学习计划</span>
+            </div>
+        </div>
+        <div class="classTypePic">
+            <div class="classTypeImgBox" id="classTypeNo2">
+                <div class="classTypeImgBoxText" langtag="1v3">一对三</div>
+            </div>
+            <div class="classTypeImgText">
+                <span class="textSpan" langtag="classType3">3人小班课</span>
+                <span class="textSpan" langtag="classType4">师生多人课堂，互动交流</span>
+                <span class="textSpan" langtag="classType5">全世界同学成为朋友</span>
+            </div>
+        </div>
+        <div class="classTypePic">
+            <div class="classTypeImgBox" id="classTypeNo3">
+                <div class="classTypeImgBoxText" langtag="customization">定制班课</div>
+            </div>
+            <div class="classTypeImgText">
+                <span class="textSpan" langtag="classType6">定制班级中文班课</span>
+                <span class="textSpan" langtag="classType7">匹配海外学校学习课程</span>
+                <span class="textSpan" langtag="classType8">师生在线学中文</span>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="featuresTitleBox"  class="textBox">
-    <div class="featuresTitle Bigtitle">Aretalk online education features</div>
-    <div class="featuresTitle smTitle"><span id="blue">It's all online education</span>, and we're on the Internet</div>
+    <div class="featuresTitle Bigtitle" langtag="window">通往中文世界的一扇窗</div>
+    <div class="featuresTitle smTitle" langtag="journey">开启你的中文征程</div>
 </div>
 <div id="features" >
     <div class="featuresListBox">
@@ -63,9 +127,9 @@
                 <img src="img/icon (1).png" class="FeaturesIcon">
             </div>
             <div class="leftFeaturesText">
-                <span class="FeatruesTitle">地铁</span>
-                <span class="FeatruesDesc">让我们帮您充实</span>
-                <span class="FeatruesDesc">无聊的地铁时光</span>
+                <span class="FeatruesTitle" langtag="Teaching online">在线授课</span>
+                <span class="FeatruesDesc" langtag="Nolimitation">无地域和时间局限</span>
+                <span class="FeatruesDesc" langtag="Learningonline">随时随地在线学习</span>
             </div>
         </div>
         <div class="LeftfeaturesList">
@@ -73,19 +137,19 @@
                 <img src="img/icon (2).png" class="FeaturesIcon">
             </div>
             <div class="leftFeaturesText">
-                <span class="FeatruesTitle">公交</span>
-                <span class="FeatruesDesc">预期看窗外的风景</span>
-                <span class="FeatruesDesc">不如低头感受中国文化</span>
+                <span class="FeatruesTitle" langtag="Instant chat">即时聊天</span>
+                <span class="FeatruesDesc" langtag="native speaker">汉语母语者语音</span>
+                <span class="FeatruesDesc" langtag="Video communication">视频交流，沟通无忧</span>
             </div>
         </div>
         <div class="LeftfeaturesList">
             <div class="leftFeaturesIcon">
-                <img src="img/icon (5).png" class="FeaturesIcon">
+                <img src="img/icon (3).png" class="FeaturesIcon">
             </div>
             <div class="leftFeaturesText">
-                <span class="FeatruesTitle">家</span>
-                <span class="FeatruesDesc">只有在自己的小天地</span>
-                <span class="FeatruesDesc">静静的感受中文的魅力</span> 
+                <span class="FeatruesTitle" langtag="Bilingual radio">双语电台</span>
+                <span class="FeatruesDesc" langtag="24hours">7×24小时双语广播</span>
+                <span class="FeatruesDesc" langtag="All-day">全天候中文学习环境</span> 
             </div>
         </div>
     </div>
@@ -95,12 +159,22 @@
     <div class="featuresListBox">
         <div class="RightfeaturesList">
             <div class="rightFeaturesIcon">
-                <img src="img/icon (3).png" class="FeaturesIcon">
+                <img src="img/icon (4).png" class="FeaturesIcon">
             </div>
             <div class="rightFeaturesText">
-                <span class="FeatruesTitle">公园</span>
-                <span class="FeatruesDesc">午后精密的时光</span>
-                <span class="FeatruesDesc">适合穿越到古老的中国</span> 
+                <span class="FeatruesTitle" langtag="professional team">专业团队</span>
+                <span class="FeatruesDesc" langtag="UniversityTeachers">国内各大院校中文老师</span>
+                <span class="FeatruesDesc" langtag="starting teaching">英双语老师，起步教学</span> 
+            </div>
+        </div>
+        <div class="RightfeaturesList">
+            <div class="rightFeaturesIcon">
+                <img src="img/icon (5).png" class="FeaturesIcon">
+            </div>
+            <div class="rightFeaturesText">
+                <span class="FeatruesTitle" langtag="QandA">互动答疑</span>
+                <span class="FeatruesDesc" langtag="interact">老师、学生实时互动</span>
+                <span class="FeatruesDesc" langtag="ask online">不懂就问，在线答疑</span> 
             </div>
         </div>
         <div class="RightfeaturesList">
@@ -108,19 +182,9 @@
                 <img src="img/icon (6).png" class="FeaturesIcon">
             </div>
             <div class="rightFeaturesText">
-                <span class="FeatruesTitle">无时差</span>
-                <span class="FeatruesDesc">全天24小时</span>
-                <span class="FeatruesDesc">我们始终在线</span> 
-            </div>
-        </div>
-        <div class="RightfeaturesList">
-            <div class="rightFeaturesIcon">
-                <img src="img/icon (4).png" class="FeaturesIcon">
-            </div>
-            <div class="rightFeaturesText">
-                <span class="FeatruesTitle">购买课时</span>
-                <span class="FeatruesDesc">网站上所有的内容</span>
-                <span class="FeatruesDesc">想学哪个学那个</span> 
+                <span class="FeatruesTitle" langtag="advanced technology">前沿技术</span>
+                <span class="FeatruesDesc" langtag="technical team">专业技术团队</span>
+                <span class="FeatruesDesc" langtag="software">自主研发PC、手机APP软件</span> 
             </div>
         </div>
     </div>
@@ -129,18 +193,18 @@
 <div id="SwiperBox">
 
         <div id="SwiperTitleBox" class="textBox">
-            <div class="featuresTitle Bigtitle" id="SwiperBigtitle">Meet Our Teachers</div>
-            <div class="featuresTitle smTitle" id="SwipersmTitle">Here are some of the best teachers in aretalk</div>
+            <div class="featuresTitle Bigtitle" id="SwiperBigtitle" langtag="Our Chinese teacher">Our Chinese teacher</div>
+            <div class="featuresTitle smTitle" id="SwipersmTitle" langtag="part Chinese teacher">Aretalk part Chinese teacher introduction</div>
         </div>
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" id="bannerVideo"><img class="swiperIMG" src="img/teacher (1).png" ></div>
-                <div class="swiper-slide"><img class="swiperIMG" src="img/teacher (2).png" ></div>
-                <div class="swiper-slide"><img class="swiperIMG" src="img/teacher (3).png" ></div>
-                <div class="swiper-slide"><img class="swiperIMG" src="img/teacher (4).png" ></div>
-                <div class="swiper-slide"><img class="swiperIMG" src="img/teacher (5).png" ></div>
-                <div class="swiper-slide"><img class="swiperIMG" src="img/teacher (6).png" ></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher1" src="img/teacher(1)_en.png" id=""></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher2" src="img/teacher(2)_en.png" ></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher3" src="img/teacher(3)_en.png" ></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher4" src="img/teacher(4)_en.png" ></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher5" src="img/teacher(5)_en.png" ></div>
+                <div class="swiper-slide"><img class="swiperIMG" id="teacher6" src="img/teacher(6)_en.png" ></div>
             </div>
 
     <!-- 如果需要分页器 -->
@@ -155,24 +219,24 @@
 
 
 <div id="StepTitleBox" class="textBox">
-    <div class="featuresTitle Bigtitle">With three steps</div>
-    <div class="featuresTitle smTitle">you can contact the teacher at zero distance</div>
+    <div class="featuresTitle Bigtitle" langtag="Just3steps">只需3步</div>
+    <div class="featuresTitle smTitle" langtag="Zero distance">零距离接触中文老师</div>
 </div>
 
 
 <!-- ************************************************ -->
 <div id="learnStep">
-    <div class="stepImgBox" id="step1"><img src="img/step1.png" class="stepImg"></div>
-    <div class="stepImgBox" id="step2"><img src="img/step2.png" class="stepImg"></div>
-    <div class="stepImgBox" id="step3"><img src="img/step3.png" class="stepImg"></div>
+    <div class="stepImgBox" ><img src="img/Step1_en.png" class="stepImg" id="step1"></div>
+    <div class="stepImgBox" ><img src="img/Step2_en.png" class="stepImg" id="step2"></div>
+    <div class="stepImgBox" ><img src="img/Step3_en.png" class="stepImg" id="step3"></div>
 </div>
 
 <!-- ************************************************ -->
 <div id="regDoorBox">
     <div id="regDoorBtnBox">
-        <div id="regTitle" class="regText">开启汉语大门</div>
-        <div id="regText" class="regText">  注册即送两节课时卡，可用于购买aretalk所有直播小班课</div>
-        <div id="regbutton" class="regText">注 册</div>
+        <div id="regTitle" class="regText" langtag="Open door">开启汉语大门</div>
+        <div id="regText" class="regText" langtag="twocards">  注册即送两节课时卡，可用于购买aretalk所有直播小班课</div>
+        <div id="regbutton" class="regText regBtn" langtag="registerNow">注 册</div>
     </div>
 
 
@@ -188,6 +252,7 @@
 </body>
 
 <script src="lib/jquery.js"></script>
+<script src="lib/md5.js"></script>
 <script src="lib/lang/langchange.js"></script>
 <script src="lib/3Dbanner/js/imageflow.js"></script>
 <script src="lib/swiper/js/swiper.min.js"></script>

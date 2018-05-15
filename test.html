@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">    
+    <title>AreTalk - Test</title>
+    <link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/layui.css">
+    <link rel="stylesheet" href="lib/footer/footer.css">
+    <link rel="stylesheet" href="lib/header/header.css">
+    <link rel="stylesheet" href="css/test.css">    
+</head>
+<script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-55HN4K4');
+</script>
+    <!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<body>
+
+<header id="header" class="headerFloat">
+
+</header>
+
+
+	<div id="registerMain">
+		<div id="registerBox">
+			<div id="registerLeftImgBox" class="registerContent">
+				<img src="img/registerLeftImg.png" id="registerLeftImg">
+			</div>
+			<div id="registerForm" class="layui-form layui-form-pane">
+				<div id="registerTitle-Big" langtag="TestTag">为你免费测评中文能力</div>
+				<div id="registerTitle-sm" langtag="TestTag2">提交资料 与测评老师通话</div>
+
+				<div class="layui-inline" >
+  				<input type="text" id="username" name="userName" autocomplete="off" class="layui-input " lay-verify="required|username|pass" placeholder="your name">
+  			</div>
+
+        <div class="layui-inline" >
+          <input type="text" name="e-mail" autocomplete="off" class="layui-input " lay-verify="required|email" placeholder="e-mail">
+        </div>
+
+        <div class="layui-inline">
+            <select name="LivelandId" id="LivelandId" lay-filter="country" lay-verify="required">     <option  value="" langtag="country">country</option>
+            </select>
+        </div>   
+
+        <div class="layui-inline" >
+            <select lay-verify="required" name="countryId" id="PhoneNmuAre" >
+                  <option  value="" langtag="AreaNO">AreaNO</option>
+            </select>
+        </div>
+
+        <div class="layui-inline" >
+          <input type="text" name="phone" autocomplete="off" class="layui-input " lay-verify="required|number" placeholder="phone">
+        </div>  
+
+
+<!--                 <div id="StayLogin">
+ <input id="chk_protocol" type="checkbox" name="protocol" lay-skin="primary" lay-filter="protocol"  checked><span langtag="Agree">同意并遵守</span><a href="protocol.html" id="protocol" langtag="Terms">《服务条款》</a>
+ </div>  --> 
+			 	<div id="SignBtn" lay-submit lay-filter="subBtn" langtag="subBtn">提交</div>
+				</div>		
+		</div>
+
+
+	</div>
+
+</body>
+
+<script src="lib/jquery.js"></script>
+<script src="lib/lang/langchange.js"></script>
+<script src="lib/layui-v2.2.5/layui/layui.js"></script>
+<script src="lib/md5.js"></script>
+<script src="js/test.js"></script>
+</html>

@@ -1,0 +1,206 @@
+input::-ms-input-placeholder{text-align: center;font-size: 14px;color:#666;}
+input::-webkit-input-placeholder{text-align: center;font-size: 14px;color:#666;}
+#info{
+	width: 100%;
+	text-align: center;
+	height: 2vw;
+	line-height: 2vw;
+	margin: 2vw auto;
+	font-size: 1vw;
+	font-family: sans-serif;
+}
+#registerMain{
+	width: 100%;
+	margin: 6vw auto;
+}
+
+#registerBox{
+	width: 60%;
+	height: 42vw;
+	border-radius: 1vw 0 0 1vw;
+	margin: 0 auto;;
+}
+
+#registerForm{
+	width: 50%;
+	height: 80%;
+	float: left;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+#resetForm{
+	width: 50%;
+	height: 80%;
+	float: left;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;	
+}
+#registerLeftImgBox{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#registerLeftImg{
+	width: 100%;
+	height: 100%;
+	border-radius: 1vw 0 0 1vw;
+}
+
+.registerTitle-Big{
+	width: 100%;
+	text-align: center;
+	color: #5477db;
+	font-size: 2vw;
+	margin: 3vw 0  1vw;
+}
+.registerTitle-sm{
+	width: 100%;
+	text-align: center;
+	color: #f77e57;
+	font-size: 1.4vw;
+	margin: 1vw auto;;
+}
+.AreaNOFrom{
+	width: 50%!important;
+    margin-right:0px!important;
+	float: left;;
+}
+.AreaNOFrom .layui-input{
+	width: 100%!important;
+	margin: 0;
+	color: #666;
+}
+.layui-form-select .layui-input {
+    padding-right:0px;
+    cursor: pointer;
+}
+.layui-input {
+	border: 1px solid #c2c2c2!important;
+	border-radius: 6px!important;
+	height: 3vw;
+	box-sizing: content-box;
+	margin: 0.5vw 0;;
+}
+.layui-form-item {
+    margin-bottom: 15px;
+    clear: both;
+    width: 80%;;
+}
+.layui-inline {
+    width: 80%;;	
+}
+
+#sendCode{
+    height: 2vw;
+    line-height: 2vw;
+    padding: 0 10px;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0.8vw;;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 10px;
+    float: right;
+    right: 0;	
+	background-color: #f77e57;
+	width: 24%;
+	height:2vw;
+	border-radius: 10px;
+	color: #fff;
+	border: none;
+}
+
+#protocol{
+	color:#5476d9; 
+}
+#StayLogin{
+	width: 80%;
+	margin: 1vw;
+	font-size: 0.8vw;
+}
+#StayLogin span {
+    color: #666;
+    margin-left: 10px;
+}
+.layui-form-pane .layui-form-checkbox {
+    margin: 0;
+}
+#chk_protocol{
+
+}
+#SignBtn,#GetCode,#newpassword{
+    width: 70%;
+    height: 2.2vw;
+    background-color: #f77e57;
+    font-size: 1.2vw;
+    font-family: "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    line-height: 2.2vw;
+    border-radius: 5px;
+    margin: 1vw auto;;
+    cursor:pointer;
+}
+#haveAccount{width: 80%;
+	font-size: 1vw;
+	color: #404355;
+	margin: 1vw auto;
+	font-family: sans-serif;
+}
+#Already{
+
+}
+#SignIn{
+	text-decoration: underline;
+	color: #007aff;
+	margin-left: 1vw;
+}
+
+
+
+@media (max-width:1200px){
+
+#registerBox {
+	height: 50vw;
+	margin: 0 auto;
+	width: 70%;
+	border-radius: 1vw 0 0 1vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#registerForm{
+	width: 50%;
+	height: 80%;
+	float: left;
+	display: flex;
+	align-items: center;
+	flex-direction: column;;
+}	
+
+}
+
+
+@media (max-width:860px){
+
+#registerForm{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}	
+
+}

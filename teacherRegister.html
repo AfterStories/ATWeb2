@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="telephone=no,email=no" name="format-detection">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="UTF-8">
+<title>AreTalk</title>
+<head>
+<link rel="stylesheet" href="lib/css/reset.css">
+<link rel="stylesheet" href="lib/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="lib/css/jquery.fileupload.css">
+<link rel="stylesheet" href="lib/css/jquery.fileupload-ui.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/upload.css" media="all"> -->
+<link rel="stylesheet" href="lib/footer/footer.css">
+<link rel="stylesheet" href="lib/header/header.css">
+<link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/teacherRegister-layui.css">
+<link rel="stylesheet" href="css/RegisterTeacherInfo.css">
+</head>
+
+<body>
+
+<header id="header" class="headerFloat">
+
+</header>
+  
+<img class="splitImgDown" src="img/splitImgDown.png"/>
+  <div id="main" class="layui-form">
+
+    <div id="step">
+      <div class="progress-long" id="ServiceProvision" langtag="TeacherFromTittle3">教师服务条款</div>
+      <div class=" proFirst" id="Personal" langtag="TeacherFromTittle1">个人信息</div>      
+      <div class="proFinish" id="Finish" langtag="TeacherFromTittle4">完成</div>
+    </div>
+
+    <div class="PersonalInfo">
+        <div class="InfoTitle">
+          <span class="title1" langtag="TeacherFromTittle1">个人信息</span>
+          <span class="title2" langtag="baseInfoTitle">基本信息</span>
+        </div>
+        <div id="baseInfo" >
+              <div id="baseInfoFrom" class="layui-form-item">
+
+                  <div class="layui-inline" id="TelBox" style="width:100%;margin-right: 0px;">
+                    <label class="layui-form-label inputName" langtag="Phone">手机号</label>
+                    <div class="layui-input-inline">
+                      <select lay-verify="required" name="countryId" id="PhoneNmuAre" >
+                            <option  value="" langtag="AreaNO">区号/AreaNO</option>
+                      </select>
+                    </div>                    
+                    <div class="PhoneNum-inline">
+                      <input type="text" name="phoneNo" id="PhoneNumber" autocomplete="off" class="layui-input"  lay-verify="required|number" placeholder="接收短信验证码的手机号">
+                    </div>
+                  </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="username">用户名</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="text" id="username" name="userName" autocomplete="off" class="layui-input" lay-verify="required|username|pass" placeholder="请输入帐号用户名">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="password">密码</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="password" id="Tpassword" name="Tpassword" autocomplete="off" class="layui-input" placeholder="请为帐号设置密码" lay-verify="required">
+                  </div>
+                </div>                
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="realname">真实姓名</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="realname" id="realname" autocomplete="off" class="layui-input" placeholder="请输入真实姓名" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="Birthday">出生日期</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="Tbirthday" id="Tbirthday" autocomplete="off" class="layui-input" placeholder="点击选择你的生日" lay-verify="required">
+                  </div>
+                </div>                                                                      
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="E-mail">E-mail</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="text" name="email" autocomplete="off" class="layui-input" placeholder="请输入电子邮箱" lay-verify="required|email">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="CredentialInfo">证件信息</label>
+                  <div class="layui-input-inline input-short">
+                    <select name="certificate"  id="certificate" lay-verify="required">
+                      <option value="" langtag="select">请选择证件类型</option>
+
+                    </select>      
+                  </div>
+                </div>
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="CredentialNO">证件号码</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="certificateNum" autocomplete="off" class="layui-input" placeholder="请输入证件号码" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="Comefrom">来自</label>
+                  <div class="layui-input-inline input-short">
+                    <select name="motherlandId" id="motherlandId" lay-filter="country" lay-verify="required">                      
+						        <option value="" langtag="select">请选择</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="Provinces">省市</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="fromcity" autocomplete="off" class="layui-input" placeholder="来自州、省、市" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="Detailedadd">详细地址</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="text" name="fromdetail" autocomplete="off" class="layui-input" placeholder="请补充国籍详细地址" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="Liveadd">居住地</label>
+                  <div class="layui-input-inline input-short">
+                    <select name="LivelandId" id="LivelandId" lay-filter="country" lay-verify="required">                      
+						<option  value="" langtag="select">请选择</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="Provinces">省市</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="livecity" autocomplete="off" class="layui-input" placeholder="居住在州、省、市" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="Detailedadd">详细地址</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="text" name="livedetail" autocomplete="off" class="layui-input" placeholder="请补充详细居住地址" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="Contact">联系方式</label> 
+                  <div class="layui-input-inline input-short">
+                    <select name="contactWay" lay-verify="required" id="contactWay">
+                      <option value="" langtag="select">请选择联系工具</option>
+
+                    </select> 
+                  </div>
+                </div>
+                
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="IDNO">号码/ID</label>
+                  <div class="layui-input-inline input-short">
+                    <input type="text" name="contactNum" autocomplete="off" class="layui-input" placeholder="请输入联系工具的号码或ID" lay-verify="required">
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="VerificationCode">验证码</label>
+                  <div class="layui-input-inline input-long">
+                    <input type="text" name="IDcode" id="IDcode" autocomplete="off" class="layui-input" placeholder="请输入短信接收到的验证码" lay-verify="required">
+                  </div>
+                </div>                 
+                <div id="GetCodeBox">
+                  <button class="layui-btn" id="GetCode" onclick="GetCode()" langtag="SendVerificationCode">获取验证码</button>
+                </div>                
+              </div>
+        </div>
+
+
+    </div>
+        <div class="PersonalInfo" style="border-bottom:1px solid #bcbcbc">
+        <div class="InfoTitle" style="border: none">
+          <span class="title1" langtag="TeacherHeadIMG">教师头像照片</span>
+          
+        </div>
+        <div id="Document">
+          <div class="container">
+                       
+            
+            
+                         <!-- The file upload form used as target for the file upload widget -->
+            <form class="fileupload" id="exerciseSRC-upload" action="http://211.159.152.210:8188/AreTalkServer/Servlet/UploadHandleServlet" method="POST" enctype="multipart/form-data">
+                    <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                   
+                    <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                    <div class="row fileupload-buttonbar" id="uploadheadBox">
+                        <div class="col-lg-7">
+                            <!-- The fileinput-button span is used to style the file input field as button -->
+                            <!-- <input type="checkbox" class="toggle" style="margin-right:20px;"> -->
+                            <span class="btn btn-success fileinput-button">
+                                <i class="glyphicon glyphicon-plus"></i>
+                                <div id="uploadimg"><img id="preheadimg" src="img/+.png" alt="" /></div>
+                                <!-- The file input field used as target for the file upload widget -->
+                                <input id="fileupload" type="file" name="files[]" multiple>                                
+                            </span>
+                            <div id="fileuploadnote"><div class="uploadnotetext" langtag="HeadIMGNeed">照片要求：</div><div class="uploadnotetext" langtag="HeadIMGNeed2">修改头像需经过审核</div><div class="uploadnotetext" langtag="HeadIMGNeed3">图片格式只支持：JPG、PNG</div><div class="uploadnotetext" langtag="HeadIMGNeed4">文件大小不超过2M</div></div>
+
+                        </div>
+                        <!-- The global progress state -->
+                          <!-- The table listing the files available for upload/download -->
+                        <table role="presentation" class="table table-striped" id="uploadtable"><tbody class="files"></tbody></table>
+                    </div>
+                    <div id="truedemo" class="uploaddemobox" align="center">
+                      <img class="demotittleimg" src="img/truedemo.png" alt="" />
+                      <div class="demotitele">
+                          <div class="everdemotitle" langtag="HeadIMGDemo1">第一印象是非常重要的</div>
+                          <div class="everdemotitle" langtag="HeadIMGDemo2">请参考正确示范事例</div>
+                      </div>
+                      <div class="demoimgBox">
+                        <img src="img/true1.jpg" alt="" class="demoimg" />
+                        <img src="img/true2.jpg" alt="" class="demoimg" />
+                        <img src="img/true3.jpg" alt="" class="demoimg" />
+                      </div>
+                      <div id="mypiclimit">
+                          <div class="everdemotitle" langtag="HeadIMGDemo3">我的基本照片要求：</div>
+                          <div class="everdemotitle" langtag="HeadIMGDemo4">上传近期本人正面清晰照片，不要上传合影照片</div>
+                          <div class="everdemotitle" langtag="HeadIMGDemo5">头像不允许涉及政治敏感与色情</div>
+                      </div>
+
+
+                    </div>
+                    <div id="falsedemo" class="uploaddemobox" align="center">
+                      <img class="demotittleimg" src="img/falsedemo.png" alt="" />
+                      <div class="demotitele">
+                          <div class="everdemotitle" langtag="HeadIMGDemo6">请不要使用类似以下情况的照片</div>
+                      </div>
+                      <div class="demoimgBox">
+                        <img src="img/false1.jpg" alt="" class="demoimg" />
+                        <img src="img/false2.jpg" alt="" class="demoimg" />
+                        <img src="img/false3.jpg" alt="" class="demoimg" />
+                      </div>
+                    </div>
+
+                </form>
+                <br>
+            
+            </div>
+
+            
+            
+            <!-- The template to display files available for upload -->
+            <script id="template-upload" type="text/x-tmpl">
+            {% for (var i=0, file; file=o.files[i]; i++) { %}
+                <tr id="filetr" class="template-upload fade">
+                  <!--   <td ><input type="checkbox" name="delete" value="1" class="toggle" ></td> -->
+                    <td>
+                        <div class="preview"></div>
+                          <br />
+                        {% if (!i && !o.options.autoUpload) { %}
+                            <button class="btn btn-primary start" disabled langtag="UploadBtn">上传</button>
+                        {% } %}
+                        {% if (!i) { %}
+                            <button class="btn btn-warning cancel" onclick="cancelupload()" langtag="cancelBtn">取消</button>
+                        {% } %}
+                    </td>                      
+                    
+
+
+                </tr>
+            {% } %}
+            </script>
+            <!-- The template to display files available for download -->
+            <script id="template-download" type="text/x-tmpl">
+            {% for (var i=0, file; file=o.files[i]; i++) { %}
+                <tr class="template-download fade">
+  <!--                     <td>
+                        <span class="preview">
+                            {% if (file.thumbnailUrl) { %}
+                                <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img           src="{%=file.thumbnailUrl%}"></a>
+                            {% } %}
+                        </span>
+                    </td>
+                      <td>
+                        <p class="name">
+                            {% if (file.url) { %}
+                                <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}"            {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
+                            {% } else { %}
+                                <span>{%=file.name%}</span>
+                            {% } %}
+                        </p>
+                        {% if (file.error) { %}
+                            <div><span class="label label-danger">Error</span> {%=file.error%}</div>
+                        {% } %}
+                    </td>
+                <td>
+                        <span class="size">{%=o.formatFileSize(file.size)%}</span>
+                    </td> 
+                    <td>
+                      {% if (file.deleteUrl) { %}
+                            <button class="btn btn-danger delete" data-type="{%=file.deleteType%}"          data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %}           data-xhr-fields='{"withCredentials":true}'{% } %}>
+                                <i class="glyphicon glyphicon-trash"></i>
+                                <span>Delete</span>
+                            </button>
+                            
+                        {% } else { %} -->
+                            <button class="btn btn-warning cancel">
+                                <i class="glyphicon glyphicon-ban-circle"></i>
+                                <span langtag="cancelBtn">取消</span>
+                            </button>
+                        {% } %}
+                    </td>
+                </tr>
+            {% } %}
+            </script>  
+
+
+
+
+
+      
+        </div>
+
+        </div>
+    <div class="PersonalInfo">
+        <div class="InfoTitle" style="border: none">
+          <span class="title1" langtag="MyLang1">我的语言</span>
+          <span class="title2" langtag="MyLang2">请认真填写语言水平，以免影响审核结果</span>
+        </div>
+        <div id="KnowLangInfo">
+              <div id="KnowLangFrom" class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="MyLang3">你的母语</label>
+                  <div class="layui-input-inline input-long">
+                    <select name="motherLang" id="motherLangSelect" lay-verify="required">
+                      <option value="" langtag="select">请选择你的母语</option>
+
+                    </select>  
+                  </div>
+                </div>
+                <div class="addBox">
+                <div class="layui-inline">
+                  <label class="layui-form-label" langtag="MyLang4">掌握语言</label>
+                  <div class="layui-input-inline input-short">
+                    <select class="KnowLang" name="KnowLang1" id="KnowLangSelect" lay-verify="required">
+                      <option value="" langtag="select">请选择你掌握语言</option>
+
+                    </select>      
+                  </div>
+                </div>
+                <div class="layui-inline input-right">
+                  <label class="layui-form-label" langtag="MyLang5">等级</label>
+                  <div class="layui-input-inline input-short">
+                    <select class="KnowLangLv" name="KnowLangLv1" id="LangLvSelect" lay-verify="required">
+                      <option value="" langtag="select">请选择语言等级</option>
+                      <option value="1" langtag="MyLang6">初级</option>
+                      <option value="2" langtag="MyLang7">中级</option>
+                      <option value="3" langtag="MyLang8">高级</option>
+
+                    </select>  
+                  </div>
+                </div>
+             </div>
+              </div>
+              <div class="addBtn" id="addKnowLang">
+                <img class="addBtnImg" src="img/add.png" alt="" />
+              </div>               
+        </div>
+    </div>
+<!--     <div class="PersonalInfo">
+    <div class="InfoTitle" style="border: none">
+      <span class="title1" langtag="MyBankInfo1">我的银行卡</span>
+      <span class="title2" langtag="MyBankInfo2">请认真填写银行卡号，确保及时收到汇款</span>
+    </div>
+    <div id="bankInfo">
+          <div id="bankInfoFrom" class="layui-form-item">
+            <div class="layui-inline">
+              <label class="layui-form-label" langtag="realname">真实姓名</label>
+              <div class="layui-input-inline input-long">
+                <input type="text" name="bankName" autocomplete="off" class="layui-input" placeholder="请输入真实姓名" lay-verify="required">
+              </div>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label" langtag="MyBankInfo3">选择银行</label>
+              <div class="layui-input-inline input-short">
+                <select name="bank"  id="BankSelect" lay-verify="required">
+                        <option value="" langtag="select">请选开户银行</option>
+                </select>    
+              </div>
+            </div>
+            <div class="layui-inline input-right">
+              <label class="layui-form-label" langtag="MyBankInfo4">预留电话</label>
+              <div class="layui-input-inline input-short">
+                <input type="text" name="bankPhone" autocomplete="off" class="layui-input" placeholder="请输入银行卡预留电话号码" lay-verify="required">
+              </div>
+            </div>
+
+            <div class="layui-inline">
+              <label class="layui-form-label" langtag="MyBankInfo5">银行帐号</label>
+              <div class="layui-input-inline input-long">
+                <input type="text" name="BankCardID" autocomplete="off" class="layui-input" placeholder="请填写银行帐号" lay-verify="required">
+              </div>
+            </div>
+          
+          </div>
+    </div>
+
+
+</div> -->
+    <div class="PersonalInfo" align="center">
+      <div lay-submit lay-filter="sendFrom" id="sendFrom" class="layui-btn layui-btn-normal" langtag="NEXT">提交并继续</div>
+    </div>   
+    </div> 
+	<footer>
+		
+	</footer>
+<script src="lib/jquery.js"></script>
+<script src="lib/md5.js"></script>
+<script src="lib/lang/langchange.js" type="text/javascript"></script>
+<script src="lib/layui-v2.2.5/layui/layui.js"></script>
+
+
+<script src="lib/vendor/jquery.ui.widget.js"></script>
+<script src="lib/tmpl.min.js"></script>
+<!-- The Load Image plugin is included for the preview img and image resizing functionality -->
+<script src="lib/load-image.all.min.js"></script>
+<!-- The Canvas to Blob plugin is included for image resizing functionality -->
+<script src="lib/canvas-to-blob.min.js"></script>
+<!-- blueimp Gallery script -->
+<script src="lib/jquery.blueimp-gallery.min.js"></script>
+<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+<script src="lib/jquery.iframe-transport.js"></script>
+<!-- The basic File Upload plugin -->
+<script src="lib/jquery.fileupload.js"></script>
+<!-- The File Upload processing plugin -->
+<script src="lib/jquery.fileupload-process.js"></script>
+<!-- The File Upload image preview & resize plugin -->
+<script src="lib/jquery.fileupload-image.js"></script>
+<!-- The File Upload audio preview plugin -->
+<script src="lib/jquery.fileupload-audio.js"></script>
+<!-- The File Upload video preview plugin -->
+<script src="lib/jquery.fileupload-video.js"></script>
+<!-- The File Upload validation plugin -->
+<script src="lib/jquery.fileupload-validate.js"></script>
+<!-- The File Upload user interface plugin -->
+<script src="lib/jquery.fileupload-ui.js"></script>
+<!-- The main application script -->
+<script src="lib/uploadmain.js"></script>
+<script src="js/Teacherregister.js" type="text/javascript"></script>
+
+</body>
+</html>

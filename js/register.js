@@ -1,4 +1,4 @@
-var AjaxURL = 'http://211.159.152.210:8188'
+
 var protocol;
 var sexinput ;
 var username;
@@ -6,9 +6,18 @@ var PhoneNumber;
 var fromValue;
 var PhoneArea;
 var wait=60;  
-
+var extendCode;
+var secondDomain = {};
 
 $(document).ready(function(){
+
+
+  var locationURL = 'https://weibo.com/CrushStories/home?leftnav=1'/*window.location.href;*/
+  locationURL = locationURL.split(".")[0].split("//")[1];
+  console.info(locationURL)
+ 
+
+
     var Language = getCookie("Language");
 
     $("header").load("lib/header/header.html",function(){
@@ -37,7 +46,6 @@ $(document).ready(function(){
 
 
 
-
 $(".headerNav").mouseover(function(){
   $(this).find(".botterLine").addClass("activeLine");
 });
@@ -50,24 +58,31 @@ $(".headerNav").mouseout(function(){
 
 
 
-//获取电话区号
-$.ajax({                    
-        type:'GET',
-        data:{},       
-        url: 'http://211.159.152.210:8188/AreTalkServer/Verify/getCountryAreacode.action',
-        success:function(data) {
-          
-              for (var i = 0;i<data.data.areacode.length; i++) {
-               var areacode = '<option value="'+data.data.areacode[i].countryId+'">'+data.data.areacode[i].countryName+' +'+data.data.areacode[i].areaCode+'</option>';
-               $('#PhoneNmuAre').append(areacode);                              
-                  var form = layui.form;
-                  form.render(); //更新全部
-                }
-            },
-        error: function () {                  
+    $.ajax({
+          type:'GET',
+          data:{},       
+          url: AjaxURL+'/AreTalkServer/Web/Api/getCommonTable.action',
+          success:function(data) {
 
-      }                        
-}); 
+          for(item in data.data.promoterList){
+              secondDomain[data.data.promoterList[item].secondDomain] = data.data.promoterList[item].extendCode
+          }
+            extendCode = secondDomain[locationURL];
+           
+            if(!extendCode){
+              extendCode = null;
+            }
+             console.log(extendCode);
+          },            
+          
+          error:function() {
+                
+          }   
+
+    });
+
+
+
 
 
 
@@ -76,9 +91,19 @@ $.ajax({
 
 
 //回到顶端
-function backToTop() {
-    window.scrollTo(0,0);
-}
+function backToTop() {  
+    $('html,body').animate({  
+        scrollTop: 0  
+    }, 1000);  
+}  
+
+$(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */  
+    if ($(window).scrollTop() > $(window).height())  
+        $("#TopButton").fadeIn();  
+    else  
+        $("#TopButton").fadeOut();  
+});  
+$(window).trigger('scroll');/*触发滚动事件，避免刷新的时候显示回到顶部按钮*/  
 
 
 
@@ -87,15 +112,35 @@ layui.use(['layer', 'form','laydate'], function(){
     var layer = layui.layer;
     var form = layui.form;
 
+
+//获取电话区号
+$.ajax({                    
+        type:'GET',
+        data:{},       
+        url: AjaxURL+'/AreTalkServer/Verify/getCountryAreacode.action',
+        success:function(data) {
+          
+              for (var i = 0;i<data.data.areacode.length; i++) {
+               var areacode = '<option value="'+data.data.areacode[i].countryId+'">'+data.data.areacode[i].countryName+' +'+data.data.areacode[i].areaCode+'</option>';
+               $('#PhoneNmuAre').append(areacode);                              
+                }
+                  form.render(); //更新全部
+            },
+        error: function () {                  
+
+      }                        
+}); 
+
+
+
+
 form.on('checkbox(protocol)', function(data){ 
   protocol = data.elem.checked;
 });//勾选条款
 
 
 form.on('submit(getCode)', function(data){
-
-  PhoneArea = data.field.countryId;
-  GetCode();
+  GetCode(data.field.userName,data.field.phoneNo,data.field.countryId);
 });  
 
 form.on('submit(register)', function(data){
@@ -123,6 +168,9 @@ form.verify({
     if(/(^\_)|(\__)|(\_+$)/.test(value)){
       return '用户名首尾不能出现下划线\'_\'';
     }
+    if ( /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(value) ) {
+       return '不允许使用中文';
+    }    
 
   }
   
@@ -145,7 +193,7 @@ var IDcode = $("#IDcode").val();
 fromValue.password = hex_md5(fromValue.password);
 fromValue.userName = fromValue.userName.toLowerCase();
 fromValue.phoneNo = fromValue.phoneNo.replace(/\b(0+)/gi,"");//去掉开头为0的
-
+fromValue.extendCode = extendCode;
 if (!fromValue.protocol) {
     alert("请您阅读后确认同意并勾选《服务条款》")
 }
@@ -158,8 +206,8 @@ console.log(fromValue);
         url: AjaxURL+'/AreTalkServer/Web/Login/register.action?userType=1',
         success:function(data) {
             if(data.data.status=="success"){          
-              alert("注册成功");
-              window.location.href='Login.html';
+              alert("success");
+              window.location.href='index.html';
               
             }else{
               layer.msg('请重试',{time:1500});
@@ -179,27 +227,13 @@ console.log(fromValue);
 
 
 var checkInfoValid;
-function GetCode(){
-
-    username = $("#username").val();
-    PhoneNumber = $("#PhoneNumber").val().replace(/\b(0+)/gi,"");
-
-    var PhoneLocaltion = $('#PhoneNmuAre option:selected').val();//Select选中的值
-
-    console.log(PhoneNumber);
-    console.log(username);
-
-
-
-/*
-  if (username&&PhoneNumber){
-
+function GetCode(username,PhoneNumber,PhoneLocaltion){
 
       $.ajax({
           async:false,
               type:'POST',
-              data:{userName:username,phoneNo:PhoneNumber,type:1},       
-              url: 'http://211.159.152.210:8188/AreTalkServer/Web/Login/checkInfoValid.action',
+              data:{userName:username,phoneNo:PhoneNumber,type:1},//type,T:0,stu:0
+              url: AjaxURL+'/AreTalkServer/Web/Login/checkInfoValid.action',
               success:function(data) {
                   
                   if(data.data.status=="success"){
@@ -209,7 +243,7 @@ function GetCode(){
                           async:false,                  
                           type:'POST',
                           data:{countryId:PhoneLocaltion,phoneNo:PhoneNumber,type:1},       
-                          url: 'http://211.159.152.210:8188/AreTalkServer/Verify/sendPhoneNoVerifyCode.action',
+                          url: AjaxURL+'/AreTalkServer/Verify/sendPhoneNoVerifyCode.action',
                           success:function(data) {
                                 if (data.data.status=="success") {
                                     time();
@@ -238,11 +272,7 @@ function GetCode(){
               }                        
           }); 
 
-  }else{
-  
-    layer.msg('用户名或手机号不得为空，请重试',{time:1500});
-  }
-*/
+
 
 
 

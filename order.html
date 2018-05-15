@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>AreTalk</title>
+    <link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/layui.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+  <div id="OrderPage">
+    
+
+<div id="OrderForm">
+  <div id="pleasesure">
+    您即将付款购买AreTalk课程套餐，请确认相关信息
+  </div>
+  <div id="orderInfo">
+<blockquote class="layui-elem-quote">付款名称<span class="packSpan" id="packageName">一年卡A套餐</span></blockquote>
+<blockquote class="layui-elem-quote">课时<span class="packSpan" id="packLessons">72+4</span></blockquote> 
+<blockquote class="layui-elem-quote">有效期(年)<span class="packSpan" id="packValidity">2 </span></blockquote>    
+   
+  </div>
+</div>
+<div id="main">
+<!--   <div id="payType">
+  <div id="paypalBtn">
+    <img src="img/paypal.jpg" alt="paypal" id="paypalImg">
+  </div>
+<div id="weChatBtn"></div>
+<div id="aliPayBtn"></div>
+</div> -->
+  <div id="paypal" class="layui-form">
+      <div class="layui-form-item">
+        <label class="layui-form-label">Currency</label>
+          <div class="layui-input-block">
+            <select name="interest" id="Currency" lay-filter="Currency" lay-verify="required">
+              <option value="">please choose currency</option>
+            </select>
+          </div>
+      </div>
+<div id="packagePriceBox">
+  <span>Price:</span>
+  <span id="packagePrice">please choose currency</span>
+</div>
+
+<button class="layui-btn layui-btn-normal" lay-submit lay-filter="sure" id="SureBtn">Confirmation</button>
+<button id="cancel" class="layui-btn layui-btn-primary layui-btn-disabled">cancel</button>
+
+<div id="paypal-button" style="display:none"></div>
+
+  </div>  
+</div>
+  </div>
+
+  <div id="OrderSuccess" >
+
+      <div id="OrderIcon">
+        <div id="orderIdBox">
+          OrderId:20182018201821A
+        </div>
+        <i id="loading" class="layui-icon layui-icon-loading layui-icon layui-anim layui-anim-rotate layui-anim-loop"></i>
+
+        <img src="img/truedemo.png" id="duihao">
+        
+        <div id="OrderIconText">
+          <div id="OrderSuccessTittle" class="SuccessAlert">
+            Success
+          </div>
+          <div class="SuccessAlert" id="timeBox">AreTalk is dealing with your payment</br>Please wait a moment</div>
+         
+        </div>
+      </div>
+  </div>
+
+</body>
+
+<script src="lib/jquery.js"></script>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="lib/lang/langchange.js"></script>
+<script src="lib/layui-v2.2.5/layui/layui.js"></script>
+<script src="js/order.js"></script>
+</html>

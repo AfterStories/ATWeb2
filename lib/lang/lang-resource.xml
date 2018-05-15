@@ -1,4 +1,488 @@
 <content>
+<text id="1v1">
+	<zh>一对一</zh>
+	<en>1v1</en>
+</text>
+<text id="1v3">
+	<zh>一对三</zh>
+	<en>1v3</en>
+</text>
+<text id="classType1">
+	<zh>1对1在线中文课程</zh>
+	<en>1 to 1 online Chinese Course</en>
+</text>
+<text id="classType2">
+	<zh>量身定制个人专属学习计划</zh>
+	<en>Tailor-made personal study plan</en>
+</text>
+<text id="classType3">
+	<zh>3人小班课</zh>
+	<en>A class of 3 people</en>
+</text>
+<text id="classType4">
+	<zh>师生多人课堂，互动交流</zh>
+	<en>Teachers and students communication</en>
+</text>
+<text id="classType5">
+	<zh>全世界同学成为朋友</zh>
+	<en>All over the world become friends</en>
+</text>
+<text id="classType6">
+	<zh>定制班级中文班课</zh>
+	<en>Custom class Chinese class</en>
+</text>
+<text id="classType7">
+	<zh>匹配海外学校学习课程</zh>
+	<en>Courses in overseas schools</en>
+</text>
+<text id="classType8">
+	<zh>师生在线学中文</zh>
+	<en>Teachers and students online</en>
+</text>
+
+<text id="contact">
+	<zh>内容</zh>
+	<en>contact</en>
+</text>
+<text id="ContactTitle">
+	<zh>标题</zh>
+	<en>Title</en>
+</text>		
+<text id="iosStore">
+	<zh>苹果App store</zh>
+	<en>App store</en>
+</text>	
+<text id="TestTag">
+	<zh>为你免费测评中文能力</zh>
+	<en>Test the Chinese language for free</en>
+</text>
+<text id="TestTag2">
+	<zh>提交资料 与测评老师通话</zh>
+	<en>Submitting information and talking to the assessment teacher</en>
+</text>
+
+<text id="abouttext1">
+	<zh>Aretalk教育科技有限公司于2015年2月在英国伦敦注册成立，致力于全球在线中文教育、中文教材研发和出版、互联网软件开发和运营、中国传统文化推广。 公司坐落在英国伦敦皇家格林威治区的凤凰之家，南临泰晤士河，与金丝雀码头和伦敦新金融城隔岸相望，为一栋三层意大利风格的英国国家文物二级保护建筑，共2500平方米，设有全英最大的中文书店和全景艺术展厅。同时，抱着让全世界都说汉语的愿望，我们Aretalk也与伦敦凤凰之家，联手合作成立了“中国文化体验中心”项目，为在英国的中文爱好者提供了一个展示中华传统文化的机会，和增进对中国及中文了解的机会。</zh>
+	<en>
+		Aretalk Education Technology Co., Ltd. was established in London in February 2015. It is dedicated to the global online Chinese education, the development and publication of Chinese textbooks, the development and operation of Internet software, and the promotion of Chinese traditional culture. The company is located in the Phoenix House, Royal Greenwich, London, in the south of Thames River, on the other side of the Canary Wharf and the new London Financial City. It is a three story Italian style two grade British National antiquities protection building, with a total of 2500 square meters with the largest Chinese bookstore and panoramic art exhibition. At the same time, with the desire to make the whole world speak Chinese, Aretalk, together with the Phoenix home in London, has also worked together to establish the "Chinese cultural experience center" project, providing a chance for Chinese Chinese enthusiasts to show Chinese traditional culture and enhance understanding of Chinese and Chinese.
+	</en>
+</text>
+
+<text id="abouttext2">
+	<zh>公司合影</zh>
+	<en>Company photo</en>
+</text>	
+<text id="StartLearning">
+	<zh>开始学习</zh>
+	<en>Start learning</en>
+</text>	
+<text id="contentTitle1">
+	<zh>需要更多信息请填写下表并发送，我们会在24小时内联系</zh>
+	<en>For more information, please fill out the form below and send it. We will contact you within 24 hours.</en>
+</text>	
+<text id="join1">
+	<zh>成为Aretalk全球合作伙伴</zh>
+	<en>Becoming a Aretalk global partner
+</en>
+</text>	
+<text id="join2">
+	<zh>AreTalk旨在传播弘扬中华文化，秉承让全世界人都说汉语的愿望，我们希望在多个国家签署合作伙伴，如果您对我们从事的行业感兴趣并符合以下条件的话，请及时与我们联系吧！</zh>
+	<en>AreTalk aims to disseminate Chinese culture and uphold the desire to speak Chinese all over the world. We hope to sign partners in many countries. If you are interested in the industry we are engaged in and meet the following conditions, please contact us in time.
+
+</en>
+</text>
+<text id="teacherlogin">
+	<zh>AreTalk 教师登录</zh>
+	<en>AreTalk teacher sign in
+</en>
+</text>
+
+<text id="teachermanagement">
+	<zh>教师管理系统</zh>
+	<en>Teacher management system</en>
+</text>	
+<text id="">
+	<zh></zh>
+	<en></en>
+</text>	
+
+
+<text id="Filesize">
+	<zh>文件大小：</zh>
+	<en>Filesize：</en>
+</text>	
+<text id="NoteTitle">
+	<zh>注意事项：</zh>
+	<en>Notice：</en>
+</text>
+
+<text id="downtag1">
+	<zh>网络电台：7*24 轮播中英文双语电台</zh>
+	<en>Network radio: Chinese and English bilingual radio stations on 7*24</en>
+</text>
+<text id="downtag2">
+	<zh>全球社交：在线交流，全球中文学习者成为同学伙伴</zh>
+	<en>Global social networking: online communication, global Chinese learners become classmates
+</en>
+</text>
+<text id="downtag3">
+	<zh>互动课堂：互动教学，双语录制、双语字幕</zh>
+	<en>Interactive Classroom: interactive teaching, bilingual recording, bilingual subtitles
+</en>
+</text>
+<text id="downtag4">
+	<zh>在线作业：文字、图片、音频混合组成的题库用于语言能力测试、课后作业、模拟考试</zh>
+	<en>Online homework: a question bank consisting of text, picture and audio is used for language proficiency test, after class homework and simulation test.
+</en>
+</text>
+<text id="downtag5">
+	<zh>Windows7以上操作系统/iPhone IOS 9.0以上/Android 系统版本4.0以上</zh>
+	<en></en>
+</text>
+<text id="downtag6">
+	<zh>1.课程进行中禁止拔插耳机、耳麦等接收设备，避免因拔插设备造成重启课程软件或浏览器等情况的发生；</zh>
+	<en>1. in the course of the course, it is prohibited to plug and receive earphones and headphones, so as to avoid the occurrence of reboot software or browsers.
+</en>
+</text>
+<text id="downtag7">
+	<zh>2.课程进行中尽量避免多人同时共用网络观看电影或下载娱乐视频等;</zh>
+	<en>2.try to avoid many people watching movies or downloading entertainment videos at the same time.</en>
+</text>
+<text id="downtag8">
+	<zh>3.如需更换相关课程，请联系助教教师进行网络辅助测试。</zh>
+	<en>3. if you need to replace the related courses, please contact the assistant teachers for the network supplementary test.</en>
+</text>
+
+<text id="InternationalTeam">
+	<zh>国际团队</zh>
+	<en>International team</en>
+</text>
+<text id="InternationalTeam2">
+	<zh>Aretalk联合美国、英国、澳洲、美洲、东南亚、中国等多方教育研究团队，共同打造独具特色的生态中文教学体系。
+	</zh>
+	<en>Aretalk combined with the United States, Britain, Australia, the Americas, Southeast Asia, China and other educational research teams, together to create a unique ecological Chinese teaching system. 
+	</en>
+</text>
+<text id="InternationalTeam3">
+	<zh>Aretalk提高海外学生中文学习的能力与热情，实现中文的自信、流利表达。</zh>
+	<en>Aretalk enhances the ability and enthusiasm of overseas students to learn Chinese, and achieves self-confidence and fluency in Chinese.</en>
+</text>
+<text id="SmallLesson">
+	<zh>小班课</zh>
+	<en>Mini Class</en>
+</text>
+<text id="SmallLessonjiesao">
+	<zh>30分钟每课时，一对三小班课，低至30元每节</zh>
+	<en>30 Minutes per class: less than 3￡/5＄ per class</en>
+</text>
+<text id="OnetoOnejiesao">
+	<zh>30分钟每课时，一对一小班课，低至80元每节</zh>
+	<en>30 Minutes per class: less than   8￡/13＄ per class</en>
+</text>
+
+<text id="goodsType5">
+	<zh>一年卡A套餐</zh>
+	<en>Package A</en>
+</text>
+<text id="goodsType6">
+	<zh>一年卡B套餐</zh>
+	<en>Package B</en>
+</text>
+
+<text id="goodsType1">
+	<zh>一年卡A套餐</zh>
+	<en>Package A 
+</en>
+</text>
+<text id="goodsType2">
+	<zh>一年卡B套餐</zh>
+	<en>Package B
+</en>
+</text>
+<text id="goodsType3">
+	<zh>二年卡A套餐</zh>
+	<en>Package C
+</en>
+</text>
+<text id="goodsType4">
+	<zh>二年卡B套餐</zh>
+	<en>Package D
+</en>
+</text>
+
+<text id="cardTime">
+	<zh>课时：</zh>
+	<en>Lessons:</en>
+</text>
+<text id="period">
+	<zh>有效期：</zh>
+	<en>Validity:</en>
+</text>
+<text id="Year">
+	<zh>年</zh>
+	<en>Year</en>
+</text>
+<text id="oneYear">
+	<zh>一年</zh>
+	<en>1 Year</en>
+</text>
+<text id="twoYear">
+	<zh>二年</zh>
+	<en>2 Years</en>
+</text>
+<text id="priceText">
+	<zh>价格：</zh>
+	<en>Price：</en>
+</text>
+<text id="cardBuyBtn">
+	<zh>购 买</zh>
+	<en>Buy now</en>
+</text>
+<text id="courseMain1">
+	<zh>学好汉语，走向成功。AreTalk中文在线教程覆盖基础拼音、汉字、基础对话、YCT以及商务汉语等，为各个不同基础的汉语学习者制定了相应的课程计划，同时，我们也会对学生进行汉语测试，根据水平相对应的语言能力级别选择适合您的课程。</zh>
+	<en>Learn Chinese well and go to success. The AreTalk Chinese online course covers basic Pinyin, Chinese characters, basic dialogues, YCT and business Chinese, and sets up a corresponding course plan for various Chinese learners of different bases. At the same time, we will also test the students in Chinese and choose the appropriate course according to the level of the corresponding language energy level.</en>
+</text>	
+<text id="courseTitle">
+	<zh>给你呈现最完善的汉语学习系统</zh>
+	<en>Give you the most perfect Chinese learning system</en>
+</text>
+<text id="customisedTitle">
+	<zh>海外教学机构定制中文课程</zh>
+	<en>Online Customised Chinese teaching Programme </en>
+</text>
+<text id="customisedSmTitle1">
+	<zh>中文教学供应商解决方案</zh>
+	<en>Online Chinese teaching for overseas institution</en>
+</text>
+<text id="customisedSmTitle2">
+	<zh>专属在线中文教学平台，标准中文教学团队，科学系统教学内容</zh>
+	<en>Exclusive online Chinese teaching platform, professional Chinese teaching team, scientific teaching content</en>
+</text>	
+<text id="customisedSmTitle3">
+	<zh>为全球中文教学机构提供保障支持</zh>
+	<en>Support Chinese teaching institutions globally.</en>
+</text>	
+<text id="everystep1">
+	<zh>品牌</zh>
+	<en>Brand</en>
+</text>	
+<text id="everystep2">
+	<zh>师资</zh>
+	<en>Resource</en>
+</text>	
+<text id="everystep3">
+	<zh>课程</zh>
+	<en>Course</en>
+</text>	
+<text id="everystep4">
+	<zh>教学</zh>
+	<en>Teaching</en>
+</text>	
+<text id="everystep5">
+	<zh>互动</zh>
+	<en>Interaction</en>
+</text>	
+<text id="everystep6">
+	<zh>平台</zh>
+	<en>Platform</en>
+</text>	
+
+<text id="customisedLi1">
+	<zh>搭建自主品牌在线中文教育平台</zh>
+	<en>Independent online Chinese education brand</en>
+</text>
+<text id="customisedLi2">
+	<zh>SaaS智能后台，学员、课程、复习、作业、财务管理与数据分析一键操作</zh>
+	<en>SaaS solution, students, courses, review, homework, financial management and data analysis one-touch operation</en>
+</text>
+<text id="customisedLi3">
+	<zh>科学系统的中文教学内容</zh>
+	<en>Scientific Chinese teaching system</en>
+</text>
+<text id="customisedLi4">
+	<zh>在线教学全面覆盖PC端、手机端</zh>
+	<en>Online teaching through PC and smart phone APP</en>
+</text>
+<text id="customisedLi5">
+	<zh>专业中文教师库，中文教师+中文教学培训</zh>
+	<en>Professional Chinese teachers + Chinese teaching training programme</en>
+</text>
+<text id="customisedLi6">
+	<zh>完善的市场支持和运营服务</zh>
+	<en>Market support and operation service</en>
+</text>
+<text id="customisedSmTitle4">
+	<zh>双师互动中文课堂解决方案</zh>
+	<en>Online interactive Chinese class</en>
+</text>
+<text id="customisedSmTitle5">
+	<zh>全新的教学模式 定制中文学习方案</zh>
+	<en>Comprehensive teaching mode, customized Chinese learning program</en>
+</text>
+<text id="customisedSmTitle6">
+	<zh>海外教育机构定制专属中文课程</zh>
+	<en>Customized Chinese courses for overseas education institutions</en>
+</text>
+<text id="customisedSmTitle7">
+	<zh>打造本地中文在线教学基地</zh>
+	<en>Create a local Chinese online teaching station</en>
+</text>
+<text id="customisedSmTitle8">
+	<zh>未来主流教学模式</zh>
+	<en>Future mainstream teaching mode</en>
+</text>
+<text id="customisedSmTitle9">
+	<zh>线上教学+线上沟通+线上作业</zh>
+	<en>Online teaching + online communication + online homework</en>
+</text>
+<text id="customisedSmTitle10">
+	<zh>全球中文教学平台</zh>
+	<en>The global Chinese language teaching model</en>
+</text>
+<text id="customisedSmTitle11">
+	<zh>无需本地雇佣中文老师</zh>
+	<en>Does not hire full time Chinese teachers</en>
+</text>
+<text id="customisedSmTitle12">
+	<zh>节约教学成本，灵活教学时间</zh>
+	<en>Save teaching cost, flexible teaching time</en>
+</text>
+
+<text id="country">
+	<zh>国家</zh>
+	<en>country</en>
+</text>
+<text id="price">
+	<zh>价格</zh>
+	<en>Price</en>
+</text>
+
+<text id="freeTest">
+	<zh>免费测试</zh>
+	<en>Free test</en>
+</text>
+<text id="registerTitle">
+	<zh>—注册即送两节课时卡—</zh>
+	<en>register will get two classcard</en>
+</text>
+<text id="Forgetpassword">
+	<zh>忘记密码</zh>
+	<en>Forget password</en>
+</text>
+
+<text id="CreateNewAccount">
+	<zh>注册新帐号</zh>
+	<en>Create new account</en>
+</text>	
+<text id="swiperBtn">
+	<zh>注册开启免费课程</zh>
+	<en>Registration opens free courses</en>
+</text>
+<text id="window">
+	<zh>通往中文世界的一扇窗</zh>
+	<en>A window to the Chinese world</en>
+</text>
+<text id="journey">
+	<zh>开启你的中文征程</zh>
+	<en>Start your Chinese journey</en>
+</text>	
+<text id="Teaching online">
+	<zh>在线授课</zh>
+	<en>Teaching online</en>
+</text>
+<text id="Nolimitation">
+	<zh>无地域和时间局限</zh>
+	<en>No time and space </en>
+</text>
+<text id="Learningonline">
+	<zh>随时随地在线学习</zh>
+	<en>Learning online anytime and anywhere</en>
+</text>
+<text id="Instant chat">
+	<zh>即时聊天</zh>
+	<en>Instant chat</en>
+</text>
+<text id="native speaker">
+	<zh>汉语母语者语音</zh>
+	<en>Chinese native speaker</en>
+</text>
+<text id="Video communication">
+	<zh>视频交流，沟通无忧</zh>
+	<en>Video communication,communication</en>
+</text>
+<text id="Bilingual radio">
+	<zh>双语电台</zh>
+	<en>Bilingual radio</en>
+</text>
+<text id="24hours">
+	<zh>7×24小时双语广播</zh>
+	<en>7×24 hours bilingual broadcasting</en>
+</text>
+<text id="All-day">
+	<zh>全天候中文学习环境</zh>
+	<en>All-day Chinese learning environment</en>
+</text>
+<text id="professional team">
+	<zh>专业团队</zh>
+	<en>professional team</en>
+</text>
+<text id="UniversityTeachers">
+	<zh>国内各大院校中文老师</zh>
+	<en>Domestic Chinese University Teachers</en>
+</text>
+<text id="starting teaching">
+	<zh>中英双语老师，起步教学</zh>
+	<en>Chinese and English bilingual teachers, starting teaching</en>
+</text>
+<text id="QandA">
+	<zh>互动答疑</zh>
+	<en>Interactive question and answer</en>
+</text>
+<text id="interact">
+	<zh>老师、学生实时互动</zh>
+	<en>Teachers and students interact in real time</en>
+</text>
+<text id="ask online">
+	<zh>不懂就问，在线答疑</zh>
+	<en>Do not understand,ask online</en>
+</text>
+<text id="advanced technology">
+	<zh>前沿技术</zh>
+	<en>advanced technology</en>
+</text>
+<text id="technical team">
+	<zh>专业技术团队</zh>
+	<en>Professional technical team</en>
+</text>
+<text id="software">
+	<zh>自主研发PC、手机APP软件</zh>
+	<en>development PC、APP software</en>
+</text>
+<text id="Our Chinese teacher">
+	<zh>我们的中文老师</zh>
+	<en>Our Chinese teacher</en>
+</text>
+<text id="part Chinese teacher">
+	<zh>Aretalk部分中文老师介绍</zh>
+	<en>Aretalk part Chinese teacher introduction</en>
+</text>
+
+<text id="Just3steps">
+	<zh>只需3步</zh>
+	<en>Just three steps</en>
+</text>
+<text id="Zero distance">
+	<zh>零距离接触中文老师</zh>
+	<en>Zero distance contact with Chinese teacher</en>
+</text>
+<text id="Open door">
+	<zh>开启汉语大门</zh>
+	<en>Open the door to Chinese</en>
+</text>
+<text id="twocards">
+	<zh>注册即送两节课时卡，可用于购买aretalk所有直播小班课</zh>
+	<en>Register to send two class hour cards, which can be used to purchase aretalk for all live classes</en>
+</text>
 
 	<text id="ADtest1">
 		<zh> 全程在线教学有网络的地方就有我们</zh>
@@ -6,7 +490,7 @@
 	</text>
 	<text id="homePage">
 		<zh>首页</zh>
-		<en>Homepage</en>
+		<en>Home</en>
 	</text>
 	<text id="Classprocess">
 		<zh>上课流程</zh>
@@ -32,6 +516,10 @@
 		<zh>aretalk推广专员</zh>
 		<en>AreTalk‘s  Promotional Ambassadors</en>
 	</text>
+	<text id="BecameTeacher">
+		<zh>注册成为教师</zh>
+		<en>Became a AreTalk Teacher</en>
+	</text>	
 	<text id="Requirements">
 		<zh>任职要求：</zh>
 		<en>Requirements:</en>
@@ -81,7 +569,7 @@
 		</en>
 	</text>			
 	<text id="Download">
-		<zh>下载客户端</zh>
+		<zh>下载软件</zh>
 		<en>Download</en>
 	</text>
 	<text id="Help">
@@ -90,7 +578,7 @@
 	</text>
 	<text id="Course">
 		<zh>课程介绍</zh>
-		<en>Our Course</en>
+		<en>Course</en>
 	</text>		
 	<text id="I'm Teacher">
 		<zh>我是教师</zh>
@@ -110,6 +598,10 @@
 	</text>
 	<text id="loperators">
 		<zh>全球运营商</zh>
+		<en>global operators</en>
+	</text>
+	<text id="globalloperators">
+		<zh>全球合作</zh>
 		<en>global operators</en>
 	</text>		
 	<text id="registerNow">
@@ -295,7 +787,15 @@
 	<text id="realname">
 		<zh>真实姓名</zh>
 		<en>Real Name</en>
-	</text>	
+	</text>
+	<text id="name">
+		<zh>姓名</zh>
+		<en>Name</en>
+	</text>
+	<text id="location">
+		<zh>机构地点</zh>
+		<en>location</en>
+	</text>		
 	<text id="E-mail">
 		<zh>电子邮箱</zh>
 		<en>E-mail</en>
@@ -432,6 +932,10 @@
 		<zh>预留电话</zh>
 		<en>Bound phone No.</en>
 	</text>
+	<text id="phoneNumber">
+		<zh>电话</zh>
+		<en>phone Number</en>
+	</text>	
 	<text id="MyBankInfo5">
 		<zh>银行卡号</zh>
 		<en>Bank card No.</en>
@@ -440,7 +944,10 @@
 		<zh>提交并继续</zh>
 		<en>Submit and go on</en>
 	</text>
-
+	<text id="subBtn">
+		<zh>提交</zh>
+		<en>Submit</en>
+	</text>
 
 	<text id="registerAD1">
 		<zh>为什么要在 AreTalk上教学？</zh>
@@ -880,7 +1387,7 @@
 	</text>	
 	<text id="SignBtn">
 		<zh>登录</zh>
-		<en>Login</en>
+		<en>Sign In</en>
 	</text>
 
 	<text id="BannerTittle">
@@ -906,18 +1413,17 @@
 	<text id="noticeText4">
 		<zh>3.如需更换相关课程，请联系助教教师进行网络辅助测试。</zh>
 		<en>3. If you want to change your course, please contact teacher assistant to do the testing. </en>
-	</text>							
-
+	</text>
 	<text id="AppDownload">
-		<zh>客户端下载</zh>
-		<en>Download the client</en>
+		<zh>学习软件</zh>
+		<en>Download</en>
 	</text>
 	<text id="FileSize">
 		<zh>文件大小</zh>
 		<en>File size</en>
 	</text>
 	<text id="befit">
-		<zh>适用系统</zh>
+		<zh>适用系统：</zh>
 		<en>Suitable system</en>
 	</text>
 	<text id="version">
@@ -929,12 +1435,12 @@
 		<en>Update time</en>
 	</text>
 	<text id="environment">
-		<zh>运行环境</zh>
-		<en>Runtime environment</en>
+		<zh>运行环境：</zh>
+		<en>environment：</en>
 	</text>
 	<text id="DownloadWindows">
 		<zh>下载Windows客户端</zh>
-		<en>Download the client of Windows</en>
+		<en>Download of Windows</en>
 	</text>
 	<text id="DownloadWay">
 		<zh>下载方法：</zh>
@@ -961,8 +1467,8 @@
 		<en>To enter the web classroom</en>
 	</text>
 	<text id="FlashPlayerDownload">
-		<zh>下载FlashPlayer 22</zh>
-		<en>Download FlashPlayer 22</en>
+		<zh>适用于进入教师的相关应用程序支持插件</zh>
+		<en>To enter the classroom</en>
 	</text>	
 
 	<text id="HelpCenter">
@@ -1120,6 +1626,10 @@
 		<zh>合作伙伴</zh>
 		<en>Cooperation partner</en>
 	</text>
+	<text id="CooperationLogin">
+		<zh>合作伙伴登录</zh>
+		<en>Collaborator login</en>
+	</text>
 	<text id="we partner">
 		<zh>我们与伙伴</zh>
 		<en>We and partners</en>
@@ -1166,7 +1676,7 @@
 		<en>Help manuals</en>
 	</text>
 	<text id="Refunds">
-		<zh>退款保障</zh>
+		<zh>隐私条款</zh>
 		<en>Refunds</en>
 	</text>
 	<text id="Feedback">
@@ -1345,8 +1855,8 @@ The company is located at the House of Phoenix's head offices: a three-storey, 2
 		<en>ESSENTIAL REQUIREMENTS</en>
 	</text>	
 	<text id="BusinessMust1">
-		<zh>有强烈的意愿与 Aretalk 保持长期合作，共同成长。</zh>
-		<en>A strong desire to maintain long-term cooperation with AreTalk and grow the business together.</en>
+		<zh>1.有强烈的意愿与 Aretalk 保持长期合作，共同成长。</zh>
+		<en>1.A strong desire to maintain long-term cooperation with AreTalk and grow the business together.</en>
 	</text>	
 	<text id="BusinessMust2">
 		<zh>有较强的的市场开拓和市场管理能力。</zh>
@@ -1357,24 +1867,36 @@ The company is located at the House of Phoenix's head offices: a three-storey, 2
 		<en> Able to take risks</en>
 	</text>
 	<text id="BusinessMust4">
-		<zh>认同并接受Aretalk理念</zh>
-		<en>Agree and accept our Terms and Conditions </en>
+		<zh>2.认同并接受Aretalk理念</zh>
+		<en>2.Agree and accept our Terms and Conditions </en>
 	</text>	
 	<text id="BusinessMust5">
 		<zh>在当地有较好的信誉和资源。</zh>
 		<en> A positive reputation and your own network of local contacts.</en>
-	</text>	
+	</text>
+	<text id="BusinessMust6">
+		<zh>3.有较强市场开拓和市场管理能力。</zh>
+		<en>3. have strong market development and market management ability.</en>
+	</text>
+	<text id="BusinessMust7">
+		<zh>4.诚实守信，具有一定的海外教育资源。</zh>
+		<en>4. honest and trustworthy, with certain overseas educational resources.</en>
+	</text>
+	<text id="BusinessMust8">
+		<zh>5.海外华人社团、社区资源。</zh>
+		<en>5. overseas Chinese community and community resources.</en>
+	</text>		
 	<text id="BusinessPriority">
 		<zh>优先合作条件：</zh>
 		<en>PRIORITY WILL BE GIVEN TO THOSE WHO CAN DEMONSTRATE THE FOLLOWING：</en>
 	</text>	
 	<text id="BusinessPriority1">
-		<zh>有成熟的市场销售、服务团队。</zh>
-		<en>An experienced and proven marketing and sales team.</en>
+		<zh>1.有成熟的市场销售、服务团队。</zh>
+		<en>1.An experienced and proven marketing and sales team.</en>
 	</text>	
 	<text id="BusinessPriority2">
-		<zh>有较强的市场开拓和市场管理能力，有行业客户资源优势和较强的客户服务能力。</zh>
-		<en>Strong network within the industry</en>
+		<zh>2.有较强的市场开拓和市场管理能力，有行业客户资源优势和较强的客户服务能力。</zh>
+		<en>2.Strong network within the industry</en>
 	</text>
 	<text id="BusinessPriority3">
 		<zh>如你满足以上条件，请联系我们hr@aretalk.com</zh>
@@ -1877,11 +2399,11 @@ The company is located at the House of Phoenix's head offices: a three-storey, 2
 </text>
 <text id="Appstep1IMGdsc1">
 	<zh>ios下载</zh>
-	<en>iOS download</en>
+	<en>IOS Download</en>
 </text>
 <text id="Appstep1IMGdsc2">
 	<zh>Android下载</zh>
-	<en>Android download</en>
+	<en>Android Download</en>
 </text>
 <text id="Appstep2IMGdsc1">
 	<zh>注册成为会员（即送两节课时卡），并登录</zh>

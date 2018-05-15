@@ -1,0 +1,158 @@
+#Title{
+    background-image: url(../img/coursebanner.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    align-items: flex-end;
+	font-size: 2.6vw;
+	color: #fff;
+	text-shadow: 5px 3px 3px #464854;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family:"Microsoft YaHei";
+	font-weight: 600;
+}
+
+#courseBox{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw auto;
+    flex-direction: column;
+}
+
+#courseIMGBox{
+    width: 70%;
+}
+
+#courseImg{
+    width: 100%;
+    height: 100%;
+}
+.line{
+    height: 100%;
+    width: 2px;
+    background-color: #404355;	
+
+}
+.courseTitle{
+    color: #404355;
+    font-size: 2vw;
+    height: 3.4vw;
+    line-height: 3.4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;;;;;;;;;
+}
+.titleText{
+	height: 100%;	
+}
+.courseText{
+    width: 84%;
+}
+
+.courseP{
+    width: 100%;
+    font-size: 1vw;
+    font-family: initial;
+    text-indent: 2vw;
+    line-height: 2.2vw;
+    margin: 1vw auto;
+    color: #404355;
+}
+#courseBox{
+	width:70%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:3vw auto;
+	flex-direction:column;
+}
+#courseIMGBox{
+	width:70%;
+
+}
+#courseImg{
+	width:100%;
+	height:100%;
+
+}
+.courseTitle{
+}
+.courseText{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    font-family: initial;
+    justify-content: center;
+}
+
+.courseimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#courseimg{
+    width: 65%;
+    height: 65%;;;
+
+}
+#courseMain1{
+    width: 50%;
+    font-size: 1.2vw;
+    color: #a7adb4;
+    height: 100%;
+    line-height: 2vw;
+
+}
+#courseMain2{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.theMainpic{
+    width: 100%;
+    height: 100%;
+
+}
+.TeamText{
+    color: #8a919b;
+    font-size: 1vw;
+    margin: 0.5vw auto;
+
+}
+.courseP{
+    width: 100%;
+    font-size: 1vw;
+    font-family: initial;
+    text-indent: 2vw;
+    line-height: 2.2vw;
+    margin: 1vw auto;
+    color: #404355;
+}
+
+#Title{
+    background-image: url(../img/coursebanner.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    align-items: center;
+    font-size: 2.6vw;
+    color: #fff;
+    text-shadow: 5px 3px 3px #464854;
+    flex-direction: column;
+    font-family: "Microsoft YaHei";
+    font-weight: 600;
+}

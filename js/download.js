@@ -1,4 +1,31 @@
 $(document).ready(function(){
+
+
+$("#WinBtn").click(function(){
+
+   window.location="http://www.aretalk.com/Download/AreTalkStudent/AreTalkStudentv0.01.exe"
+ 
+})
+$("#iOSBtn").click(function(){
+   window.location="https://itunes.apple.com/us/app/aretalk/id1225491507"
+ 
+})
+$("#AndroidBtn").click(function(){
+   window.location="https://play.google.com/store/apps/details?id=com.aretalk"
+ 
+})
+$("#FrameworkBtn").click(function(){
+   window.location="https://www.microsoft.com/zh-cn/download/details.aspx?id=30653"
+ 
+})
+$("#FlashBtn").click(function(){
+   window.location="http://get2.adobe.com/cn/flashplayer/otherversions/"
+ 
+})
+
+
+
+
     var Language = getCookie("Language");
 
     $("header").load("lib/header/header.html",function(){
@@ -20,7 +47,7 @@ $(document).ready(function(){
             $("body").cloudLang({lang: curLang, file: "lib/lang/lang-resource.xml"});
             CreateCookie("Language", curLang, 30);
             $("#langIcon").attr("src",'img/'+curLang+'.png')
-            event.stopPropagation(); 
+            event.stopPropagation(); //停止冒泡
         });
 
 
@@ -44,20 +71,7 @@ $(".headerNav").mouseout(function(){
  $(this).find(".botterLine").removeClass("activeLine");
 });
 
-const navUrl = {
-    homeBtn:function () {window.location.href='index.html'},
-    courseBtn:function () {window.location.href='course.html'},
-    priceBtn:function () {window.location.href='price.html'},
-    appBtn: function () {window.location.href='download.html'},
-    loginBtn: function () {window.location.href='#.html'},
-}; 
 
-//导航栏跳转
-$(".headerNav").click(function(){
-    var clickNav = $(this).context.id;
-    navUrl[clickNav]();
-
-});
 
 });//load
 
@@ -78,6 +92,16 @@ layui.use('layer', function(){
 
 
 //返回顶端
-function backToTop() {
-    window.scrollTo(0,0);
-};
+function backToTop() {  
+    $('html,body').animate({  
+        scrollTop: 0  
+    }, 1000);  
+}  
+
+$(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */  
+    if ($(window).scrollTop() > $(window).height())  
+        $("#TopButton").fadeIn();  
+    else  
+        $("#TopButton").fadeOut();  
+});  
+$(window).trigger('scroll');/*触发滚动事件，避免刷新的时候显示回到顶部按钮*/  

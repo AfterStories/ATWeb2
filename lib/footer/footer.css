@@ -8,23 +8,166 @@ footer{
     position: relative;
     bottom: 0;;
 }
+
+
 #footerTextBtn{
-    width:45%;
-    height: 100%;
+    width: 45%;
+    height: 50%;
     float: left;
     margin-left: 4%;
     display: flex;
     justify-content: space-between;
+    color: #fff;
+    font-size: 1vw;
+}
+
+
+#footerDL{
+    width: 8vw;
+}
+
+
+.textBtntitle{
+    font-weight: 600;
+    margin-bottom: 0.2vw;
+}
+
+
+.textBtnBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 0.8vw;
+}
+
+
+.textBtn{
+    cursor: pointer;
+}
+
+
+#footerRight{
+    width: 50%;
+    height: 70%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+
+
+#footerLOGO{
+    width: 5vw;
+    height: 5vw;
+    align-self: center;
+}
+
+
+#footerLOGOIMG{
+    width: 100%;
+    height: 100%;
+
+}
+
+.shareIco{
+    width: 2vw;
+    height: 2vw;
+    margin: 0 0.2vw;
+    cursor: pointer;
+}
+
+
+#TopButton{
+    width: 4vw;
+    height: 4vw;
+    position: fixed;
+    cursor: pointer;
+    float: right;
+    right: 0;
+    bottom: 30vh;
+    display: none;;
+}
+
+
+.textBtn{
+    cursor: pointer;
+    margin: 0.1vw 0;
+}
+
+#footerLOGOImg{
+   height: 100%;
+}
+
+.footerdlIcon{
+    width: 100%;
+    margin: 0.5vw auto;
+}
+
+
+#TopBtnImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.textBtnType{
+    width: 20%;
+}
+
+
+#footerLOGOImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+#TopBtnImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+#Copyright{
+    width: 100%;
+    height: 1.4vw;
+    color: #a7aeb7;
+    background-color: #000;
+    font-family: "Microsoft Yahei";
+    line-height: 1.4vw;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 1vw;
+
+}
+
+
+@media (max-width:414px){
+
+}
+#footerTextBtn{
+    width:60%;
+    height: 50%;
+    float: left;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
     color: #fff;
     font-size:1vw;
 }
 #footerDL{
     width: 8vw;
+    cursor: pointer;;
 }
 
 .textBtntitle{
     font-weight: 600;
+    margin-bottom: 0.2vw;;
 }
 
 .textBtnBox{
@@ -32,6 +175,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
+    font-size: 0.8vw;
 }
 
 .textBtn{
@@ -49,17 +193,15 @@ footer{
     margin-right: 2vw;
 }
 #footerLOGO{
-    width: 12%;;
-    
+    width: 5vw;
+    height: 5vw;
+    align-self: center;
 }
 #footerLOGOIMG{
     width: 100%;
     height: 100%;
     
 }
-#shareIconBox{
-}
-
 .shareIco{
     width: 2vw;
     height: 2vw;
@@ -70,10 +212,11 @@ footer{
 #TopButton{
     width: 4vw;
     height: 4vw;
-    float: right;
-    position: relative;
-    bottom: 10px;
+    position: fixed;
     cursor: pointer;
+    float: right;
+    right: 0;
+    bottom: 30vh;
 }
 
 .textBtn{
@@ -85,13 +228,6 @@ footer{
     height: 100%;
 }
 
-
-#googleplay{
-
-}
-#appstore{
-
-}
 .footerdlIcon{
     width: 100%;
     margin: 0.5vw auto;;
@@ -159,3 +295,4 @@ footer{
 }
 
 }
+

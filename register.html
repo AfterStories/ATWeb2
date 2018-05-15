@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="lib/header/header.css">
     <link rel="stylesheet" href="css/register.css">    
 </head>
+<script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-55HN4K4');
+</script>
+    <!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <body>
 
 <header id="header" class="headerFloat">
@@ -44,19 +57,19 @@
                   </div>              
 	
   				<div class="layui-inline">
-  				  	<input type="text" name="verifyCode" autocomplete="off" id="IDcode" class="layui-input"  placeholder="verifyCode" lay-verify="required|number">
+  				  	<input type="text" name="verifyCode" autocomplete="off" id="IDcode" class="layui-input"  placeholder="verifyCode" lay-verify="">
   				  	<button id="sendCode" lay-submit class="" lay-filter="getCode" type="button" langtag="SendVerificationCode">发送验证码</button>
   				</div>
 
-                <div class="layui-inline">
-                    <input class="layui-input" name="extendCode" placeholder="PromoCode" id="AdCode" >
-                </div>
+<!--<div class="layui-inline">
+    <input class="layui-input" name="extendCode" placeholder="PromoCode" id="AdCode" >
+</div> -->
                
 				<div id="StayLogin">
-				<input id="chk_protocol" type="checkbox" name="protocol" lay-skin="primary" lay-filter="protocol"  checked><span langtag="Agree">同意并遵守</span><a href="protocol.html" id="protocol" langtag="Terms">《服务条款》</a>
+				<input id="chk_protocol" type="checkbox" name="protocol" lay-skin="primary" lay-filter="protocol" checked><span langtag="Agree">同意并遵守</span><a href="protocol.html" id="protocol" langtag="Terms">《服务条款》</a>
 				</div>  
 			 	<div id="SignBtn" lay-submit lay-filter="register" langtag="StudentregisterBTN">注册</div>
-			 	<div id="haveAccount"><span id="Already">Already have a Code School account?</span><a href="#" id="SignIn">Sign In</a></div>
+			 	<div id="haveAccount"><span id="Already">Already have a Code School account?</span><a href="index.html" id="SignIn">Sign In</a></div>
 			</div>		
 		</div>
 

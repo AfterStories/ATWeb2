@@ -1,0 +1,1309 @@
+
+html,body{
+min-width:414px;
+background-color: #efefef;
+position: relative;
+font-family: Open Sans,sans-serif
+}
+#ourphoto{
+	width: 80%;
+	margin:1vw auto;
+	vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+.rili{
+	text-align: center;
+}
+#allmap {width: 100%;height:500px;overflow: hidden;margin:0;font-family:"微软雅黑";}
+.FromTittle{
+	font-size:1.3vw;
+text-align:center;
+margin:2vw 0;
+}
+#zhaopinTittle{
+margin:2vw 0;
+text-align: left;
+}
+.zhaopinDsc{
+margin:3vw auto;
+}
+#ContactFrom{
+	margin-top: 5vw;
+}
+
+.aboutTitleIMG{
+width:100%;
+margin:1vw;	
+}
+#StarLearnBtn{
+text-align:center;
+    color: #fff;
+    font-size: 2vw;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: rgb(252, 187, 0) !important;
+    padding: 12px 15px;
+	margin:3vw auto;
+	width:50%;
+	cursor:pointer;      
+
+}
+#FirstTitle{
+text-align:center;
+font-size:2.2vw;
+margin-top:2vw;
+font-weight:700;
+
+}
+.hong{
+color: rgb(249, 95, 95) !important;
+}
+.hei{
+color:#555555;
+
+}
+.lv{
+color:rgb(59, 174, 114);
+
+}
+.lan{
+color:rgb(58, 85, 145) !important;
+
+}
+#FirstDsc{
+width:80%;
+margin:2vw auto 6vw;
+font-size:1vw;
+color:#555555;
+line-height:2vw;	
+}
+.layui-form-checked[lay-skin=primary] i{
+border-color:#5FB878;
+background-color:#39afef;
+color:#fff;
+}
+
+.splitImgDown{
+width:100%;
+}
+
+
+#TittleName{
+float:left;
+margin-left:4vw;
+height:70px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+
+
+#TittleNametext{
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:1.8vw;
+color:#fff;
+margin-left:1vw;
+}
+
+
+#helpImg{
+width:2vw;
+height:2vw;
+margin-top:0.3vw;
+}
+
+
+.splitImgDown{
+width:100%;
+height:1vw;
+position:absolute;
+z-index:9999;
+top:0;
+left:0;
+}
+
+
+
+#helpTittle{
+width:100%;
+float:left;
+background-color:#66c4ef;
+position:relative;
+left:0px;
+top:0px;
+height:70px;
+}
+
+
+
+#login{
+margin:4vw auto;
+height:100%;
+width:100%;
+float:left;
+}
+
+.active{
+color:#66c4ef;
+}
+
+.NavColor{
+color:#697176;
+}
+
+.HelpQuestion{
+overflow:hidden;
+}
+
+.QuestionText{
+float:left;
+}
+.ShowCtrl{
+float:right;
+}
+
+.layui-colla-content{
+display:none;
+padding:10px 4vw;
+line-height:22px;
+border-top:1px solid #e2e2e2;
+color:#666;
+}
+
+.Aboutname{
+width:80%;
+margin:0 auto;
+color:#555555;
+}
+
+.layui-form-checked[lay-skin=primary] i {
+    border-color: #5FB878;
+    background-color: #39afef;
+    color: #fff;
+}
+
+.splitImgDown{
+	width: 100%;
+}
+
+#TittleName{
+	float: left;
+	margin-left: 4vw;
+	height: 70px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#TittleNametext{
+display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.8vw;
+	color: #fff;
+margin-left: 1vw;
+}
+#helpImg{
+	width: 2vw;
+	height:2vw;
+	margin-top: 0.3vw;
+}
+.splitImgDown {
+    width: 100%;
+    height: 1vw;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+#helpTittle{
+	width: 100%;
+	float: left;
+	background-color: #66c4ef;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 70px;
+}
+
+.active{
+	color:#66c4ef;
+}
+.NavColor{
+	color:#697176;
+}
+.HelpQuestion{
+	overflow: hidden
+}
+.QuestionText{
+	float: left;
+}
+.ShowCtrl{
+	float: right;
+}
+
+.layui-colla-content {
+    display: none;
+    padding: 10px 4vw;
+    line-height: 22px;
+    border-top: 1px solid #e2e2e2;
+    color: #666;
+}
+
+.aboutTitle{
+font-size:1.6vw;
+    margin: 1vw 0;
+color: rgb(58, 85, 145);
+}
+#CooperateText{
+text-align:left;
+font-size:1.5vw;
+line-height:4vw;
+
+}
+ol{list-style-type:none;counter-reset:sectioncounter;}  
+ol li:before {  
+    content:counter(sectioncounter) "、";   
+    counter-increment:sectioncounter;  
+ }  
+#Business{
+text-align:left;
+font-size:1vw;
+line-height:4vw;
+	
+}
+.abouttext{
+    font-size: 1vw;
+    line-height: 3vw;	
+    color: #555555;
+    margin: 1vw;;
+}
+#WWT{
+	width: 98%;
+}
+.AboutBOX{
+    width: 80%;
+    margin: 0 auto;
+    color: #555555;
+    padding: 2vw 0;;
+}
+#worldIMG{
+	width: 100%;
+}
+.BoxTitle{
+	font-size:2vw;
+	margin:2vw 0;
+	text-align:center;
+	color:rgb(58, 85, 145);
+}
+#ditu{
+width:100%;
+margin:5vw 0;
+
+}
+#ditu img{
+width:100%;
+
+}
+#dizhi{
+text-align:left;
+font-size:1vw;
+padding-left:4vw;
+
+}
+
+#dizhi>h2{
+text-align:center;
+font-size:1.5vw;
+margin:1vw 0; 
+
+}
+
+#dizhi>p{
+text-align:left;
+font-size:1vw;
+margin:1vw 0; 
+
+}
+
+#appShow{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2vw auto 4vw;
+    text-align: center;
+
+}
+.appBox{
+max-width: 33.3333333333%;
+padding-top:0px;
+padding-left:15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.apptitle{
+font-size:2vw;
+font-weight: 700;
+font-family: Open Sans,sans-serif;
+    color: #555555;
+}
+
+.appIMG{
+width:100%;
+
+}
+.appDsc{
+    color: #555555;
+    font-family: Open Sans,sans-serif;
+    margin: 2px;;
+}
+
+#courseBox{
+display:flex;
+flex-wrap:wrap;
+align-content:space-between;
+flex-direction:row;
+align-items:stretch;
+
+}
+
+.courseTittle{
+font-weight:700;
+font-size:1.5vw;
+text-align:center;
+margin:1.5vw 0;
+font-family:Open Sans,sans-serif;
+
+}
+
+.courseLI{
+    text-align: left;
+    font-size: 15px;
+    font-size: 100%;
+    margin: 1vw 0;
+    background: transparent;
+    vertical-align: baseline;
+    list-style: disc;
+    outline: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+
+
+
+@media (max-width: 767px){
+.course {
+    margin: 6px auto!important;
+    border: 1px solid red;
+    border-radius: 1vw;
+    width: 80%;
+    max-width: 80%;
+    flex: 1 80%;
+    text-align: center;
+}
+.courseul {
+    line-height: 1.5em;
+    padding-left: 2em;
+    padding: 0px;
+    text-align: center;
+    margin-left: 6vw;
+}
+
+
+}
+
+@media (min-width: 767px){
+.course {
+    margin: 6px!important;
+    border-radius: 1vw;
+    width: 30%;
+    max-width: 100%;
+    flex: 1 0 30%;
+}
+
+.courseul {
+    line-height: 1.5em;
+    padding-left: 2em;
+    margin-bottom: 1.25em;
+    padding: 0px;
+    margin-left: 3vw;
+}
+	
+}
+
+
+.lvborder{
+border: 1px solid green;	
+}
+.hongborder{
+border: 1px solid red;	
+}
+.lanborder{
+border: 1px solid blue;	
+}
+
+
+/* 设备屏幕自适应 */
+@media (max-width: 414px) {	
+
+
+#LoginTitle{
+	text-align:center;
+	font-size: 30px;
+	color: #4b4b4b;
+	height:22vw;
+}
+#LoginTitle img{
+width: 20vw;
+height: 5vw;
+
+}
+#LogoText{
+	font-size: 14px;
+	color: #737373;
+	margin-top: 20px;
+}
+.loginInput{
+	display: inline;
+	color:#b1b1b1;
+	font-size: 12px;
+	font-family:Microsoft Yahei;
+	width:100%;
+	height:5vw;
+	text-align: center;
+	border: solid 1px #cacaca;
+    outline: 0;
+   	text-shadow: none ;  
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin: 10px auto;    
+}
+.loginInput:hover{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(57,175,239,3);
+}
+#SignBtn{
+	width:60%;
+	height: 6vw;
+	background-color: #39b0ef;
+	font-size: 14px;
+	font-family:"Microsoft Yahei";
+	color: #fff;
+	cursor:hand;
+	text-align: center;
+	line-height:6vw;
+	border-radius: 5px;
+	cursor:pointer;
+	margin: 10px auto 0;
+}
+#forget{
+	height: 30px;
+	float: left;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none;
+}
+#forget a{
+	font-size:10px;
+	color: #0096ff;
+	text-decoration: none;
+}
+
+#goRegister{
+	height: 30px;
+	float: right;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none;
+}
+#goRegister a{
+	font-size:10px;
+	color: #0096ff;
+	text-decoration: none;
+}
+#StayLogin{
+	float: left;
+	margin: 5px 10px 5px 0px;
+	position: absolute;
+	bottom: 0; 
+}
+#StayLogin span{
+color: #b1b1b1;
+margin-left: 10px;
+font-size: 9px;
+
+}
+#protocol{
+text-decoration: none;
+color: #39b0ef;	
+}
+#LoginSet{	
+	height:7vw;
+	overflow: hidden;
+}
+
+#OtherLogin{	
+	height: 63px;
+	width: 100%;
+	line-height:63px;
+	text-align: center;
+}
+.OtherLogin{
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	text-align: center;
+	font-size:18px;
+	color: #898989;	
+}
+.OtherLogin a{
+	color: #0096ff;
+	text-decoration: none;
+	font-size:18px;	
+}
+#line{
+	width:90%;
+	margin:0 auto;
+	height:1px;
+	border-top: 1px #cacaca solid; 
+}
+.loginInput{
+	-webkit-box-shadow:0 0 0 50px #fff inset; 
+	-webkit-text-fill-color: #b1b1b1;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 414px) and (max-width: 768px){
+#NavUl{
+margin: 0 auto;
+padding-left: 4vw;
+
+}
+
+
+.AboutContent{
+    margin:0 auto;
+	width: 80vw;
+	background-color: #fff;
+
+}
+.layui-colla-title{
+    position: relative;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    line-height: 40px;	
+}
+#HelpNav{
+background-color: #fff;
+float: left;
+width: 25vw;
+height: 100vh;
+}
+.NavLi{
+font-size: 16px;
+padding: 2vw 0;cursor: pointer;
+
+}
+#LoginTitle{
+	text-align:center;
+	font-size: 30px;
+	color: #4b4b4b;
+	height:22vw;
+}
+#LoginTitle img{
+width: 20vw;
+height: 5vw;
+
+}
+#LogoText{
+	font-size: 14px;
+	color: #737373;
+	margin-top: 20px;
+}
+.loginInput{
+	display: inline;
+	color: #b1b1b1;
+	font-size: 12px;
+	font-family:Microsoft Yahei;
+	width:100%;
+	height:5vw;
+	text-align: center;
+	border: solid 1px #cacaca;
+    outline: 0;
+   	text-shadow: none ;  
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin: 10px auto;    
+}
+.loginInput:hover{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(57,175,239,3);
+}
+#SignBtn{
+	width:60%;
+	height: 6vw;
+	background-color: #39b0ef;
+	font-size: 14px;
+	font-family:"Microsoft Yahei";
+	color: #fff;
+	cursor:hand;
+	text-align: center;
+	line-height:6vw;
+	border-radius: 5px;
+	cursor:pointer;
+	margin: 10px auto 0;
+}
+#forget{
+	height: 30px;
+	float: left;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none;
+}
+#forget a{
+	font-size:10px;
+	color: #0096ff;
+	text-decoration: none;
+}
+
+#goRegister{
+	height: 30px;
+	float: right;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#goRegister a{
+	font-size:10px;
+	color: #0096ff;
+	text-decoration: none;
+}
+#StayLogin{
+	float: left;
+	margin: 5px 10px 5px 0px;
+	position: absolute;
+	bottom: 0; 
+}
+#StayLogin span{
+color: #b1b1b1;
+margin-left: 10px;
+font-size: 12px;
+
+}
+#protocol{
+text-decoration: none;
+color: #39b0ef;	
+}
+#LoginSet{	
+	height:7vw;
+	overflow: hidden;
+}
+
+#OtherLogin{	
+	height: 63px;
+	width: 100%;
+	line-height:63px;
+	text-align: center
+}
+.OtherLogin{
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	text-align: center;
+	font-size:18px;
+	color: #898989;	
+}
+.OtherLogin a{
+	color: #0096ff;
+	text-decoration: none;
+	font-size:18px;	
+}
+#line{
+	width:90%;
+	margin:0 auto;
+	height:1px;
+	border-top: 1px #cacaca solid; 
+}
+.loginInput{
+	-webkit-box-shadow:0 0 0 50px #fff inset; 
+	-webkit-text-fill-color:#b1b1b1;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1280px){
+	#NavUl{
+margin: 0 auto;
+padding-left: 4vw;
+
+}
+
+
+.AboutContent{
+    margin:0 auto;
+	width: 80vw;
+	background-color: #fff;
+
+}
+	#HelpNav{
+background-color: #fff;
+float: left;
+width: 18vw;
+height: 100vh;
+}
+.NavLi{
+font-size: 20px;
+padding: 20px 0;cursor: pointer;
+
+}
+.layui-colla-title{
+    position: relative;
+    height: 4vw;
+    line-height: 4vw;
+    padding: 0 1vw 0 4vw;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;	
+}
+#LoginTitle{
+	text-align:center;
+	font-size: 30px;
+	color: #4b4b4b;
+	height:20vw;
+}
+#LoginTitle img{
+width: 211px;
+height: 52px;
+
+}
+#LogoText{
+	font-size: 18px;
+	color: #737373;
+	margin-top: 20px;
+}
+.loginInput{
+	display: inline;
+	color: #b1b1b1;
+	font-size: 20px;
+	font-family:Microsoft Yahei;
+	width:100%;
+	height:4vw;
+	text-align: center;
+	border: solid 1px #cacaca;
+    outline: 0;
+   	text-shadow: none ;  
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin: 10px auto;    
+}
+.loginInput:hover{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(57,175,239,3);
+}
+#SignBtn{
+	width:80%;
+	height: 55px;
+	background-color: #39b0ef;
+	font-size: 22px;
+	font-family:Microsoft Yahei;
+	color: #fff;
+	cursor:hand;
+	text-align: center;
+	line-height:55px;
+	border-radius: 5px;;
+	cursor:pointer;
+	margin: 10px auto 0;
+}
+#forget{
+	height: 30px;
+	float: left;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#forget a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+
+#goRegister{
+	height: 30px;
+	float: right;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#goRegister a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+#StayLogin{
+	float: left;
+	margin: 5px 10px 5px 0px;
+	position: absolute;
+	bottom: 0; 
+}
+#StayLogin span{
+color: #b1b1b1;
+margin-left: 10px;
+
+}
+#protocol{
+text-decoration: none;
+color: #39b0ef;	
+}
+#LoginSet{	
+	height:35px;
+	overflow: hidden;
+}
+
+#OtherLogin{	
+	height: 63px;
+	width: 100%;
+	line-height:63px;
+	text-align: center
+}
+.OtherLogin{
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	text-align: center;
+	font-size:18px;
+	color: #898989;	
+}
+.OtherLogin a{
+	color: #0096ff;
+	text-decoration: none;
+	font-size:18px;	
+}
+#line{
+	width:90%;
+	margin:0 auto;
+	height:1px;
+	border-top: 1px #cacaca solid; 
+}
+.loginInput{
+	-webkit-box-shadow:0 0 0 50px #fff inset; 
+	-webkit-text-fill-color: #b1b1b1;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px)and (max-width:1600px){
+	#NavUl{
+margin: 0 auto;
+padding-left: 4vw;
+
+}
+
+
+.AboutContent{
+    margin:0 auto;
+	width: 80vw;
+	background-color: #fff;
+
+}
+	#HelpNav{
+background-color: #fff;
+float: left;
+width: 15vw;
+height: 100vh;
+}
+.layui-colla-title{
+    position: relative;
+    height: 4vw;
+    line-height: 4vw;
+    padding: 0 1vw 0 4vw;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;	
+}
+.NavLi{
+font-size: 20px;
+padding: 20px 0;cursor: pointer;
+
+}
+#LoginTitle{
+	text-align:center;
+	font-size: 30px;
+	color: #4b4b4b;
+	height:200px;
+}
+#LoginTitle img{
+width: 211px;
+height: 52px;
+
+}
+#LogoText{
+	font-size: 18px;
+	color: #737373;
+	margin-top: 20px;
+}
+.loginInput{
+	display: inline;
+	color: #b1b1b1;
+	font-size: 20px;
+	font-family:Microsoft Yahei;
+	width:100%;
+	height:3vw;
+	text-align: center;
+	border: solid 1px #cacaca;
+    outline: 0;
+   	text-shadow: none ;  
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin: 10px auto;    
+}
+.loginInput:hover{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(57,175,239,3);
+}
+#SignBtn{
+	width:80%;
+	height: 55px;
+	background-color: #39b0ef;
+	font-size: 22px;
+	font-family:Microsoft Yahei;
+	color: #fff;
+	cursor:hand;
+	text-align: center;
+	line-height:55px;
+	border-radius: 5px;;
+	cursor:pointer;
+	margin: 10px auto 0;
+}
+#forget{
+	height: 30px;
+	float: left;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#forget a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+
+#goRegister{
+	height: 30px;
+	float: right;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#goRegister a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+#StayLogin{
+	float: left;
+	margin: 5px 10px 5px 0px;
+	position: absolute;
+	bottom: 0; 
+}
+#StayLogin span{
+color: #b1b1b1;
+margin-left: 10px;
+
+}
+#protocol{
+text-decoration: none;
+color: #39b0ef;	
+}
+#LoginSet{	
+	height:35px;
+	overflow: hidden;
+}
+
+#OtherLogin{	
+	height: 63px;
+	width: 100%;
+	line-height:63px;
+	text-align: center
+}
+.OtherLogin{
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	text-align: center;
+	font-size:18px;
+	color: #898989;	
+}
+.OtherLogin a{
+	color: #0096ff;
+	text-decoration: none;
+	font-size:18px;	
+}
+#line{
+	width:90%;
+	margin:0 auto;
+	height:1px;
+	border-top: 1px #cacaca solid; 
+}
+.loginInput{
+	-webkit-box-shadow:0 0 0 50px #fff inset; 
+	-webkit-text-fill-color: #b1b1b1;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1600px){
+	#NavUl{
+margin: 0 auto;
+padding-left: 4vw;
+
+}
+
+.AboutContent{
+    margin:0 auto;
+	width: 80vw;
+	background-color: #fff;
+
+}
+#HelpNav{
+background-color: #fff;
+float: left;
+width: 15vw;
+height: 100vh;
+}	
+.layui-colla-title{
+    position: relative;
+    height: 2vw;
+    line-height: 2vw;
+    padding: 0 1vw 0 2vw;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;	
+}
+.NavLi{
+font-size: 20px;
+padding: 0.8vw 0;
+cursor: pointer;
+
+}
+#LoginTitle{
+	text-align:center;
+	font-size: 30px;
+	color: #4b4b4b;
+	height:200px;
+}
+#LoginTitle img{
+width: 211px;
+height: 52px;
+
+}
+#LogoText{
+	font-size: 18px;
+	color: #737373;
+	margin-top: 20px;
+}
+.loginInput{
+	display: inline;
+	color: #b1b1b1;
+	font-size: 20px;
+	font-family:Microsoft Yahei;
+	width:100%;
+	height:3vw;
+	text-align: center;
+	border: solid 1px #cacaca;
+    outline: 0;
+   	text-shadow: none ;  
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin: 10px auto;    
+}
+.loginInput:hover{
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(57,175,239,3);
+}
+#SignBtn{
+	width:80%;
+	height: 55px;
+	background-color: #39b0ef;
+	font-size: 22px;
+	font-family:Microsoft Yahei;
+	color: #fff;
+	cursor:hand;
+	text-align: center;
+	line-height:55px;
+	border-radius: 5px;;
+	cursor:pointer;
+	margin: 10px auto 0;
+}
+#forget{
+	height: 30px;
+	float: left;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#forget a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+
+#goRegister{
+	height: 30px;
+	float: right;
+	margin: 5px 0 5px 10px ;
+	color: #0096ff;
+	text-decoration: none
+}
+#goRegister a{
+	font-size:14px;
+	color: #0096ff;
+	text-decoration: none;
+}
+#StayLogin{
+	float: left;
+	margin: 5px 10px 5px 0px;
+	position: absolute;
+	bottom: 0; 
+}
+#StayLogin span{
+color: #b1b1b1;
+margin-left: 10px;
+
+}
+#protocol{
+text-decoration: none;
+color: #39b0ef;	
+}
+#LoginSet{	
+	height:35px;
+	overflow: hidden;
+}
+
+#OtherLogin{	
+	height: 63px;
+	width: 100%;
+	line-height:63px;
+	text-align: center
+}
+.OtherLogin{
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	text-align: center;
+	font-size:18px;
+	color: #898989;	
+}
+.OtherLogin a{
+	color: #0096ff;
+	text-decoration: none;
+	font-size:18px;	
+}
+#line{
+	width:90%;
+	margin:0 auto;
+	height:1px;
+	border-top: 1px #cacaca solid; 
+}
+.loginInput{
+	-webkit-box-shadow:0 0 0 50px #fff inset; 
+	-webkit-text-fill-color:#b1b1b1;
+}
+
+
+}
+
+
+html,body{
+min-width:414px;
+position:relative;
+background-color:#efefef;
+}

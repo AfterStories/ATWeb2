@@ -1,7 +1,14 @@
 body{
 	font-family: "Microsoft Yahei";
 }
-
+#noteText{
+	width: 70%;
+	margin: 2vw auto;
+	color: #404355;
+}
+.appdownIcon{
+	cursor: pointer;
+}
 .toolsDownloadBtn{
 	background-color:#ff5722;
 	color:#fff;
@@ -14,7 +21,6 @@ body{
 	width:4vw;
 	height:4vw;
 }
-
 
 .clear{
 	clear:both;
@@ -31,8 +37,6 @@ body{
 	color:#404355;
 	font-family:initial;
 }
-
-.downloadApp{}
 
 
 #downloadTools{
@@ -69,11 +73,9 @@ body{
 
 #WinBox{border-right: none}
 
-#AppleBox{}
 
 #AndroidBox{border-left: none}
 
-.toolsImg{}
 
 .toolsBox{
 	color:#404355;
@@ -86,13 +88,10 @@ body{
 	font-size:0.5vw;}
 
 
-
-#FrameworkBtn{}
-
 #FlashPlayer{
 	border-radius:0 0.5vw 0.5vw 0;}
 
-#NoteTitle{}
+
 
 .appimg{
 	width:100%;
@@ -101,10 +100,6 @@ body{
 .appType{
 	width:100%;
 	height:100%;}
-
-
-
-
 
 
 #downloadTools{
@@ -174,7 +169,7 @@ body{
 	color:#404355;
 	font-family:initial;}
 
-.downloadApp{}
+
 .clear{
 	clear:both;}
 .downloadApp{
@@ -327,7 +322,7 @@ footer {
     align-items: flex-end;}
     #TitleBox{
 	font-family:sans-serif;
-	height:65%;
+	height:45%;
 	width:100%;
 	padding-left:6vw;
 }
@@ -337,10 +332,10 @@ footer {
 #downloadTextsmTitle{
 	font-size:1.2vw;
 	margin:0.5vw 0;}
-#downloadTextNote{
+.downloadTextNote{
 	font-size:1vw;
 	margin-top:1vw;}
-#downloadTextNote p{
+.downloadTextNote p{
 	margin:0.5vw 0;}}
 
 @media (max-width: 1024px) and (min-width:414px){
@@ -356,7 +351,7 @@ footer {
 }
 #TitleBox{
 	font-family:sans-serif;
-	height:75%;
+	height:50%;
 	width:100%;
 	padding-left:6vw;
 }
@@ -366,10 +361,10 @@ footer {
 #downloadTextsmTitle{
 	font-size:1.2vw;
 	margin:0.5vw 0;}
-#downloadTextNote{
+.downloadTextNote{
 	font-size:1vw;
 	margin-top:1vw;}
-#downloadTextNote p{
+.downloadTextNote p{
 	margin:0.5vw 0;}}
 
 @media (min-width: 1024px){
@@ -384,20 +379,20 @@ footer {
     align-items: flex-end;
 }#TitleBox{
 	font-family:sans-serif;
-	height:65%;
 	width:100%;
 	padding-left:6vw;
+	height:40%;
 }#downloadTextTitle{
 	font-size:3vw;
 	font-weight:600;}
 #downloadTextsmTitle{
 	font-size:1.2vw;
 	margin:0.5vw 0;}
-#downloadTextNote{
-	font-size:1vw;
+.downloadTextNote{
+	font-size:1.2vw;
 	margin-top:1vw;
 }
-#downloadTextNote p{
+.downloadTextNote p{
 	margin:0.5vw 0;
 }
 }

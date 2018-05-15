@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>AreTalk - Download</title>
+
     <!-- Google Tag Manager -->
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,14 +15,16 @@
     </script>
     <!-- End Google Tag Manager -->
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/layui.css">
     <link rel="stylesheet" href="lib/footer/footer.css">
     <link rel="stylesheet" href="lib/header/header.css">
     <link rel="stylesheet" href="css/download.css">
 </head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <body>
 
 <header id="header" class="headerTop">
@@ -34,14 +37,14 @@
 
     <div id="downloadTitle" class="textstyle">
         <div id="TitleBox">
-            <div id="downloadTextTitle">AreTalk client</div>
-            <div id="downloadTextsmTitle">Windows/iPhone/Android</div>
-            <div id="downloadTextNote">
-                <p id="NoteTitle">Note</p>
-                <p>We recommend Windows 7 or higher/ iphone IOS 9.0 or higher/ Android 4.0 or higher.</p>
-                <p>1. Do not plug in and out receiving devices such as earphone and headset during the class,to avoid consequences of reatarting app or browser.</p>
-                <p>2. Tend to avoid many people downloading and watching videos on Internet simultaneously.</p>
-                <p>3. If you want to change your course, please contact teacher assistant to do the testing.</p>
+         <!--    <div id="downloadTextTitle">AreTalk client</div>
+         <div id="downloadTextsmTitle">Windows/iPhone/Android</div> -->
+            <div class="downloadTextNote">
+                <!-- <p id="NoteTitle">Note</p> -->
+                <p langtag="downtag1">网络电台：7*24 轮播中英文双语电台</p>
+                <p langtag="downtag2">全球社交：在线交流，全球中文学习者成为同学伙伴</p>
+                <p langtag="downtag3">互动课堂：互动教学，双语录制、双语字幕</p>
+                <p langtag="downtag4">在线作业：文字、图片、音频混合组成的题库用于语言能力测试、课后作业、模拟考试</p>
             </div>
         </div>
     </div>
@@ -52,48 +55,58 @@
             <div class="appimg">
                 <img src="img/win.png" class="appType" id="Win">
             </div>
-            <div class="DetailTitle">WindowsDownload the client</div>
+            <div class="DetailTitle" langtag="DownloadWindows">Windows Download</div>
             <div class="appDetailBox">
                 <div class="Detail">
-                    <p>File size：90MB</p>
-                    <p>Suitable system：windows</p>
-                    <p>win7/win8/win10</p>
-                    <p>Runtime environment：Win10、及Win8、Win7</p>
+                    <p><span langtag="Filesize">Filesize：</span>24.9MB</p>
+                    <p><span langtag="befit">Suitable system：</span>win7/win8/win10</p>
+                    <p><span langtag="environment">environment：</span>Win10、及Win8、Win7</p>
                 </div>
             </div>
-            <img src="img/windownload.png" class="appdownIcon">            
+            <img src="img/windownload.png" class="appdownIcon" id="WinBtn">
         </div>
         <div class="downloadApp" id="AppleBox">
             <div class="appimg">
                 <img src="img/apple.png" class="appType" id="Apple">
             </div>
-            <div class="DetailTitle">iPhoneDownload the client</div>
+            <div class="DetailTitle" langtag="Appstep1IMGdsc1">IOS Download</div>
             <div class="appDetailBox">
-                
                 <div class="Detail">
-                    <p>Suitable system：iOS 8.2 or higher</p>
-                    <p>Update time：2018-04-15</p>
-                    <p>Download method</p>
+                    <p><span langtag="Filesize">Filesize：</span>53.9MB</p>
+                    <p><span langtag="befit">Suitable system：</span>iOS 9.0 or higher</p>
+                    <p><span langtag="DownloadWay"></span><span langtag="iosStore">App store</span></p>
                 </div>
             </div>
-            <img src="img/appstore.png" class="appdownIcon">
+            <img src="img/appstore.png" class="appdownIcon" id="iOSBtn">
         </div>
         <div class="downloadApp" id="AndroidBox">
             <div class="appimg">
                 <img src="img/android.png" class="appType" id="Android">
             </div>
-            <div class="DetailTitle">AndroidDownload the client</div>
+            <div class="DetailTitle" langtag="Appstep1IMGdsc2">Android Download</div>
             <div class="appDetailBox">
                 <div class="Detail">
-                    <p>File size：53.6MB</p>
-                    <p>Suitable systemAndroid 4.0 or higher</p>
-                    <p>Download method</p>
+                    <p><span langtag="Filesize">Filesize：</span>53.6MB</p>
+                    <p><span langtag="befit">Suitable system：</span>Android 4.0 or higher</p>
+                    <p><span langtag="DownloadWay">Download method：</span>Google play</p>
                 </div>
             </div>
-            <img src="img/googleplay.png" class="appdownIcon">            
+            <img src="img/googleplay.png" class="appdownIcon" id="AndroidBtn">            
             
         </div>
     </div>
+
+
+        <div id="noteText">
+            <div class="downloadTextNote">
+                <p id="NoteTitle">注意事项：</p>
+                <p langtag="downtag5">Windows7以上操作系统/iPhone IOS 9.0以上/Android 系统版本4.0以上</p>
+                <p langtag="downtag6">1.课程进行中禁止拔插耳机、耳麦等接收设备，避免因拔插设备造成重启课程软件或浏览器等情况的发生；</p>
+                <p langtag="downtag7">2.课程进行中尽量避免多人同时共用网络观看电影或下载娱乐视频等;</p>
+                <p langtag="downtag8">3.如需更换相关课程，请联系助教教师进行网络辅助测试。</p>
+            </div>            
+        </div>
+
 
     <div id="downloadTools">
         <div class="tools" id="Framework">
@@ -103,9 +116,9 @@
             
             <div class="toolsBox">
                 <div class="toolsTitle">Microsoft.NET Framework 4.5</div>
-                <div class="toolsDetails">Supporting Windows 7 or higher. (Need the support of Microsoft .net framework v4.0)</div>
+                <div class="toolsDetails" langtag="FrameworkText">Supporting Windows 7 or higher. (Need the support of Microsoft .net framework v4.0)</div>
             </div>
-            <div class="toolsDownloadBtn" id="FrameworkBtn">Download</div>
+            <div class="toolsDownloadBtn" id="FrameworkBtn" langtag="Download">Download</div>
         </div>
         <div class="tools" id="FlashPlayer">
             <div class="toolsImgBox">
@@ -113,9 +126,9 @@
             </div>
             <div class="toolsBox">
                 <div class="toolsTitle">FlashPlayer 22</div>
-                <div class="toolsDetails">To enter the classroom</div>
+                <div class="toolsDetails" langtag="FlashPlayerDownload">To enter the classroom</div>
             </div>
-            <div class="toolsDownloadBtn" id="FlashBtn">Download</div>
+            <div class="toolsDownloadBtn" id="FlashBtn" langtag="Download">Download</div>
         </div>
         <div class="clear"></div>
     </div>

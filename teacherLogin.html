@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">    
+    <title>AreTalk - Test</title>
+    <link rel="stylesheet" href="lib/layui-v2.2.5/layui/css/layui.css">
+    <link rel="stylesheet" href="lib/footer/footer.css">
+    <link rel="stylesheet" href="lib/header/header.css">
+    <link rel="stylesheet" href="css/teacherLogin.css">    
+</head>
+<script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-55HN4K4');
+</script>
+    <!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HN4K4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- 
+
+End Google Tag Manager (noscript) 
+
+-->
+
+<body>
+
+<header id="header" class="headerFloat">
+
+</header>
+
+
+  <div id="registerMain">
+    <div id="registerBox">
+      <div id="registerLeftImgBox" class="registerContent">
+        <img src="img/registerLeftImg.png" id="registerLeftImg">
+      </div>
+      <div id="registerForm" class="layui-form layui-form-pane">
+        <div id="registerTitle-Big" langtag="teacherlogin">AreTalk 教师登录</div>
+        <div id="registerTitle-sm" langtag="teachermanagement">教师后台管理系统</div>
+
+        <div class="layui-inline" >
+          <input type="text" id="username" name="userName" autocomplete="off" class="layui-input " lay-verify="required|username|pass" placeholder="userName">
+        </div>
+
+        <div class="layui-inline" >
+          <input type="text" id="username" name="password" autocomplete="off" class="layui-input " lay-verify="required||pass" placeholder="password">
+        </div>
+        <a href="TeacherProvision.html" id="RegisterTeacher" langtag="BecameTeacher">Became a AreTalk Teacher</a>
+        <div id="SignBtn" lay-submit lay-filter="teacherlogin" langtag="subBtn" langtag="subBtn">提交</div>
+        </div>    
+    </div>
+
+
+  </div>
+
+</body>
+
+<script src="lib/jquery.js"></script>
+<script src="lib/lang/langchange.js"></script>
+<script src="lib/layui-v2.2.5/layui/layui.js"></script>
+<script src="lib/md5.js"></script>
+<script src="js/teacherLogin.js"></script>
+</html>

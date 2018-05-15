@@ -1,0 +1,1179 @@
+html,body{
+	font-family:Microsoft YaHei;
+	min-width: 769px
+}
+/*主内容区域*/
+
+#step{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: 2vw auto;
+
+}
+.PersonalInfo{
+	margin: 1vw auto;
+	width: 85%;;
+}
+.progressSec{
+	width:20%;
+	height:28px;
+	font-size: 16px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;  
+	color: #595959;
+	background-color:#e2e2e2;
+	position: relative;  
+	
+}
+.progress-long{
+	width:20%;
+	height:28px;	
+	display: flex;
+  	justify-content: center;
+  	align-items: center;  
+	color: #595959;
+	background-color:#e2e2e2;
+	position: relative; 
+}
+/* transparent透明 */
+.progressSec:after{
+	content:'';
+	display: block;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid #e2e2e2;
+	position: absolute;
+	right:-14px;
+	top: 0;
+
+}
+.progressSec:before{
+	content:'';
+	display: block;
+	border-top: 14px solid #e2e2e2;
+	border-bottom: 14px solid #e2e2e2;
+	border-left: 14px solid #fff;
+	position: absolute;
+	left:0px;
+	top: 0;
+}
+.progress-long:after{
+	content:'';
+	display: block;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid #e2e2e2;
+	position: absolute;
+	right:-14px;
+	top: 0;
+
+}
+.progress-long:before{
+	content:'';
+	display: block;
+	border-top: 14px solid #e2e2e2;
+	border-bottom: 14px solid #e2e2e2;
+	border-left: 14px solid #fff;
+	position: absolute;
+	left:0px;
+	top: 0;
+}
+.proNOW{
+	width:20%;
+	height:28px;
+	font-size: 16px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;  
+	color: #000;
+	background-color:#e2e2e2;
+	position: relative;  
+	
+}
+.proNOW:after{
+	content:'';
+	display: block;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid #e2e2e2;
+	position: absolute;
+	right:-14px;
+	top: 0;
+
+}
+.proNOW:before{
+	content:'';
+	display: block;
+	border-top: 14px solid #e2e2e2;
+	border-bottom: 14px solid #e2e2e2;
+	border-left: 14px solid #fff;
+	position: absolute;
+	left:0px;
+	top: 0;
+}
+.proFirst{
+	width:20%;
+	height:28px;
+	font-size: 16px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;  
+	color: #595959;
+	background-color:#67c5f0;
+	position: relative;  
+}
+.proFirst:after{
+	content:'';
+	display: block;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid #67c5f0;
+	position: absolute;
+	right:-14px;
+	top: 0;
+
+}
+.proFinish{
+	width:20%;
+	height:28px;
+	font-size: 16px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;  
+	color: #595959;
+	background-color:#e2e2e2;
+	position: relative; 
+}
+.proFinish:before{
+	content:'';
+	display: block;
+	border-top: 14px solid #e2e2e2;
+	border-bottom: 14px solid #e2e2e2;
+	border-left: 14px solid #fff;
+	position: absolute;
+	left:0px;
+	top: 0;
+}
+.container{
+	width: 90%;
+	margin:0 auto; 
+}
+#exerciseSRC-upload{
+    display: flex;
+    justify-content: space-between;	
+}
+.uploaddemobox{
+	width: 30%;
+	font-size: 16px;;
+
+}
+#uploadheadBox{
+	float: left;
+	width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demoimgBox{
+	display: flex;
+	justify-content: space-between;
+	margin: 2vw 0;
+}
+.demotittleimg{
+	margin:0.5vw auto 
+}
+.preview{
+	text-align: center;
+}
+
+#GetCodeBox{
+	text-align: center;
+	margin:1vw auto ;
+}
+
+
+
+
+/* 设备屏幕自适应 */
+/* 屏样幕宽度小于768个象素时应用的CSS式 */
+@media (max-width: 769px) {
+
+
+
+#main{
+	width: 80%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    margin: 1vw auto;
+}
+
+.title1{
+	font-size: 18px;
+	display: block;
+	margin-top: 8px;
+}
+.title2{
+	font-size:16px;
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	word-spacing:2px;
+}
+#Content1{
+	height: 258px;
+	width: 80%;
+	margin:0 auto;
+	border: 1px solid red;
+}	
+
+
+.demoimg{
+	width: 4vw;
+	height: 4vw;
+	border-radius: 4vw;
+}
+.demotitele{
+	color: #7d8b96;
+
+}
+.everdemotitle{
+	color: #666;
+	font-size: 0.8vw;
+
+}
+#fileuploadnote{
+	float: left;
+	margin-left: -0.52vw;
+	color: red;
+	margin-top: 1vw;
+	font-size: 0.8vw;
+
+}
+.uploadnotetext{
+	text-align: center;
+
+}
+.fileinput-button{
+	width: 150px;
+	height: 150px;
+	color: #000;		
+	padding: 1px 3px;		
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: burlywood;;
+	/* border: 1px solid #cccccc; */
+	border-radius: 150px;
+	box-sizing: border-box;
+	display: table;
+	background-color: rgba(188, 188, 188, 0.48);
+	margin: 0 auto;
+}
+#uploadimg{
+	vertical-align: middle;
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	}
+
+canvas{
+	border-radius: 150px !important;
+	width: 150px !important;
+	height: 150px !important;
+	}
+
+.btn-primary{
+	width:6vw;
+	height: 42px;
+	margin-left: 2vw;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+	}
+.btn-warning{
+	width: 6vw;
+	height: 42px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+}
+.splitImgDown{
+	width: 100%;
+	}
+.InfoTitle{
+	width: 100%;
+	color: #595959;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	margin:30px auto  20px;
+	border-bottom: 1px solid #bcbcbc;
+
+}
+
+.InfoContent{
+	width:100%;
+	margin-top: 30px;
+	border-top: 1px solid #cfcfcf;
+}
+#baseInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+
+}
+#baseInfouse{
+	margin:1vw auto;
+	border-bottom:1px solid #bcbcbc;	
+}
+#bankInfoFrom{
+	margin:0 auto;	
+}
+#bankInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;	
+}
+#alipayInfoFrom{
+	margin:0 auto;	
+}
+#alipayInfo{
+	margin:1vw auto;	
+}
+#baseInfoFrom{
+	margin:0 auto;
+}
+#baseInfoFromuse{
+	margin:0 auto;	
+}
+#KnowLangInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+}
+#KnowLangFrom{
+	margin:0 auto;		
+}
+.addBtn{
+	text-align: center;
+	margin:1vw auto;
+	width: 90%;
+}
+.addBtnImg{
+	width: 3vw;
+	height: 3vw;
+}
+.addBox{
+	border: 1px solid #fff;
+}
+.clearLang{
+    width: 3vw;
+    height: 3vw;
+    margin: 2.5vw auto;	
+}
+
+.layui-inline{
+	margin:1.5vw 2vw !important; 
+}
+.input-right{
+}
+.layui-form-label{
+	width: 70px;
+	padding: 9px 4px;
+}
+.input-short{
+	width:24vw;
+}
+.input-long{
+	width: 65vw;;
+}
+
+#TelBox .layui-form-select {
+	width: 21vw;
+}
+#PhoneNumber{
+	width: 44vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 大于768且小于1280px */
+
+@media (min-width:769px) and (max-width:1000px){
+
+
+#main{
+	width: 80%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    margin: 1vw auto;
+}
+
+.title1{
+	font-size: 18px;
+	display: block;
+	margin-top: 8px;
+}
+.title2{
+	font-size:16px;
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	word-spacing:2px;
+}
+#Content1{
+	height: 258px;
+	width: 80%;
+	margin:0 auto;
+	border: 1px solid red;
+}	
+
+
+.demoimg{
+	width: 4vw;
+	height: 4vw;
+	border-radius: 4vw;
+}
+.demotitele{
+	color: #7d8b96;
+
+}
+.everdemotitle{
+	color: #666;
+	font-size: 0.8vw;
+
+}
+#fileuploadnote{
+	float: left;
+	margin-left: -0.52vw;
+	color: red;
+	margin-top: 1vw;
+	font-size: 0.8vw;
+
+}
+.uploadnotetext{
+	text-align: center;
+
+}
+.fileinput-button{
+	width: 150px;
+	height: 150px;
+	color: #000;		
+	padding: 1px 3px;		
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: burlywood;;
+	/* border: 1px solid #cccccc; */
+	border-radius: 150px;
+	box-sizing: border-box;
+	display: table;
+	background-color: rgba(188, 188, 188, 0.48);
+	margin: 0 auto;
+}
+#uploadimg{
+	vertical-align: middle;
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	}
+
+canvas{
+	border-radius: 150px !important;
+	width: 150px !important;
+	height: 150px !important;
+	}
+
+.btn-primary{
+	width: 6vw;
+	height: 42px;
+	margin-left: 2vw;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+	}
+.btn-warning{
+	width: 6vw;
+	height: 42px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+}
+.splitImgDown{
+	width: 100%;
+	}
+.InfoTitle{
+	width: 100%;
+	color: #595959;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	margin:30px auto  20px;
+	border-bottom: 1px solid #bcbcbc;
+
+}
+
+.InfoContent{
+	width:100%;
+	margin-top: 30px;
+	border-top: 1px solid #cfcfcf;
+}
+#baseInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+
+}
+#baseInfouse{
+	margin:1vw auto;
+	border-bottom:1px solid #bcbcbc;	
+}
+#bankInfoFrom{
+	margin:0 auto;	
+}
+#bankInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;	
+}
+#alipayInfoFrom{
+	margin:0 auto;	
+}
+#alipayInfo{
+	margin:1vw auto;	
+}
+#baseInfoFrom{
+	margin:0 auto;
+}
+#baseInfoFromuse{
+	margin:0 auto;	
+}
+#KnowLangInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+}
+#KnowLangFrom{
+	margin:0 auto;		
+}
+.addBtn{
+	text-align: center;
+	margin:1vw auto;
+	width: 90%;
+}
+.addBtnImg{
+	width: 3vw;
+	height: 3vw;
+}
+.clearLang{
+    width: 3vw;
+    height: 3vw;
+    margin: 1.5vw auto;	
+}
+
+.layui-inline{
+	margin:1.5vw 0 !important; 
+}
+.input-right{
+}
+.layui-form-label{
+	width: 70px;
+	padding: 9px 4px;
+}
+.input-short{
+	width:19vw;
+}
+.input-long{
+	width: 52vw;;
+}
+#TelBox .layui-form-select {
+	width: 15vw;
+}
+
+#PhoneNumber{
+	width: 37vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px) and (max-width:1280px){
+
+#main{
+	width: 80%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    margin: 1vw auto;
+}
+
+.title1{
+	font-size: 18px;
+	display: block;
+	margin-top: 8px;
+}
+.title2{
+	font-size:16px;
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	word-spacing:2px;
+}
+#Content1{
+	height: 258px;
+	width: 80%;
+	margin:0 auto;
+	border: 1px solid red;
+}	
+
+
+.demoimg{
+	width: 4vw;
+	height: 4vw;
+	border-radius: 4vw;
+}
+.demotitele{
+	color: #7d8b96;
+
+}
+.everdemotitle{
+	color: #666;
+	font-size: 0.8vw;
+
+}
+#fileuploadnote{
+	float: left;
+	margin-left: -0.52vw;
+	color: red;
+	margin-top: 1vw;
+
+}
+.uploadnotetext{
+	text-align: center;
+
+}
+.fileinput-button{
+	width: 150px;
+	height: 150px;
+	color: #000;		
+	padding: 1px 3px;		
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: burlywood;;
+	/* border: 1px solid #cccccc; */
+	border-radius: 150px;
+	box-sizing: border-box;
+	display: table;
+	background-color: rgba(188, 188, 188, 0.48);
+	margin: 0 auto;
+}
+#uploadimg{
+	vertical-align: middle;
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	}
+
+canvas{
+	border-radius: 150px !important;
+	width: 150px !important;
+	height: 150px !important;
+	}
+
+.btn-primary{
+	width: 6vw;
+	height: 42px;
+	margin-left: 2vw;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+	}
+.btn-warning{
+	width: 6vw;
+	height: 42px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+}
+.splitImgDown{
+	width: 100%;
+	}
+.InfoTitle{
+	width: 100%;
+	color: #595959;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	margin:30px auto  20px;
+	border-bottom: 1px solid #bcbcbc;
+
+}
+
+.InfoContent{
+	width:100%;
+	margin-top: 30px;
+	border-top: 1px solid #cfcfcf;
+}
+#baseInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+
+}
+#baseInfouse{
+	margin:1vw auto;
+	border-bottom:1px solid #bcbcbc;	
+}
+#bankInfoFrom{
+	width: 90%;
+	margin:0 auto;	
+}
+#bankInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;	
+}
+#alipayInfoFrom{
+	width: 90%;
+	margin:0 auto;	
+}
+#alipayInfo{
+	margin:1vw auto;	
+}
+#baseInfoFrom{
+	width: 90%;
+	margin:0 auto;
+}
+#baseInfoFromuse{
+	width: 90%;
+	margin:0 auto;	
+}
+#KnowLangInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+}
+#KnowLangFrom{
+	margin:0 auto;		
+}
+.addBtn{
+	margin:1vw auto;
+	text-align:center;
+	width:90%;
+}
+.addBtnImg{
+	width: 2vw;
+	height: 2vw;
+}
+.clearLang{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin: 1.5vw auto;	
+}
+
+.layui-inline{
+	margin:1.5vw 0.5vw !important; 
+}
+.input-right{
+}
+.layui-form-label{
+	width: 70px;
+}
+.input-short{
+	width:18vw;
+}
+.input-long{
+	width: 46vw;;
+}
+#TelBox .layui-form-select {
+	width: 14vw;
+}
+
+#PhoneNumber{
+	width: 32vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 宽度大于1280时 */
+@media (min-width:1280px){
+
+#main{
+	width: 80%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    margin: 1vw auto;
+}
+
+.title1{
+	font-size: 18px;
+	display: block;
+	margin-top: 8px;
+}
+.title2{
+	font-size:16px;
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	word-spacing:2px;
+}
+#Content1{
+	height: 258px;
+	width: 80%;
+	margin:0 auto;
+	border: 1px solid red;
+}	
+
+
+.demoimg{
+	width: 4vw;
+	height: 4vw;
+	border-radius: 4vw;
+}
+.demotitele{
+	color: #7d8b96;
+
+}
+.everdemotitle{
+	color: #666;
+	font-size: 0.8vw;
+
+}
+#fileuploadnote{
+	color:red;
+	margin:1vw auto;
+
+}
+.uploadnotetext{
+	text-align: center;
+
+}
+.fileinput-button{
+	width: 150px;
+	height: 150px;
+	color: #000;		
+	padding: 1px 3px;		
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: burlywood;;
+	/* border: 1px solid #cccccc; */
+	border-radius: 150px;
+	box-sizing: border-box;
+	display: table;
+	background-color: rgba(188, 188, 188, 0.48);
+	margin: 0 auto;
+}
+#uploadimg{
+	vertical-align: middle;
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	}
+
+canvas{
+	border-radius: 150px !important;
+	width: 150px !important;
+	height: 150px !important;
+	}
+
+.btn-primary{
+	width: 6vw;
+	height: 42px;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+	}
+.btn-warning{
+	width: 6vw;
+	height: 42px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 6px 12px;    		
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;    		
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-transform: none;
+	overflow: visible;
+	box-sizing: border-box;
+}
+.splitImgDown{
+	width: 100%;
+	}
+.InfoTitle{
+	width: 100%;
+	color: #595959;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	margin:30px auto  20px;
+	border-bottom: 1px solid #bcbcbc;
+
+}
+
+.InfoContent{
+	width:100%;
+	margin-top: 30px;
+	border-top: 1px solid #cfcfcf;
+}
+#baseInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+
+}
+#baseInfouse{
+	margin:1vw auto;
+	border-bottom:1px solid #bcbcbc;	
+}
+#bankInfoFrom{
+	width: 90%;
+	margin:0 auto;	
+}
+#bankInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;	
+}
+#alipayInfoFrom{
+	width: 90%;
+	margin:0 auto;	
+}
+#alipayInfo{
+	margin:1vw auto;	
+}
+#baseInfoFrom{
+	width: 90%;
+	margin:0 auto;
+}
+#baseInfoFromuse{
+	width: 90%;
+	margin:0 auto;	
+}
+#KnowLangInfo{
+	margin:1vw auto;
+	border-bottom:1px solid #e2e2e2;
+}
+#KnowLangFrom{
+	margin:0 auto;		
+}
+.addBtn{
+	margin:1vw auto;
+	text-align:center;
+	width:90%;
+}
+.addBtnImg{
+	width: 2vw;
+	height: 2vw;
+}
+.clearLang{
+    width: 2vw;
+    height: 2vw;
+	margin: 1.5vw auto;	
+}
+
+.layui-inline{
+	margin:1.5vw 1.5vw !important; 
+}
+.input-right{
+}
+.layui-form-label{
+	width: 70px;
+}
+.input-short{
+	width:19vw;
+}
+.input-long{
+	width: 45vw;;
+}
+#TelBox .layui-form-select {
+	width: 10vw;
+}
+#PhoneNumber{
+	width: 35vw;
+}
+}
+
+
